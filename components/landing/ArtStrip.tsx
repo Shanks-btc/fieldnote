@@ -1,36 +1,35 @@
 import Image from "next/image";
 import { artist } from "@/lib/landing/artists";
 
-/** Round, fully opaque, eagerly loaded artist photo. All landing-page art goes through here. */
-function Face({ name, size }: { name: string; size: number }) {
+/** Round, fully opaque, eagerly loaded artist photo. 48px on phones, 56px from `sm`. */
+function Face({ name }: { name: string }) {
   return (
     <Image
       src={artist(name).imageUrl}
       alt=""
-      width={size}
-      height={size}
-      sizes={`${size}px`}
+      width={56}
+      height={56}
+      sizes="56px"
       loading="eager"
-      className="shrink-0 rounded-full object-cover"
-      style={{ width: size, height: size }}
+      className="size-12 shrink-0 rounded-full object-cover sm:size-14"
     />
   );
 }
 
 /**
- * Hero banner: one straight row of real Qloo artist photos (circles, no rotation, full opacity).
- * Centered and clipped at the screen edges, so on narrow screens the outer faces are cut off evenly.
- * Decorative.
+ * Hero banner: one centered row of real Qloo artist photos (circles, no rotation, full opacity).
+ * Only the faces that fit are shown: the row is a single wrapping line with a fixed height, so any
+ * face that would wrap (or be cut off at the screen edge) is hidden instead. Decorative.
  */
 export function ArtStrip({ names }: { names: string[] }) {
   return (
-    <div className="flex w-full justify-center overflow-hidden" aria-hidden>
-      <div className="flex shrink-0 items-center gap-3">
-        {names.map((n) => (
-          <Face key={n} name={n} size={56} />
-        ))}
-      </div>
+    <div
+      className="mx-auto flex h-12 max-w-[860px] flex-wrap justify-center gap-3 overflow-hidden px-5 sm:h-14 sm:px-6"
+      aria-hidden
+    >
+      {names.map((n) => (
+        <Face key={n} name={n} />
+      ))}
     </div>
   );
 }
-
