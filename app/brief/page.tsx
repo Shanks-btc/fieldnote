@@ -6,9 +6,9 @@ export const metadata = { title: "Brief — Fieldnote" };
 
 export default function BriefPage() {
   return (
-    <PageSection className="py-16 md:py-24">
+    <PageSection className="py-10 sm:py-16 md:py-24">
       <Eyebrow className="text-[#999]">Creative brief</Eyebrow>
-      <h1 className="mt-6 max-w-3xl text-balance text-5xl font-semibold leading-[1] tracking-[-0.04em] sm:text-6xl">
+      <h1 className="mt-6 max-w-3xl text-balance text-[32px] font-semibold leading-[1.05] tracking-[-0.04em] sm:text-[44px] md:text-[56px]">
         Describe the placement.
       </h1>
       <p className="mb-20 mt-6 max-w-xl leading-relaxed text-[#555]">

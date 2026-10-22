@@ -15,7 +15,7 @@ export function Navbar() {
         aria-label="Primary"
         className="pointer-events-auto flex max-w-full items-center gap-1 rounded-[26px] bg-[rgba(225,225,225,0.6)] py-1.5 pl-5 pr-1.5 text-sm backdrop-blur-[20px]"
       >
-        <Link href="/" className="mr-2 flex items-center gap-2">
+        <Link href="/" className="-my-3 mr-2 flex items-center gap-2 py-3">
           <FieldnoteMark size={18} />
           <span className="text-[15px] font-medium tracking-[-0.02em]">fieldnote</span>
         </Link>
@@ -31,7 +31,7 @@ export function Navbar() {
         ))}
         <Link
           href="/brief"
-          className="ml-2 inline-flex h-9 items-center justify-center rounded-full bg-black px-5 text-[13px] font-medium text-white transition-colors hover:bg-neutral-800"
+          className="ml-2 inline-flex h-11 items-center sm:h-9 justify-center rounded-full bg-black px-5 text-[13px] font-medium text-white transition-colors hover:bg-neutral-800"
         >
           Open app
         </Link>

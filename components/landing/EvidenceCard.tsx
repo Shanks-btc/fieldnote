@@ -37,7 +37,7 @@ export function EvidenceCard({
   return (
     <div
       ref={ref}
-      className={`fn-fade fn-card-glow ${on ? "in" : ""} rounded-[24px] bg-white p-7`}
+      className={`fn-fade fn-card-glow ${on ? "in" : ""} rounded-[24px] bg-white p-5 sm:p-6 md:p-7`}
       style={{ "--d": `${delay}s` } as React.CSSProperties}
     >
       <p className="font-mono text-[10px] uppercase tracking-[0.06em] text-black/40">{eyebrow}</p>

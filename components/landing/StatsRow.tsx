@@ -18,8 +18,8 @@ function Stat({ stat, index, on }: { stat: (typeof STATS)[number]; index: number
       className={`fn-fade ${on ? "in" : ""} border-t border-border pt-5`}
       style={{ "--d": `${index * 0.1}s` } as React.CSSProperties}
     >
-      <dd className="text-[54px] font-medium leading-none tracking-[-0.03em] tabular-nums">{value}</dd>
-      <dt className="mt-2 text-sm text-black/55">{stat.label}</dt>
+      <dd className="text-[32px] font-medium sm:text-[44px] md:text-[54px] leading-none tracking-[-0.03em] tabular-nums">{value}</dd>
+      <dt className="mt-2 text-[13px] text-black/55 sm:text-sm">{stat.label}</dt>
     </div>
   );
 }
@@ -29,7 +29,7 @@ export function StatsRow() {
   const [ref, on] = useInView<HTMLDListElement>(0.3);
 
   return (
-    <dl ref={ref} className="grid grid-cols-1 gap-x-6 gap-y-8 md:grid-cols-3">
+    <dl ref={ref} className="grid grid-cols-3 gap-4 sm:gap-8">
       {STATS.map((s, i) => (
         <Stat key={s.label} stat={s} index={i} on={on} />
       ))}

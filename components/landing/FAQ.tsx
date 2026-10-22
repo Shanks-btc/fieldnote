@@ -39,10 +39,10 @@ export function FAQ() {
   const base = useId();
 
   return (
-    <section className="mx-auto w-full max-w-[800px] px-6 py-20">
+    <section className="mx-auto w-full max-w-[800px] px-5 py-12 sm:px-6 sm:py-16 md:py-20">
       <FadeIn>
         <p className="mb-3 text-center text-[10px] uppercase tracking-[0.06em] text-black/40">Common questions</p>
-        <h2 className="text-center text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">You&apos;re probably wondering.</h2>
+        <h2 className="text-center text-[28px] sm:text-[32px] md:text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">You&apos;re probably wondering.</h2>
       </FadeIn>
 
       <div ref={ref} className="mt-12 divide-y divide-black/[0.06] overflow-hidden rounded-[28px] bg-white">
@@ -65,7 +65,7 @@ export function FAQ() {
                 onClick={() => setOpen(isOpen ? null : i)}
                 aria-expanded={isOpen}
                 aria-controls={panelId}
-                className="group flex w-full items-center justify-between px-7 py-5 text-left"
+                className="group flex w-full items-center justify-between px-5 py-5 sm:px-7 text-left"
               >
                 <span className="pr-4 text-[15px] font-medium text-black/70 transition-colors group-hover:text-black/90">
                   {item.q}
@@ -93,7 +93,7 @@ export function FAQ() {
                   transition: "max-height 0.4s cubic-bezier(0.2,0.9,0.2,1), opacity 0.3s ease",
                 }}
               >
-                <p className="px-7 pb-6 text-[14px] leading-relaxed text-black/50">{item.a}</p>
+                <p className="px-5 pb-6 sm:px-7 text-[14px] leading-relaxed text-black/50">{item.a}</p>
               </div>
             </div>
           );

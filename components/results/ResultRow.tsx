@@ -31,7 +31,7 @@ export function ResultRow({ rec }: { rec: Recommendation }) {
                 rel="noreferrer"
                 aria-label={`Open ${rec.artistName} on Spotify`}
                 title="Open on Spotify"
-                className="shrink-0 opacity-90 hover:opacity-100"
+                className="-m-3.5 shrink-0 p-3.5 opacity-90 hover:opacity-100"
               >
                 <SpotifyIcon />
               </a>

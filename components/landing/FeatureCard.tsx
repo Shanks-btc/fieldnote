@@ -19,7 +19,7 @@ export function FeatureCard({ title, description, icon, color, variant, slideFro
 
   return (
     <div
-      className={`${slide} ${on ? "in" : ""} relative overflow-hidden rounded-[24px] bg-white p-7`}
+      className={`${slide} ${on ? "in" : ""} relative overflow-hidden rounded-[24px] bg-white p-5 sm:p-6 md:p-7`}
       style={{ "--d": `${delay}s` } as React.CSSProperties}
     >
       {variant === "border" && (

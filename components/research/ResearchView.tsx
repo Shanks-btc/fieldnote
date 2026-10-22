@@ -73,7 +73,7 @@ export function ResearchView({ id }: { id: string }) {
   return (
     <div className="space-y-12">
       <div className="flex flex-wrap items-end justify-between gap-4">
-        <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">
+        <h1 className="text-[28px] font-semibold tracking-tight sm:text-4xl md:text-5xl">
           Researching {projectName ?? "your brief"}
         </h1>
         {phase === "running" && <Badge tone="outline">Running</Badge>}

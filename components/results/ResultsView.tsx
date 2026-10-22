@@ -68,7 +68,7 @@ export function ResultsView({ id }: { id: string }) {
     <div className="space-y-12">
       {/* 1. Project + one-line summary */}
       <header className="space-y-3">
-        <h1 className="text-4xl font-semibold tracking-tight sm:text-5xl">{name}</h1>
+        <h1 className="text-[28px] font-semibold tracking-tight sm:text-4xl md:text-5xl">{name}</h1>
         <p className="text-muted-foreground">
           {recommendations.length} artist{recommendations.length === 1 ? "" : "s"} scored for {name}
           {totalMs > 0 && (

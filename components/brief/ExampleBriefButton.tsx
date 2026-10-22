@@ -5,7 +5,7 @@ export function ExampleBriefButton({ onClick }: { onClick: () => void }) {
     <button
       type="button"
       onClick={onClick}
-      className="font-mono text-xs text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+      className="-my-3 py-3 font-mono text-xs text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
     >
       Reset to example
     </button>

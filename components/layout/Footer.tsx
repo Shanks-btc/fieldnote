@@ -26,7 +26,7 @@ const COLUMNS = [
 
 export function Footer() {
   return (
-    <footer className="bg-black px-6 py-16 text-white">
+    <footer className="bg-black px-5 py-12 text-white sm:px-6 sm:py-16">
       <div className="mx-auto max-w-[1100px]">
         <div className="flex flex-col gap-12 md:flex-row md:justify-between">
           <div className="max-w-[280px]">
@@ -43,13 +43,13 @@ export function Footer() {
             {COLUMNS.map((col) => (
               <div key={col.title}>
                 <p className="mb-4 text-[10px] uppercase tracking-[0.06em] text-white/30">{col.title}</p>
-                <div className="flex flex-col gap-3">
+                <div className="flex flex-col md:gap-2">
                   {col.links.map((l) => (
                     <Link
                       key={l.label}
                       href={l.href}
                       {...(l.external ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-                      className="text-[13px] text-white/60 transition-colors hover:text-white"
+                      className="inline-block py-3 text-[13px] text-white/60 transition-colors hover:text-white md:py-1"
                     >
                       {l.label}
                     </Link>

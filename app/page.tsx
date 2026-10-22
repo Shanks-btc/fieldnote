@@ -74,14 +74,14 @@ export default function LandingPage() {
       {/* 1. Hero */}
       <div className="pt-12 md:pt-14">
         <ArtStrip names={HERO_STRIP} />
-        <PageSection className="py-20 text-center md:py-20">
+        <PageSection className="py-14 text-center sm:py-16 md:py-20">
           <FadeIn>
-            <h1 className="mx-auto max-w-[680px] text-[36px] font-medium leading-[0.95] tracking-[-0.04em] sm:text-[56px]">
+            <h1 className="mx-auto max-w-[680px] text-[32px] font-medium leading-[0.98] tracking-[-0.04em] sm:text-[40px] md:text-[48px] lg:text-[56px]">
               Place music where the audience already lives.
             </h1>
           </FadeIn>
           <FadeIn delay={0.1}>
-            <p className="mx-auto mt-5 max-w-[480px] text-pretty text-[15px] leading-relaxed text-black/[.56]">
+            <p className="mx-auto mt-5 max-w-[480px] text-pretty text-[14px] leading-relaxed text-black/[.56] sm:text-[15px]">
             Fieldnote uses Qloo&apos;s cultural intelligence to find artists whose audiences overlap with your show, film, or
             campaign — then shows you the evidence.
             </p>
@@ -108,9 +108,9 @@ export default function LandingPage() {
       <ProblemSection />
 
       {/* 2. Product preview */}
-      <PageSection className="pb-16 pt-12 md:pb-16 md:pt-12">
+      <PageSection className="pb-12 pt-8 sm:pb-16 sm:pt-12 md:pb-16 md:pt-12">
         <FadeIn>
-        <div className="overflow-hidden rounded-[28px] bg-white shadow-[0_1px_3px_rgba(0,0,0,0.04)]">
+        <div className="overflow-hidden rounded-[20px] bg-white shadow-[0_1px_3px_rgba(0,0,0,0.04)] sm:rounded-[28px]">
           {/* Dark header strip */}
           <div className="flex items-center justify-between gap-4 bg-black px-5 py-5 sm:px-8">
             <div className="flex min-w-0 items-center gap-3">
@@ -152,7 +152,7 @@ export default function LandingPage() {
       <FeaturesSection />
 
       {/* 3. How it works */}
-      <PageSection id="how-it-works" className="scroll-mt-20 border-t border-border py-16 md:py-16">
+      <PageSection id="how-it-works" className="scroll-mt-20 border-t border-border py-12 sm:py-14 md:py-16">
         <Split
           text={
             <FadeIn>
@@ -191,13 +191,13 @@ export default function LandingPage() {
       <EngineSection />
 
       {/* 4. Stats */}
-      <PageSection className="pb-16 pt-0 md:pb-16 md:pt-0">
+      <PageSection className="pb-12 pt-0 sm:pb-16 md:pb-16 md:pt-0">
         <StatsRow />
       </PageSection>
 
       {/* 5. Pillars */}
       <div className="border-t border-neutral-200 bg-white">
-        <PageSection className="py-12 md:py-12">
+        <PageSection className="py-10 md:py-12">
           <dl className="grid grid-cols-1 divide-y divide-neutral-200 md:grid-cols-3 md:divide-x md:divide-y-0">
             {PILLARS.map((p, i) => (
               <FadeIn key={p.title} delay={0.1 * i} className="py-6 md:px-10 md:py-2 md:first:pl-0 md:last:pr-0">
@@ -217,13 +217,13 @@ export default function LandingPage() {
       <DualCTA />
 
       {/* 6. Statement band */}
-      <section className="relative overflow-hidden bg-[radial-gradient(120%_120%_at_20%_10%,#2B2B2E_0%,#0B0B0C_55%,#000_100%)] px-5 py-24 text-center text-white md:px-6 md:py-40">
+      <section className="relative overflow-hidden bg-[radial-gradient(120%_120%_at_20%_10%,#2B2B2E_0%,#0B0B0C_55%,#000_100%)] px-5 py-16 text-center text-white sm:py-24 md:px-6 md:py-40">
         <div
           className="absolute -inset-[20%] bg-[linear-gradient(100deg,transparent_30%,rgba(99,102,241,0.18)_48%,transparent_62%)] blur-[40px]"
           aria-hidden
         />
         <FadeIn>
-          <blockquote className="relative mx-auto max-w-[880px] font-serif text-[40px] font-normal leading-[1.02] tracking-[-0.01em] md:text-[64px]">
+          <blockquote className="relative mx-auto max-w-[880px] font-serif text-[30px] font-normal leading-[1.05] tracking-[-0.01em] sm:text-[44px] md:text-[56px] lg:text-[64px]">
           &ldquo;The best sync placements don&apos;t match a genre — they match an audience.&rdquo;
           </blockquote>
         </FadeIn>

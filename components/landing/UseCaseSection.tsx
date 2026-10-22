@@ -31,10 +31,10 @@ export function UseCaseSection() {
   const [ref, on] = useInView<HTMLDivElement>(0.2);
 
   return (
-    <section className="mx-auto w-full max-w-[1100px] px-6 py-20">
+    <section className="mx-auto w-full max-w-[1100px] px-5 py-12 sm:px-6 sm:py-16 md:py-20">
       <FadeIn>
         <p className="mb-3 text-[10px] uppercase tracking-[0.06em] text-black/40">In practice</p>
-        <h2 className="max-w-[560px] text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">
+        <h2 className="max-w-[560px] text-[28px] sm:text-[32px] md:text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">
           From brief to shortlist
           <br />
           in one prompt.
@@ -47,11 +47,11 @@ export function UseCaseSection() {
         style={{ "--d": "0.15s" } as React.CSSProperties}
       >
         {/* Left: the brief */}
-        <div className="flex flex-col justify-between border-black/[0.06] p-8 md:p-10 lg:border-r">
+        <div className="flex flex-col justify-between border-black/[0.06] p-6 sm:p-8 md:p-10 lg:border-r">
           <div>
             <p className="mb-5 text-[10px] uppercase tracking-[0.06em] text-black/30">The brief</p>
             <blockquote
-              className={`fn-fade ${on ? "in" : ""} text-[18px] font-medium leading-[1.5] text-black/70`}
+              className={`fn-fade ${on ? "in" : ""} text-[16px] font-medium leading-[1.5] sm:text-[18px] text-black/70`}
               style={{ "--d": "0.4s" } as React.CSSProperties}
             >
               &ldquo;{BRIEF}&rdquo;
@@ -74,7 +74,7 @@ export function UseCaseSection() {
         </div>
 
         {/* Right: the results */}
-        <div className="bg-neutral-50/60 p-8 md:p-10">
+        <div className="bg-neutral-50/60 p-6 sm:p-8 md:p-10">
           <p className="mb-5 text-[10px] uppercase tracking-[0.06em] text-black/30">Results</p>
 
           <div

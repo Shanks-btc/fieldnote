@@ -5,7 +5,7 @@ import { TasteGraphArt } from "./TasteGraphArt";
 import { DOMAINS } from "./domains";
 
 export const EYEBROW = "mb-3 text-[10px] uppercase tracking-[0.06em] text-black/40";
-export const H2 = "text-[36px] font-medium leading-[1.1] tracking-[-0.02em]";
+export const H2 = "text-[28px] sm:text-[32px] md:text-[36px] font-medium leading-[1.1] tracking-[-0.02em]";
 export const LEAD = "mt-4 max-w-[440px] text-[15px] leading-relaxed text-black/55";
 const MONO_LABEL = "font-mono text-[10px] uppercase tracking-[0.06em] text-black/40";
 
@@ -35,7 +35,7 @@ export function Split({
 /** "The evidence": heading on top, the four evidence cards below. Values are for the sample artist. */
 export function EvidenceSection() {
   return (
-    <PageSection className="py-20 md:py-20">
+    <PageSection className="py-12 sm:py-16 md:py-20">
       <FadeIn>
         <p className={EYEBROW}>The evidence</p>
         <h2 className={`${H2} max-w-[560px]`}>Every pick comes with receipts.</h2>
@@ -45,7 +45,7 @@ export function EvidenceSection() {
         <p className="mt-6 font-mono text-xs text-black/40">Shown for girl in red · Stranger Things S5 sample</p>
       </FadeIn>
 
-      <div className="mt-4 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4">
+      <div className="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 sm:gap-5 lg:grid-cols-4">
         <EvidenceCard
           eyebrow="Cultural fit"
           variant="score"
@@ -86,7 +86,7 @@ export function EvidenceSection() {
 /** "The engine": constellation left, text and legend right. */
 export function EngineSection() {
   return (
-    <PageSection className="py-20 md:py-20">
+    <PageSection className="py-12 sm:py-16 md:py-20">
       <Split
         reverse
         text={
@@ -136,7 +136,7 @@ const WITH = [
 
 function Column({ label, items, good }: { label: string; items: typeof WITH; good: boolean }) {
   return (
-    <div className={`rounded-[32px] bg-white p-10 ${good ? "ring-1 ring-black/[0.04]" : ""}`}>
+    <div className={`rounded-[32px] bg-white p-6 sm:p-8 md:p-10 ${good ? "ring-1 ring-black/[0.04]" : ""}`}>
       <p className={`mb-4 ${MONO_LABEL}`}>{label}</p>
       <ul className="space-y-4">
         {items.map((it, i) => (
@@ -165,12 +165,12 @@ function Column({ label, items, good }: { label: string; items: typeof WITH; goo
 /** "The difference": heading on top, the two columns side by side below. */
 export function VersusSection() {
   return (
-    <PageSection className="py-20 md:py-20">
+    <PageSection className="py-12 sm:py-16 md:py-20">
       <FadeIn>
         <p className={EYEBROW}>The difference</p>
         <h2 className={`${H2} max-w-[560px]`}>Why not just search Spotify?</h2>
       </FadeIn>
-      <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2">
+      <div className="mt-8 grid grid-cols-1 gap-4 sm:mt-12 sm:gap-6 md:grid-cols-2">
         <FadeIn delay={0.1}>
           <Column label="Without Fieldnote" items={WITHOUT} good={false} />
         </FadeIn>

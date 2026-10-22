@@ -47,7 +47,7 @@ export function ExampleRow({ name, scores, rank }: { name: string; scores: Examp
             target="_blank"
             rel="noreferrer"
             aria-label={`Open ${a.name} on Spotify`}
-            className="shrink-0"
+            className="-m-3.5 shrink-0 p-3.5"
           >
             <SpotifyIcon />
           </a>
@@ -62,7 +62,7 @@ export function ExampleRow({ name, scores, rank }: { name: string; scores: Examp
           <MiniScore value={scores.audience} color="#3B82F6" />
         </div>
         <div className={`${SCORE_COLS.composite} text-right`}>
-          <p className="text-[28px] font-semibold leading-none tracking-tight text-black/85">{composite}</p>
+          <p className="text-[24px] font-semibold sm:text-[28px] leading-none tracking-tight text-black/85">{composite}</p>
         </div>
       </div>
     </div>

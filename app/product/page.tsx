@@ -9,7 +9,7 @@ export const metadata = {
     "How Fieldnote works: cultural affinity scoring, audience intelligence and composite ranking for music sync placements.",
 };
 
-const H2 = "text-[32px] font-medium leading-[1.1] tracking-[-0.02em]";
+const H2 = "text-[26px] sm:text-[30px] md:text-[32px] font-medium leading-[1.1] tracking-[-0.02em]";
 const LEAD = "mt-4 max-w-[420px] text-[15px] leading-relaxed text-black/50";
 
 const SIGNALS = [
@@ -58,12 +58,12 @@ export default function ProductPage() {
       <PageSection className="pb-8 pt-16 md:pb-8 md:pt-24">
         <FadeIn>
           <p className={EYEBROW}>Product</p>
-          <h1 className="max-w-[700px] text-[48px] font-medium leading-[1.08] tracking-[-0.03em]">
+          <h1 className="max-w-[700px] text-[32px] font-medium leading-[1.1] sm:text-[40px] md:text-[48px] tracking-[-0.03em]">
             Intelligence for music
             <br />
             sync placements.
           </h1>
-          <p className="mt-5 max-w-[560px] text-[17px] leading-relaxed text-black/50">
+          <p className="mt-5 max-w-[560px] text-[15px] leading-relaxed sm:text-[17px] text-black/50">
             Fieldnote uses Qloo&apos;s cultural taste graph to find artists whose audiences genuinely overlap with your
             project&apos;s viewers — not just artists who sound similar.
           </p>
@@ -71,7 +71,7 @@ export default function ProductPage() {
       </PageSection>
 
       {/* Scoring */}
-      <PageSection className="py-16 md:py-16">
+      <PageSection className="py-10 sm:py-14 md:py-16">
         <Split
           align="start"
           text={
@@ -106,7 +106,7 @@ export default function ProductPage() {
       </PageSection>
 
       {/* Pipeline */}
-      <PageSection className="py-16 md:py-16">
+      <PageSection className="py-10 sm:py-14 md:py-16">
         <Split
           align="start"
           reverse
@@ -129,7 +129,7 @@ export default function ProductPage() {
               {STEPS.map((s, i) => (
                 <FadeIn key={s.step} delay={0.06 * i}>
                   <div className="flex items-center gap-4 rounded-[16px] bg-white px-5 py-4">
-                    <span className="w-5 font-mono text-[11px] text-black/30">{s.step}</span>
+                    <span className="w-5 font-mono text-[12px] text-black/30">{s.step}</span>
                     <span className="size-2 shrink-0 rounded-full" style={{ backgroundColor: s.color }} />
                     <div className="min-w-0 flex-1">
                       <p className="text-[14px] font-medium text-black/80">{s.name}</p>
@@ -145,7 +145,7 @@ export default function ProductPage() {
       </PageSection>
 
       {/* Data */}
-      <PageSection className="py-16 md:py-16">
+      <PageSection className="py-10 sm:py-14 md:py-16">
         <Split
           align="start"
           text={
@@ -165,15 +165,15 @@ export default function ProductPage() {
           }
           visual={
             <FadeIn delay={0.1}>
-              <div className="rounded-[24px] bg-white p-8">
-                <p className="mb-5 text-[11px] uppercase tracking-[0.06em] text-black/30">Domains and how Fieldnote uses them</p>
-                <div className="grid grid-cols-2 gap-3">
+              <div className="rounded-[24px] bg-white p-6 sm:p-8">
+                <p className="mb-5 text-[12px] uppercase tracking-[0.06em] text-black/30">Domains and how Fieldnote uses them</p>
+                <div className="grid grid-cols-1 gap-1 min-[420px]:grid-cols-2 sm:gap-3">
                   {DOMAINS.map((d) => (
                     <div key={d.domain} className="flex items-center gap-2.5 py-2">
                       <span className="size-2 shrink-0 rounded-full" style={{ backgroundColor: d.color }} />
                       <div>
                         <p className="text-[14px] font-medium text-black/70">{d.domain}</p>
-                        <p className="text-[11px] text-black/35">{d.use}</p>
+                        <p className="text-[12px] text-black/35">{d.use}</p>
                       </div>
                     </div>
                   ))}

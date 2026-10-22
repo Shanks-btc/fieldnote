@@ -6,15 +6,15 @@ import { FadeIn } from "./FadeIn";
 /** Two solid white cards side by side: try the demo, read the code. Used on the landing page and the product page. */
 export function DualCTA() {
   return (
-    <section className="mx-auto w-full max-w-[1100px] px-6 py-20">
+    <section className="mx-auto w-full max-w-[1100px] px-5 py-12 sm:px-6 sm:py-16 md:py-20">
       <FadeIn>
         <p className="mb-3 text-[10px] uppercase tracking-[0.06em] text-black/40">Start using Fieldnote</p>
-        <h2 className="mb-10 text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">See it in action.</h2>
+        <h2 className="mb-10 text-[28px] sm:text-[32px] md:text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">See it in action.</h2>
       </FadeIn>
 
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-2">
+      <div className="grid grid-cols-1 gap-4 sm:gap-5 md:grid-cols-2">
         <FadeIn delay={0.1} className="h-full">
-          <div className="flex h-full min-h-[280px] flex-col justify-between rounded-[28px] bg-white p-10">
+          <div className="flex h-full min-h-[240px] flex-col justify-between rounded-[28px] bg-white p-7 sm:min-h-[280px] sm:p-8 md:p-10">
             <div>
               <p className="mb-4 text-[10px] uppercase tracking-[0.06em] text-black/30">Demo</p>
               <h3 className="mb-3 text-[24px] font-medium leading-[1.15] tracking-[-0.01em] text-black/85">Try a real brief</h3>
@@ -33,7 +33,7 @@ export function DualCTA() {
         </FadeIn>
 
         <FadeIn delay={0.2} className="h-full">
-          <div className="flex h-full min-h-[280px] flex-col justify-between rounded-[28px] bg-white p-10">
+          <div className="flex h-full min-h-[240px] flex-col justify-between rounded-[28px] bg-white p-7 sm:min-h-[280px] sm:p-8 md:p-10">
             <div>
               <p className="mb-4 text-[10px] uppercase tracking-[0.06em] text-black/30">Code</p>
               <h3 className="mb-3 text-[24px] font-medium leading-[1.15] tracking-[-0.01em] text-black/85">Read how it&apos;s built</h3>

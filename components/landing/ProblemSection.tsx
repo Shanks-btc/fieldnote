@@ -33,20 +33,20 @@ export function ProblemSection() {
   const [ref, on] = useInView<HTMLDivElement>(0.2);
 
   return (
-    <section className="mx-auto w-full max-w-[1100px] px-6 py-20">
+    <section className="mx-auto w-full max-w-[1100px] px-5 py-12 sm:px-6 sm:py-16 md:py-20">
       <FadeIn>
         <p className="mb-3 text-[10px] uppercase tracking-[0.06em] text-black/40">The gap</p>
-        <h2 className="max-w-[560px] text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">
+        <h2 className="max-w-[560px] text-[28px] sm:text-[32px] md:text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">
           The sync industry runs on gut feeling.
           <br />
           <span className="text-black/40">It doesn&apos;t have to.</span>
         </h2>
       </FadeIn>
 
-      <div ref={ref} className="relative mt-12 grid grid-cols-1 gap-5 md:grid-cols-2">
+      <div ref={ref} className="relative mt-12 grid grid-cols-1 gap-4 sm:gap-5 md:grid-cols-2">
         {/* Left: the problem */}
         <div
-          className={`fn-fade ${on ? "in" : ""} rounded-[28px] bg-black p-8 md:p-10`}
+          className={`fn-fade ${on ? "in" : ""} rounded-[28px] bg-black p-6 sm:p-8 md:p-10`}
           style={{ "--d": "0.1s" } as React.CSSProperties}
         >
           <p className="mb-6 text-[10px] uppercase tracking-[0.06em] text-white/30">Without Fieldnote</p>
@@ -54,7 +54,7 @@ export function ProblemSection() {
             {PAIN_POINTS.map((point, i) => (
               <div key={point} className="flex items-start gap-3">
                 <span
-                  className={`fn-check ${on ? "in" : ""} mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full bg-white/10 text-[11px] text-white/40`}
+                  className={`fn-check ${on ? "in" : ""} mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full bg-white/10 text-[12px] text-white/40`}
                   style={{ "--d": `${0.4 + i * 0.15}s` } as React.CSSProperties}
                   aria-hidden
                 >
@@ -70,7 +70,7 @@ export function ProblemSection() {
             ))}
           </div>
           <div className="mt-8 border-t border-white/10 pt-6">
-            <p className="text-[11px] text-white/30">Catalog size on the major streaming platforms</p>
+            <p className="text-[12px] text-white/30">Catalog size on the major streaming platforms</p>
             <p
               className={`fn-fade ${on ? "in" : ""} mt-1 font-mono text-[28px] font-medium tracking-tight text-white/80`}
               style={{ "--d": "1.8s" } as React.CSSProperties}
@@ -93,7 +93,7 @@ export function ProblemSection() {
 
         {/* Right: Fieldnote */}
         <div
-          className={`fn-fade ${on ? "in" : ""} rounded-[28px] bg-white p-8 md:p-10`}
+          className={`fn-fade ${on ? "in" : ""} rounded-[28px] bg-white p-6 sm:p-8 md:p-10`}
           style={{ "--d": "0.25s" } as React.CSSProperties}
         >
           <p className="mb-6 text-[10px] uppercase tracking-[0.06em] text-black/40">With Fieldnote</p>
@@ -101,7 +101,7 @@ export function ProblemSection() {
             {SOLUTIONS.map((sol, i) => (
               <div key={sol.text} className="flex items-start gap-3">
                 <span
-                  className={`fn-check ${on ? "in" : ""} mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full text-[11px] text-white`}
+                  className={`fn-check ${on ? "in" : ""} mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full text-[12px] text-white`}
                   style={{ "--d": `${0.6 + i * 0.15}s`, backgroundColor: sol.color } as React.CSSProperties}
                   aria-hidden
                 >
@@ -117,7 +117,7 @@ export function ProblemSection() {
             ))}
           </div>
           <div className="mt-8 border-t border-black/[0.06] pt-6">
-            <p className="text-[11px] text-black/40">Typical research time with Fieldnote</p>
+            <p className="text-[12px] text-black/40">Typical research time with Fieldnote</p>
             <p
               className={`fn-fade ${on ? "in" : ""} mt-1 font-mono text-[28px] font-medium tracking-tight`}
               style={{ "--d": "1.8s" } as React.CSSProperties}

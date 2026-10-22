@@ -85,10 +85,10 @@ export function FeaturesSection() {
   const [ref, on] = useInView<HTMLDivElement>(0.15);
 
   return (
-    <section className="mx-auto w-full max-w-[1100px] px-6 py-20">
+    <section className="mx-auto w-full max-w-[1100px] px-5 py-12 sm:px-6 sm:py-16 md:py-20">
       <FadeIn>
         <p className="mb-3 text-[10px] uppercase tracking-[0.06em] text-black/40">The toolkit</p>
-        <h2 className="max-w-[560px] text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">
+        <h2 className="max-w-[560px] text-[28px] sm:text-[32px] md:text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">
           Everything a sync brief needs,
           <br />
           nothing it doesn&apos;t.
@@ -99,7 +99,7 @@ export function FeaturesSection() {
         </p>
       </FadeIn>
 
-      <div ref={ref} className="mt-12 grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <div ref={ref} className="mt-12 grid grid-cols-1 gap-4 sm:gap-5 md:grid-cols-2 lg:grid-cols-3">
         {FEATURES.map((f, i) => (
           <FeatureCard
             key={f.title}
