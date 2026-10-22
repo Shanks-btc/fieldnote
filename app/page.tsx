@@ -4,6 +4,7 @@ import { ExampleRow, SCORE_COLS, type ExampleScores } from "@/components/landing
 import { ArtStrip } from "@/components/landing/ArtStrip";
 import { Marquee } from "@/components/landing/Marquee";
 import { FadeIn } from "@/components/landing/FadeIn";
+import { StatsRow } from "@/components/landing/StatsRow";
 import { PipelineArt } from "@/components/landing/PipelineArt";
 import Link from "next/link";
 import { EngineSection, EvidenceSection, EYEBROW, H2, LEAD, Split, VersusSection } from "@/components/landing/Sections";
@@ -66,13 +67,6 @@ const HERO_STRIP = [
   "FKA twigs",
 ];
 
-// Every figure is something the app actually does: ~11s is the observed 10-11.4s run time,
-// 6 is the step count, and 5 is the number of Qloo calls a brief makes.
-const STATS = [
-  { value: "~11s", label: "Typical research time" },
-  { value: "6", label: "Agent pipeline steps" },
-  { value: "5", label: "Qloo API calls per brief" },
-];
 
 export default function LandingPage() {
   return (
@@ -198,14 +192,7 @@ export default function LandingPage() {
 
       {/* 4. Stats */}
       <PageSection className="pb-16 pt-0 md:pb-16 md:pt-0">
-        <dl className="grid grid-cols-1 gap-x-6 gap-y-8 md:grid-cols-3">
-          {STATS.map((st, i) => (
-            <FadeIn key={st.label} delay={0.1 * i} className="border-t border-border pt-5">
-              <dd className="text-[54px] font-medium leading-none tracking-[-0.03em]">{st.value}</dd>
-              <dt className="mt-2 text-sm text-black/55">{st.label}</dt>
-            </FadeIn>
-          ))}
-        </dl>
+        <StatsRow />
       </PageSection>
 
       {/* 5. Pillars */}
