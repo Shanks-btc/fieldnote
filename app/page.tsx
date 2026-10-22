@@ -1,12 +1,17 @@
 import { PageSection } from "@/components/layout/PageSection";
 import { Eyebrow } from "@/components/shared/TextLink";
-import { ExampleRow, type ExampleScores } from "@/components/landing/ExampleRow";
+import { ExampleRow, SCORE_COLS, type ExampleScores } from "@/components/landing/ExampleRow";
 import { ArtStrip } from "@/components/landing/ArtStrip";
 import { Marquee } from "@/components/landing/Marquee";
 import { FadeIn } from "@/components/landing/FadeIn";
 import { PipelineArt } from "@/components/landing/PipelineArt";
 import Link from "next/link";
-import { EngineSection, EvidenceSection, VersusSection } from "@/components/landing/Sections";
+import { EngineSection, EvidenceSection, EYEBROW, H2, LEAD, Split, VersusSection } from "@/components/landing/Sections";
+import { DualCTA } from "@/components/landing/DualCTA";
+import { ProblemSection } from "@/components/landing/ProblemSection";
+import { UseCaseSection } from "@/components/landing/UseCaseSection";
+import { FeaturesSection } from "@/components/landing/FeaturesSection";
+import { FAQ } from "@/components/landing/FAQ";
 import { artist } from "@/lib/landing/artists";
 
 // Artists, images and Spotify IDs below are real Qloo data (scripts/fixtures). The scores in
@@ -76,15 +81,18 @@ export default function LandingPage() {
       <div className="pt-12 md:pt-14">
         <ArtStrip names={HERO_STRIP} />
         <PageSection className="py-20 text-center md:py-20">
-          <Eyebrow>Built on Qloo&apos;s taste graph</Eyebrow>
-          <h1 className="mx-auto mt-8 max-w-[680px] text-[36px] font-medium leading-[0.95] tracking-[-0.04em] sm:text-[56px]">
-            Place music where the audience already lives.
-          </h1>
-          <p className="mx-auto mt-5 max-w-[480px] text-pretty text-[15px] leading-relaxed text-black/[.56]">
+          <FadeIn>
+            <h1 className="mx-auto max-w-[680px] text-[36px] font-medium leading-[0.95] tracking-[-0.04em] sm:text-[56px]">
+              Place music where the audience already lives.
+            </h1>
+          </FadeIn>
+          <FadeIn delay={0.1}>
+            <p className="mx-auto mt-5 max-w-[480px] text-pretty text-[15px] leading-relaxed text-black/[.56]">
             Fieldnote uses Qloo&apos;s cultural intelligence to find artists whose audiences overlap with your show, film, or
             campaign — then shows you the evidence.
-          </p>
-          <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
+            </p>
+          </FadeIn>
+          <FadeIn delay={0.2} className="mt-8 flex flex-wrap items-center justify-center gap-3">
             <Link
               href="/brief"
               className="inline-flex h-12 items-center justify-center rounded-full bg-black px-7 text-sm font-medium text-white transition-colors hover:bg-neutral-800"
@@ -97,46 +105,82 @@ export default function LandingPage() {
             >
               How it works
             </Link>
-          </div>
+          </FadeIn>
         </PageSection>
       </div>
 
       <Marquee />
 
+      <ProblemSection />
+
       {/* 2. Product preview */}
       <PageSection className="pb-16 pt-12 md:pb-16 md:pt-12">
-        <div className="border border-border bg-white shadow-sm">
-          <div className="flex items-center justify-between gap-4 border-b border-border px-4 py-2.5 sm:px-5">
-            <p className="font-mono text-xs text-[#999]">Stranger Things S5 — sample output</p>
-            <p className="hidden font-mono text-xs uppercase tracking-wider text-neutral-400 sm:block">Cultural · Audience · Composite</p>
+        <FadeIn>
+        <div className="overflow-hidden rounded-[28px] bg-white shadow-[0_1px_3px_rgba(0,0,0,0.04)]">
+          {/* Dark header strip */}
+          <div className="flex items-center justify-between gap-4 bg-black px-5 py-5 sm:px-8">
+            <div className="flex min-w-0 items-center gap-3">
+              <span className="size-2 shrink-0 animate-pulse rounded-full bg-green-400" />
+              <span className="truncate text-[13px] font-medium text-white/90">Stranger Things S5</span>
+              <span className="ml-1 hidden text-[12px] text-white/30 sm:inline">sample output</span>
+            </div>
+            <div className="hidden items-center gap-6 text-[10px] uppercase tracking-[0.06em] text-white/30 sm:flex">
+              <span className={`${SCORE_COLS.sub} text-right`}>Cultural</span>
+              <span className={`${SCORE_COLS.sub} text-right`}>Audience</span>
+              <span className={`${SCORE_COLS.composite} text-right text-white/60`}>Composite</span>
+            </div>
           </div>
-          <ul className="divide-y divide-border px-4 sm:px-5">
+
+          <ul className="divide-y divide-black/[0.04]">
             {SAMPLE.map((s, i) => (
               <li key={s.name}>
-                <ExampleRow name={s.name} scores={s.scores} rank={i + 1} />
+                <FadeIn delay={0.25 + i * 0.15}>
+                  <ExampleRow name={s.name} scores={s.scores} rank={i + 1} />
+                </FadeIn>
               </li>
             ))}
           </ul>
+
+          {/* Footer strip */}
+          <div className="border-t border-black/[0.04] bg-neutral-50/60 px-5 py-4 sm:px-8">
+            <p className="font-mono text-[11px] text-black/30">
+              Artists, images and Spotify links are real Qloo data. Scores are illustrative.
+            </p>
+          </div>
         </div>
-        <p className="mt-4 font-mono text-xs text-[#999]">
-          Artists, images and Spotify links are real Qloo data. Scores are illustrative.
-        </p>
+        </FadeIn>
       </PageSection>
+
+      <UseCaseSection />
 
       <EvidenceSection />
 
+      <FeaturesSection />
+
       {/* 3. How it works */}
       <PageSection id="how-it-works" className="scroll-mt-20 border-t border-border py-16 md:py-16">
-        <FadeIn>
-          <Eyebrow>How it works</Eyebrow>
-          <h2 className="mt-6 max-w-2xl text-balance text-4xl font-semibold leading-[1.05] tracking-[-0.03em] sm:text-5xl">
-            From a brief to a defensible shortlist.
-          </h2>
-        </FadeIn>
-        <div className="mb-14 mt-10">
-          <PipelineArt />
-        </div>
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-3 md:gap-14">
+        <Split
+          text={
+            <FadeIn>
+              <p className={EYEBROW}>How it works</p>
+              <h2 className={H2}>
+                From a brief to a
+                <br />
+                defensible shortlist.
+              </h2>
+              <p className={LEAD}>
+                Describe the scene. Fieldnote resolves it in Qloo, reads the audience, finds the artists, scores every match and
+                shows the evidence, in about eleven seconds.
+              </p>
+            </FadeIn>
+          }
+          visual={
+            <FadeIn delay={0.2}>
+              <PipelineArt />
+            </FadeIn>
+          }
+        />
+        <div className="mt-16 grid grid-cols-1 gap-12 md:grid-cols-3 md:gap-14">
           {STEPS.map((s, i) => (
             <FadeIn key={s.n} delay={0.1 * (i + 1)}>
               <span className="font-mono text-xs text-[#999]">{s.n}</span>
@@ -181,34 +225,26 @@ export default function LandingPage() {
 
       <VersusSection />
 
+      <FAQ />
+
+      <DualCTA />
+
       {/* 6. Statement band */}
       <section className="relative overflow-hidden bg-[radial-gradient(120%_120%_at_20%_10%,#2B2B2E_0%,#0B0B0C_55%,#000_100%)] px-5 py-24 text-center text-white md:px-6 md:py-40">
         <div
           className="absolute -inset-[20%] bg-[linear-gradient(100deg,transparent_30%,rgba(99,102,241,0.18)_48%,transparent_62%)] blur-[40px]"
           aria-hidden
         />
-        <blockquote className="relative mx-auto max-w-[880px] font-serif text-[40px] font-normal leading-[1.02] tracking-[-0.01em] md:text-[64px]">
+        <FadeIn>
+          <blockquote className="relative mx-auto max-w-[880px] font-serif text-[40px] font-normal leading-[1.02] tracking-[-0.01em] md:text-[64px]">
           &ldquo;The best sync placements don&apos;t match a genre — they match an audience.&rdquo;
-        </blockquote>
-        <p className="relative mt-7 text-sm text-white/60">— The thesis behind Fieldnote</p>
+          </blockquote>
+        </FadeIn>
+        <FadeIn delay={0.2}>
+          <p className="relative mt-7 text-sm text-white/60">— The thesis behind Fieldnote</p>
+        </FadeIn>
       </section>
 
-      {/* 7. CTA */}
-      <PageSection className="py-24 md:py-24">
-        <FadeIn>
-        <p className="mb-3 text-[10px] uppercase tracking-[0.06em] text-black/40">Next step</p>
-        <h2 className="max-w-[560px] text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">See it on a real brief.</h2>
-        <p className="mt-4 max-w-[480px] text-[15px] leading-relaxed text-black/55">
-          Start from a pre-filled Stranger Things scene, change anything, and see scored artist matches in about eleven seconds.
-        </p>
-        <Link
-          href="/brief"
-          className="mt-8 inline-flex h-12 items-center justify-center rounded-full bg-black px-7 text-sm font-medium text-white transition-colors hover:bg-black/85"
-        >
-          Start a Brief →
-        </Link>
-        </FadeIn>
-      </PageSection>
     </>
   );
 }

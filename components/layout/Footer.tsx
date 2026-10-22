@@ -20,7 +20,6 @@ const COLUMNS = [
     title: "Project",
     links: [
       { label: "GitHub", href: "https://github.com/shanks-btc/fieldnote", external: true },
-      { label: "Devpost", href: "https://devpost.com", external: true },
     ],
   },
 ];

@@ -207,3 +207,160 @@
     animation: none !important;
   }
 }
+
+/* ===== New content sections ===================================================== */
+
+/* Typewriter: a line reveals left to right with a short blinking cursor ("The gap"). */
+.fn-type-line {
+  opacity: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid transparent;
+}
+.fn-type-line.in {
+  animation:
+    fn-type-reveal 0.6s steps(30, end) var(--d, 0s) forwards,
+    fn-cursor-blink 0.6s step-end var(--d, 0s) 3;
+}
+@keyframes fn-type-reveal {
+  from {
+    opacity: 1;
+    max-width: 0;
+  }
+  to {
+    opacity: 1;
+    max-width: 600px;
+  }
+}
+@keyframes fn-cursor-blink {
+  0%,
+  100% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgba(255, 255, 255, 0.6);
+  }
+}
+
+/* Check pop: a bouncy scale-in. */
+.fn-check {
+  opacity: 0;
+  transform: scale(0);
+}
+.fn-check.in {
+  animation: fn-check-pop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1) var(--d, 0s) forwards;
+}
+@keyframes fn-check-pop {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Slide in from the right / left ("In practice", "The toolkit"). */
+.fn-slide-right {
+  opacity: 0;
+  transform: translateX(24px);
+}
+.fn-slide-right.in {
+  animation: fn-slide-from-right 0.5s cubic-bezier(0.2, 0.9, 0.2, 1) var(--d, 0s) forwards;
+}
+@keyframes fn-slide-from-right {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fn-slide-left {
+  opacity: 0;
+  transform: translateX(-24px);
+}
+.fn-slide-left.in {
+  animation: fn-slide-from-left 0.6s cubic-bezier(0.2, 0.9, 0.2, 1) var(--d, 0s) forwards;
+}
+@keyframes fn-slide-from-left {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Processing dots. */
+.fn-pulse-dot {
+  opacity: 0;
+}
+.fn-pulse-dot.in {
+  animation: fn-pulse-dot 1.2s ease-in-out var(--d, 0s) 2;
+}
+@keyframes fn-pulse-dot {
+  0%,
+  100% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Feature icon micro-animation. */
+.fn-icon-pulse {
+  opacity: 0;
+}
+.fn-icon-pulse.in {
+  animation: fn-icon-pulse 0.8s ease-out var(--d, 0s) forwards;
+}
+@keyframes fn-icon-pulse {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Phones: lines wrap instead of typing, and side slides become slide-ups. */
+@media (max-width: 767px) {
+  .fn-type-line {
+    white-space: normal;
+    border-right: 0;
+  }
+  .fn-type-line.in {
+    max-width: none;
+    animation: fn-fade-up 0.6s cubic-bezier(0.2, 0.9, 0.2, 1) var(--d, 0s) forwards;
+  }
+  .fn-type-line {
+    transform: translateY(12px);
+  }
+  .fn-slide-left,
+  .fn-slide-right {
+    transform: translateY(24px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fn-type-line {
+    opacity: 1;
+    max-width: none;
+    border-right: 0;
+    transform: none;
+    animation: none !important;
+  }
+  .fn-check,
+  .fn-icon-pulse,
+  .fn-pulse-dot {
+    opacity: 1;
+    transform: none;
+    animation: none !important;
+  }
+  .fn-slide-left,
+  .fn-slide-right {
+    opacity: 1;
+    transform: none;
+    animation: none !important;
+  }
+}

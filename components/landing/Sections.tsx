@@ -4,19 +4,42 @@ import { FadeIn } from "./FadeIn";
 import { TasteGraphArt } from "./TasteGraphArt";
 import { DOMAINS } from "./domains";
 
-const EYEBROW = "mb-3 text-[10px] uppercase tracking-[0.06em] text-black/40";
-const H2 = "max-w-[560px] text-[36px] font-medium leading-[1.1] tracking-[-0.02em]";
-const LEAD = "mt-4 max-w-[520px] text-[15px] leading-relaxed text-black/55";
+export const EYEBROW = "mb-3 text-[10px] uppercase tracking-[0.06em] text-black/40";
+export const H2 = "text-[36px] font-medium leading-[1.1] tracking-[-0.02em]";
+export const LEAD = "mt-4 max-w-[440px] text-[15px] leading-relaxed text-black/55";
 const MONO_LABEL = "font-mono text-[10px] uppercase tracking-[0.06em] text-black/40";
 
-/** "The evidence": what sits behind a pick. Cards animate when scrolled into view; values are for the sample artist. */
+/**
+ * Text on one side, visual on the other (stacked on phones). `reverse` puts the visual first on
+ * desktop; on phones the text always comes first.
+ */
+export function Split({
+  text,
+  visual,
+  reverse = false,
+  align = "center",
+}: {
+  text: React.ReactNode;
+  visual: React.ReactNode;
+  reverse?: boolean;
+  align?: "center" | "start";
+}) {
+  return (
+    <div className={`grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16 ${align === "center" ? "items-center" : "items-start"}`}>
+      <div className={reverse ? "lg:order-2" : ""}>{text}</div>
+      <div className={reverse ? "lg:order-1" : ""}>{visual}</div>
+    </div>
+  );
+}
+
+/** "The evidence": heading on top, the four evidence cards below. Values are for the sample artist. */
 export function EvidenceSection() {
   return (
     <PageSection className="py-20 md:py-20">
       <FadeIn>
         <p className={EYEBROW}>The evidence</p>
-        <h2 className={H2}>Every pick comes with receipts.</h2>
-        <p className={LEAD}>
+        <h2 className={`${H2} max-w-[560px]`}>Every pick comes with receipts.</h2>
+        <p className={`${LEAD} max-w-[520px]`}>
           Fieldnote doesn&apos;t just rank artists — it shows you why each one fits, backed by Qloo&apos;s taste data.
         </p>
         <p className="mt-6 font-mono text-xs text-black/40">Shown for girl in red · Stranger Things S5 sample</p>
@@ -53,44 +76,46 @@ export function EvidenceSection() {
           value={91}
           color="#22C55E"
           delay={0.4}
-          description="Weighted score: cultural fit 50%, creative fit 30%, audience relevance 20%. Creative fit joins once the LLM step is switched on."
+          description="Weighted score: cultural fit 50%, creative fit 30%, audience relevance 20%. Creative fit joins once the LLM step is on."
         />
       </div>
     </PageSection>
   );
 }
 
+/** "The engine": constellation left, text and legend right. */
 export function EngineSection() {
   return (
     <PageSection className="py-20 md:py-20">
-      <FadeIn>
-        <p className={EYEBROW}>The engine</p>
-        <h2 className={H2}>One taste graph across every domain.</h2>
-        <p className={LEAD}>
-          Qloo maps cultural affinity across music, TV, film, podcasts, books, games, places and brands. Fieldnote taps into
-          this graph to find artists whose audiences genuinely overlap with your project&apos;s viewers — not just artists in
-          the same genre.
-        </p>
-      </FadeIn>
-
-      <div className="mt-10">
-        <TasteGraphArt />
-      </div>
-
-      <div className="mt-8 grid grid-cols-2 gap-4 md:grid-cols-4">
-        {DOMAINS.map((d, i) => (
-          <FadeIn key={d.name} delay={0.1 * i}>
-            <div className="flex items-center gap-3 rounded-[16px] bg-white px-5 py-4">
-              <span className="size-2 shrink-0 rounded-full" style={{ backgroundColor: d.color }} />
-              <p className="text-[14px] font-medium">{d.name}</p>
+      <Split
+        reverse
+        text={
+          <FadeIn>
+            <p className={EYEBROW}>The engine</p>
+            <h2 className={H2}>One taste graph across every domain.</h2>
+            <p className={LEAD}>
+              Qloo maps cultural affinity across music, TV, film, podcasts, books, games, places and brands. Fieldnote taps into
+              this graph to find artists whose audiences genuinely overlap with your project&apos;s viewers — not just artists
+              in the same genre.
+            </p>
+            <div className="mt-8 grid max-w-[440px] grid-cols-2 gap-3">
+              {DOMAINS.map((d, i) => (
+                <FadeIn key={d.name} delay={0.2 + i * 0.06}>
+                  <div className="flex items-center gap-3 rounded-[16px] bg-white px-4 py-3">
+                    <span className="size-2 shrink-0 rounded-full" style={{ backgroundColor: d.color }} />
+                    <p className="text-[14px] font-medium">{d.name}</p>
+                  </div>
+                </FadeIn>
+              ))}
             </div>
           </FadeIn>
-        ))}
-      </div>
-
-      <FadeIn delay={0.5}>
-        <p className="mt-6 text-center text-[13px] text-black/40">All connected through one cultural intelligence API.</p>
-      </FadeIn>
+        }
+        visual={
+          <FadeIn delay={0.15}>
+            <TasteGraphArt />
+          </FadeIn>
+        }
+      />
     </PageSection>
   );
 }
@@ -114,8 +139,9 @@ function Column({ label, items, good }: { label: string; items: typeof WITH; goo
     <div className={`rounded-[32px] bg-white p-10 ${good ? "ring-1 ring-black/[0.04]" : ""}`}>
       <p className={`mb-4 ${MONO_LABEL}`}>{label}</p>
       <ul className="space-y-4">
-        {items.map((it) => (
-          <li key={it.title} className="flex items-start gap-3">
+        {items.map((it, i) => (
+          <li key={it.title}>
+            <FadeIn delay={0.3 + i * 0.1} className="flex items-start gap-3">
             <span
               className={`mt-1 flex size-5 shrink-0 items-center justify-center rounded-full text-[11px] ${
                 good ? "bg-black text-white" : "bg-neutral-100 text-black/30"
@@ -128,6 +154,7 @@ function Column({ label, items, good }: { label: string; items: typeof WITH; goo
               <p className="text-[15px] font-medium">{it.title}</p>
               <p className="mt-1 text-[13px] text-black/50">{it.body}</p>
             </div>
+            </FadeIn>
           </li>
         ))}
       </ul>
@@ -135,12 +162,13 @@ function Column({ label, items, good }: { label: string; items: typeof WITH; goo
   );
 }
 
+/** "The difference": heading on top, the two columns side by side below. */
 export function VersusSection() {
   return (
     <PageSection className="py-20 md:py-20">
       <FadeIn>
         <p className={EYEBROW}>The difference</p>
-        <h2 className={H2}>Why not just search Spotify?</h2>
+        <h2 className={`${H2} max-w-[560px]`}>Why not just search Spotify?</h2>
       </FadeIn>
       <div className="mt-12 grid grid-cols-1 gap-6 md:grid-cols-2">
         <FadeIn delay={0.1}>

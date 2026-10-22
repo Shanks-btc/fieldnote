@@ -2,6 +2,7 @@ import Link from "next/link";
 import { FieldnoteMark } from "./FieldnoteMark";
 
 const LINKS = [
+  { href: "/product", label: "Product", external: false },
   { href: "/#how-it-works", label: "How it works", external: false },
   { href: "https://github.com/shanks-btc/fieldnote", label: "GitHub", external: true },
 ];

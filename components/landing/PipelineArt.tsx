@@ -27,7 +27,7 @@ export function PipelineArt() {
       <svg
         ref={ref}
         viewBox="0 0 600 90"
-        className={`fn-art ${on ? "in" : ""} mx-auto block w-full min-w-[560px] max-w-[620px]`}
+        className={`fn-art ${on ? "in" : ""} mx-auto block w-full min-w-[560px] max-w-[620px] lg:min-w-0`}
         aria-hidden
       >
         {STEPS.slice(0, -1).map((_, i) => (
