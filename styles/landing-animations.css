@@ -1,0 +1,209 @@
+/* Landing-page scroll animations. Everything is gated on an `.in` class added by useInView,
+   and fully disabled (showing the final state) under prefers-reduced-motion. */
+
+/* Fade + slide up ------------------------------------------------------- */
+.fn-fade {
+  opacity: 0;
+  transform: translateY(24px);
+}
+.fn-fade.in {
+  animation: fn-fade-up 0.7s cubic-bezier(0.2, 0.9, 0.2, 1) var(--d, 0s) forwards;
+}
+@keyframes fn-fade-up {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Path draw-in ----------------------------------------------------------- */
+.fn-art .draw {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+}
+.fn-art.in .draw {
+  animation: fn-draw 0.9s cubic-bezier(0.6, 0, 0.2, 1) var(--d, 0s) forwards;
+}
+@keyframes fn-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Node pop-in ------------------------------------------------------------ */
+.fn-art .node {
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.fn-art.in .node {
+  animation: fn-node 0.5s cubic-bezier(0.2, 0.9, 0.2, 1) var(--d, 0s) forwards;
+}
+@keyframes fn-node {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* Beam: a short glowing dash travelling along a path --------------------- */
+.fn-art .beam {
+  stroke-dasharray: 0.16 1.2;
+  stroke-dashoffset: 0.16;
+  opacity: 0;
+  filter: drop-shadow(0 0 3px var(--c)) drop-shadow(0 0 7px var(--c));
+}
+.fn-art.in .beam {
+  animation: fn-beam var(--dur, 3s) cubic-bezier(0.45, 0, 0.25, 1) var(--d, 0s) infinite;
+}
+@keyframes fn-beam {
+  0% {
+    stroke-dashoffset: 0.16;
+    opacity: 0;
+  }
+  6% {
+    opacity: 1;
+  }
+  55% {
+    stroke-dashoffset: -1;
+    opacity: 1;
+  }
+  62%,
+  100% {
+    stroke-dashoffset: -1;
+    opacity: 0;
+  }
+}
+
+/* Lit: node glows when the beam arrives ---------------------------------- */
+.fn-art.in .lit {
+  animation: fn-lit var(--dur, 3s) ease-out var(--d, 0s) infinite;
+}
+@keyframes fn-lit {
+  0%,
+  50% {
+    filter: none;
+  }
+  57% {
+    filter: drop-shadow(0 0 2px var(--c)) drop-shadow(0 0 10px var(--c));
+  }
+  85%,
+  100% {
+    filter: none;
+  }
+}
+.fn-art.in .lit rect,
+.fn-art.in .lit circle {
+  animation: fn-lit-stroke var(--dur, 3s) ease-out var(--d, 0s) infinite;
+}
+@keyframes fn-lit-stroke {
+  57% {
+    stroke: var(--c);
+    stroke-width: 1.8;
+  }
+}
+
+/* Evidence cards --------------------------------------------------------- */
+.fn-score-fill {
+  transform: scaleX(0);
+  transform-origin: left center;
+}
+.fn-score-fill.in {
+  animation: fn-score-fill 1.4s cubic-bezier(0.2, 0.9, 0.2, 1) var(--d, 0s) forwards;
+}
+@keyframes fn-score-fill {
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.fn-count {
+  opacity: 0;
+}
+.fn-count.in {
+  animation: fn-count-in 0.6s ease-out var(--d, 0s) forwards;
+}
+@keyframes fn-count-in {
+  to {
+    opacity: 1;
+  }
+}
+
+.fn-tag {
+  opacity: 0;
+  transform: scale(0.8) translateY(4px);
+}
+.fn-tag.in {
+  animation: fn-tag-pop 0.4s cubic-bezier(0.2, 0.9, 0.2, 1) var(--d, 0s) forwards;
+}
+@keyframes fn-tag-pop {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.fn-card-glow {
+  transition: box-shadow 0.6s ease;
+}
+.fn-card-glow.in {
+  box-shadow:
+    0 0 0 1px rgba(139, 92, 246, 0.08),
+    0 8px 32px -8px rgba(139, 92, 246, 0.08);
+}
+
+/* Engine hub: expanding sonar rings -------------------------------------- */
+.fn-art .ring-pulse {
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+.fn-art.in .ring-pulse {
+  animation: fn-ring 3s ease-out var(--d, 0s) infinite;
+}
+@keyframes fn-ring {
+  0% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1.8);
+  }
+}
+
+/* Reduced motion: show the final state, no movement ---------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .fn-art .beam,
+  .fn-art .ring-pulse {
+    display: none;
+  }
+  .fn-art .draw {
+    stroke-dashoffset: 0;
+    animation: none !important;
+  }
+  .fn-art .node {
+    opacity: 1;
+    animation: none !important;
+  }
+  .fn-art .lit,
+  .fn-art .lit rect,
+  .fn-art .lit circle {
+    animation: none !important;
+  }
+  .fn-score-fill {
+    transform: scaleX(1);
+    animation: none !important;
+  }
+  .fn-fade,
+  .fn-count,
+  .fn-tag {
+    opacity: 1;
+    transform: none;
+    animation: none !important;
+  }
+}

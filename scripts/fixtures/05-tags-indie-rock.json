@@ -1,0 +1,116 @@
+{
+  "duration": 43,
+  "success": true,
+  "results": {
+    "tags": [
+      {
+        "parents": [
+          {
+            "type": "urn:entity:artist"
+          },
+          {
+            "type": "urn:entity:album"
+          }
+        ],
+        "type": "urn:tag:genre:music",
+        "id": "urn:tag:genre:music:indie_rock",
+        "name": "Indie - Rock",
+        "popularity": 0.9995726,
+        "properties": {
+          "description": "Indie rock is noted for having a relatively underground or non-mainstream sound. It is commonly associated with DIY ethos and independent record labels. The genre's sound can vary widely, from hard punk to soft rock, and is known for its focus on innovative, quirky and idiosyncratic songs.",
+          "history": "Indie rock is a genre of rock music that originated in the United States and United Kingdom in the 1970s. Originally used to describe independent record labels, the term became associated with the music they produced and was initially used interchangeably with \"alternative rock\".",
+          "melody": "Melodic with a lo-fi aesthetic",
+          "performance": "Usually performed by bands, with a focus on live performances",
+          "rhythm": "Versatile, ranging from raw and gritty to polished and professional",
+          "tempo": "Medium to fast",
+          "vocals": "Ranging from soft and delicate to loud and aggressive"
+        },
+        "tags": [
+          {
+            "name": "Canonical",
+            "tag_id": "urn:tag:collection:canonical",
+            "type": "urn:tag:collection",
+            "value": "urn:tag:collection:canonical"
+          }
+        ]
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:artist"
+          },
+          {
+            "type": "urn:entity:album"
+          }
+        ],
+        "type": "urn:tag:genre:music",
+        "id": "urn:tag:genre:music:indierock",
+        "name": "Indierock",
+        "popularity": 0.98694485,
+        "properties": {
+          "description": "Indie rock is characterized by its diversity, subversion of typical rock tropes, and a DIY ethos. It grew out of the punk and new wave scenes of the 1970s and 80s, and has since evolved into a multifaceted genre with many subgenres and variations.",
+          "history": "Indie rock originated in the 1980s as a genre of alternative rock. It was known for its rejection of the commercialism of mainstream pop and rock.",
+          "melody": "Distinctive, often unconventional",
+          "performance": "Live performances often energetic and impassioned",
+          "rhythm": "Varied, often with a strong back beat",
+          "tempo": "Moderate to fast",
+          "vocals": "Varied, from clean to distorted"
+        },
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:place"
+          }
+        ],
+        "type": "urn:tag:decor:qloo",
+        "id": "urn:tag:decor:qloo:indie_rock",
+        "name": "Indie Rock",
+        "popularity": 0.5777895,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:artist"
+          },
+          {
+            "type": "urn:entity:album"
+          }
+        ],
+        "type": "urn:tag:genre:music",
+        "id": "urn:tag:genre:music:indie_rock_brasil",
+        "name": "Indie Rock Brasil",
+        "popularity": 0.6573981,
+        "properties": {},
+        "tags": []
+      },
+      {
+        "parents": [
+          {
+            "type": "urn:entity:artist"
+          },
+          {
+            "type": "urn:entity:album"
+          }
+        ],
+        "type": "urn:tag:genre:music",
+        "id": "urn:tag:genre:music:indie_folk_rock",
+        "name": "Indie Folk Rock",
+        "popularity": 0.85532624,
+        "properties": {
+          "description": "Indie Folk Rock is a nostalgic musical genre that combines the simplicity of folk music with the experimentation of indie rock. Songs generally focus on individuals' emotional experiences, and the sound is warm and earthy.",
+          "history": "Originated in the late 20th century, Indie Folk Rock is an alternative rock music genre where the emphasis is on a folk or country atmosphere and simple, heartfelt lyricism.",
+          "melody": "Melancholic, Intimate",
+          "performance": "Live performances often have a close and intimate vibe",
+          "rhythm": "Organic, Subtle",
+          "tempo": "Varied",
+          "vocals": "Soft, Emotional"
+        },
+        "tags": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,2321 @@
+{
+  "results": [
+    {
+      "name": "Stranger Things",
+      "entity_id": "07F1170E-BB69-4982-82C6-255F477EBBAD",
+      "types": [
+        "urn:entity:tv_show"
+      ],
+      "properties": {
+        "akas": [
+          {
+            "language": "es_ar",
+            "value": "Primera temporada de Stranger Things"
+          },
+          {
+            "language": "en_au",
+            "value": "Stranger Things (season 1)"
+          },
+          {
+            "language": "ar",
+            "value": "أشياء غريبة (الموسم 4)"
+          },
+          {
+            "language": "cs",
+            "value": "Stranger Things, 4. řada"
+          },
+          {
+            "language": "de",
+            "value": "Stranger Things/Staffel 4"
+          },
+          {
+            "language": "en",
+            "value": "Stranger Things (season 4)"
+          },
+          {
+            "language": "en",
+            "value": "Stranger Things, season 4"
+          },
+          {
+            "language": "es",
+            "value": "Cuarta temporada de Stranger Things"
+          },
+          {
+            "language": "fa",
+            "value": "اتفاقات عجیب (فصل ۴)"
+          },
+          {
+            "language": "fa",
+            "value": "چیزهای عجیب (فصل ۴)"
+          },
+          {
+            "language": "fr",
+            "value": "Stranger Things 4"
+          },
+          {
+            "language": "fr",
+            "value": "saison 4 de Stranger Things"
+          },
+          {
+            "language": "hy",
+            "value": "Տարօրինակ դեպքեր (եթերաշրջան 4)"
+          },
+          {
+            "language": "it",
+            "value": "Stranger Things 4"
+          },
+          {
+            "language": "it",
+            "value": "quarta stagione di Stranger Things"
+          },
+          {
+            "language": "ja",
+            "value": "ストレンジャー・シングス"
+          },
+          {
+            "language": "pt",
+            "value": "Stranger Things (4.ª temporada)"
+          },
+          {
+            "language": "ru",
+            "value": "Очень странные дела (сезон 4)"
+          },
+          {
+            "language": "sv",
+            "value": "Säsong 4 av Stranger Things"
+          },
+          {
+            "language": "tr",
+            "value": "Stranger Things (4. sezon)"
+          },
+          {
+            "language": "zh",
+            "value": "怪奇物語4"
+          },
+          {
+            "language": "zh",
+            "value": "怪奇物語第四季"
+          }
+        ],
+        "content_rating": "TV-MA",
+        "description": "Stranger Things (released 2016) is a Netflix series created by Matt and Ross Duffer that blends drama, science fiction, horror, and mystery. Starring Millie Bobby Brown, Finn Wolfhard and Winona Ryder among an ensemble cast, it follows a group of children in 1980s Indiana who uncover government experiments and otherworldly threats after a friend goes missing. The series mixes coming-of-age character work and family drama with suspenseful supernatural mysteries, and leans heavily on nostalgic 1980s cinematic and production design to shape its emotional tone of wonder edged by dread.",
+        "external": {
+          "facebook": {
+            "id": "strangerthingstv"
+          },
+          "imdb": {
+            "id": "tt4574334",
+            "user_rating": 8.6,
+            "user_rating_count": 1743321
+          },
+          "instagram": {
+            "id": "strangerthingstv"
+          },
+          "metacritic": {
+            "critic_rating": 85,
+            "id": "stranger-things",
+            "user_rating": 7.8
+          },
+          "twitter": {
+            "id": "stranger_things"
+          },
+          "wikidata": {
+            "id": "q85847363"
+          }
+        },
+        "filming_location": "Vilnius, Lithuania, Bellwood Quarry, Atlanta, Georgia, USA, Jackson, Georgia, USA, Stockbridge, Georgia, USA, Gwinnett Place Mall, Duluth, Georgia, USA, Emory University Briarcliff Campus - 1256 Briarcliff Rd, Atlanta, Georgia, USA, Patrick Henry High School - 109 S Lee Street, Stockbridge, Georgia, USA, Tucker, Georgia, USA, 48 Pray Street, Douglasville, Georgia, USA, EUE/Screen Gems Studios Atlanta, 175 Lakewood Way, Atlanta, Georgia, USA, North Oak Street, Jackson, Georgia, USA, Lukiskes Prison, Vilnius, Lithuania, Albuquerque, New Mexico, USA, Douglas County, Georgia, USA, Tiffany's Kitchen - 7413 Lee Road, Lithia Springs, Georgia, USA, Jackson Drug - 4 2nd Street, Jackson, Georgia, USA, East Point, Georgia, USA, 930 Garibaldi Street Southwest, Atlanta, Georgia, USA, 7703 US-78, Winston, Georgia, USA, St. Orthodox church of St. Nicholas miracle, Semeliskes, Lithuania, Stone Mountain Park, Georgia, USA, Quarry of Skersabaliai, Skersabaliai, Lithuania, Butts County Probate Court - 3rd Street, Jackson, Georgia, USA, Malibu, California, USA, South Bend Pool - 2000 Lakewood Ave SE, Atlanta, Georgia, USA, Kyviskes Airport, Kyviskes, Lithuania, 12 Oak Street, Jackson, Georgia, USA, The Claremont House, Rome, Georgia, USA, Eldorado High School, 11300 Montgomery Blvd NE, Albuquerque, New Mexico, USA, Jakarta, Indonesia",
+        "finale_year": 2025,
+        "image": {
+          "url": "https://images.qloo.com/i/07F1170E-BB69-4982-82C6-255F477EBBAD-420x-auto.jpg"
+        },
+        "is_special": false,
+        "production_company": "21 Laps Entertainment",
+        "release_country": "United States",
+        "release_date": "2016-07-15",
+        "release_year": 2016,
+        "short_descriptions": [
+          {
+            "language": "en",
+            "value": "In 1980s Indiana, a group of kids confronts supernatural forces and secret government experiments while searching for their missing friend."
+          },
+          {
+            "language": "de",
+            "value": "Im Indiana der 1980er kämpfen eine Gruppe Kinder gegen übernatürliche Kräfte und geheime staatliche Experimente, während sie nach ihrem verschwundenen Freund suchen."
+          },
+          {
+            "language": "es",
+            "value": "En los años 80 en Indiana, un grupo de niños se enfrenta a fuerzas sobrenaturales y experimentos secretos del gobierno mientras busca a un amigo desaparecido."
+          },
+          {
+            "language": "fr",
+            "value": "Dans l'Indiana des années 1980, un groupe d'enfants affronte des forces surnaturelles et des expériences gouvernementales secrètes en recherchant un ami disparu."
+          }
+        ],
+        "website": "https://www.rogerebert.com/demanders/stranger-things-returns-with-phenomenally-entertaining-third-season"
+      },
+      "popularity": 0.9998686888582496,
+      "disambiguation": "2016,2025",
+      "tags": [
+        {
+          "name": "2010s tv show",
+          "tag_id": "urn:tag:keyword:media:2010s_tv_show",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Black boy",
+          "tag_id": "urn:tag:keyword:media:black_boy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Conspiracy thriller",
+          "tag_id": "urn:tag:keyword:media:conspiracy_thriller",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Parallel world",
+          "tag_id": "urn:tag:keyword:media:parallel_world",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Small town sheriff",
+          "tag_id": "urn:tag:keyword:media:small_town_sheriff",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "80s cinematic pastiche",
+          "tag_id": "urn:tag:style:qloo:80s_cinematic_pastiche",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Bromance",
+          "tag_id": "urn:tag:keyword:media:bromance",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Resilient",
+          "tag_id": "urn:tag:character:qloo:resilient",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Girl protagonist",
+          "tag_id": "urn:tag:keyword:media:girl_protagonist",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Fight",
+          "tag_id": "urn:tag:keyword:media:fight",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Dungeons and dragons",
+          "tag_id": "urn:tag:keyword:media:dungeons_and_dragons",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Black man white woman relationship",
+          "tag_id": "urn:tag:keyword:media:black_man_white_woman_relationship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Thriller",
+          "tag_id": "urn:tag:genre:qloo:thriller",
+          "type": "urn:tag:genre:qloo"
+        },
+        {
+          "name": "Violence",
+          "tag_id": "urn:tag:keyword:media:violence",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Homophobic slur",
+          "tag_id": "urn:tag:keyword:media:homophobic_slur",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Family",
+          "tag_id": "urn:tag:theme:qloo:family",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "The lost child",
+          "tag_id": "urn:tag:archetype:qloo:the_lost_child",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Gay",
+          "tag_id": "urn:tag:keyword:media:gay",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Straight male lesbian female relationship",
+          "tag_id": "urn:tag:keyword:media:straight_male_lesbian_female_relationship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Sci fi",
+          "tag_id": "urn:tag:genre:media:sci_fi",
+          "type": "urn:tag:genre:media"
+        },
+        {
+          "name": "Child versus monster",
+          "tag_id": "urn:tag:keyword:media:child_versus_monster",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Teen adventure",
+          "tag_id": "urn:tag:keyword:media:teen_adventure",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Telekinesis",
+          "tag_id": "urn:tag:keyword:media:telekinesis",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Secret facility",
+          "tag_id": "urn:tag:keyword:qloo:secret_facility",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Surrealism",
+          "tag_id": "urn:tag:keyword:media:surrealism",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Single mother",
+          "tag_id": "urn:tag:keyword:media:single_mother",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Supernatural power",
+          "tag_id": "urn:tag:keyword:media:supernatural_power",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Friendship between boy and girl",
+          "tag_id": "urn:tag:keyword:media:friendship_between_boy_and_girl",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Police officer",
+          "tag_id": "urn:tag:keyword:media:police_officer",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Drama",
+          "tag_id": "urn:tag:genre:media:drama",
+          "type": "urn:tag:genre:media"
+        },
+        {
+          "name": "Teen drama",
+          "tag_id": "urn:tag:keyword:media:teen_drama",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Black man",
+          "tag_id": "urn:tag:keyword:media:black_man",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Atmospheric",
+          "tag_id": "urn:tag:plot:qloo:atmospheric",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Creature",
+          "tag_id": "urn:tag:keyword:media:creature",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Teenage boy teenage girl relationship",
+          "tag_id": "urn:tag:keyword:media:teenage_boy_teenage_girl_relationship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Loyal",
+          "tag_id": "urn:tag:character:qloo:loyal",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "The outcast",
+          "tag_id": "urn:tag:archetype:qloo:the_outcast",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Moody",
+          "tag_id": "urn:tag:style:qloo:moody",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Friendship between girls",
+          "tag_id": "urn:tag:keyword:media:friendship_between_girls",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Christmas lights",
+          "tag_id": "urn:tag:keyword:media:christmas_lights",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Flashback",
+          "tag_id": "urn:tag:keyword:media:flashback",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Good vs evil",
+          "tag_id": "urn:tag:keyword:media:good_vs_evil",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Girl",
+          "tag_id": "urn:tag:keyword:media:girl",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Teenage friendship",
+          "tag_id": "urn:tag:keyword:media:teenage_friendship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "1980s nostalgia",
+          "tag_id": "urn:tag:keyword:media:1980s_nostalgia",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Loss",
+          "tag_id": "urn:tag:theme:qloo:loss",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Boy",
+          "tag_id": "urn:tag:keyword:media:boy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Funeral",
+          "tag_id": "urn:tag:keyword:media:funeral",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Monsters",
+          "tag_id": "urn:tag:keyword:qloo:monsters",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Ensemble",
+          "tag_id": "urn:tag:plot:qloo:ensemble",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Nostalgic",
+          "tag_id": "urn:tag:audience:qloo:nostalgic",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Group of friends",
+          "tag_id": "urn:tag:keyword:media:group_of_friends",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Period piece",
+          "tag_id": "urn:tag:subgenre:qloo:period_piece",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Alternate dimension",
+          "tag_id": "urn:tag:keyword:media:alternate_dimension",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Traumatic event",
+          "tag_id": "urn:tag:keyword:media:traumatic_event",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Adoption",
+          "tag_id": "urn:tag:keyword:media:adoption",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Government conspiracy",
+          "tag_id": "urn:tag:theme:qloo:government_conspiracy",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Small town",
+          "tag_id": "urn:tag:keyword:media:small_town",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Government conspiracy",
+          "tag_id": "urn:tag:keyword:media:government_conspiracy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Villain",
+          "tag_id": "urn:tag:keyword:media:villain",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "United states of america",
+          "tag_id": "urn:tag:keyword:media:united_states_of_america",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Town with a dark secret",
+          "tag_id": "urn:tag:keyword:media:town_with_a_dark_secret",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Secret government organization",
+          "tag_id": "urn:tag:keyword:media:secret_government_organization",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Supervillain",
+          "tag_id": "urn:tag:keyword:media:supervillain",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Father figure",
+          "tag_id": "urn:tag:keyword:media:father_figure",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Investigation",
+          "tag_id": "urn:tag:keyword:media:investigation",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Bad hair",
+          "tag_id": "urn:tag:keyword:media:bad_hair",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Tragic heroine",
+          "tag_id": "urn:tag:keyword:media:tragic_heroine",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Teen horror",
+          "tag_id": "urn:tag:keyword:media:teen_horror",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Role playing games",
+          "tag_id": "urn:tag:interests:qloo:role_playing_games",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Drama loving",
+          "tag_id": "urn:tag:audience:qloo:drama_loving",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Conspiracy",
+          "tag_id": "urn:tag:keyword:media:conspiracy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Thrill seeking",
+          "tag_id": "urn:tag:audience:qloo:thrill_seeking",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Brave",
+          "tag_id": "urn:tag:character:qloo:brave",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "American midwest",
+          "tag_id": "urn:tag:keyword:media:american_midwest",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Playing a board game",
+          "tag_id": "urn:tag:keyword:media:playing_a_board_game",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Cursed town",
+          "tag_id": "urn:tag:keyword:media:cursed_town",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Redhead teenage girl",
+          "tag_id": "urn:tag:keyword:media:redhead_teenage_girl",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Character driven",
+          "tag_id": "urn:tag:plot:qloo:character_driven",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Hawkins indiana",
+          "tag_id": "urn:tag:keyword:media:hawkins_indiana",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Supernatural fantasy",
+          "tag_id": "urn:tag:keyword:media:supernatural_fantasy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Teenage boy",
+          "tag_id": "urn:tag:keyword:media:teenage_boy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Bullying",
+          "tag_id": "urn:tag:keyword:media:bullying",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Emotional",
+          "tag_id": "urn:tag:plot:qloo:emotional",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Attack",
+          "tag_id": "urn:tag:keyword:media:attack",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Ensemble cast",
+          "tag_id": "urn:tag:keyword:media:ensemble_cast",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Friendship between man and woman",
+          "tag_id": "urn:tag:keyword:media:friendship_between_man_and_woman",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Abduction",
+          "tag_id": "urn:tag:keyword:media:abduction",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Tattooed number on arm",
+          "tag_id": "urn:tag:keyword:media:tattooed_number_on_arm",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Telekinesis",
+          "tag_id": "urn:tag:keyword:qloo:telekinesis",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Cigarette smoking",
+          "tag_id": "urn:tag:keyword:media:cigarette_smoking",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Protective",
+          "tag_id": "urn:tag:character:qloo:protective",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Ensemble drama",
+          "tag_id": "urn:tag:subgenre:qloo:ensemble_drama",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Lovecraftian",
+          "tag_id": "urn:tag:keyword:media:lovecraftian",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Group of teenagers",
+          "tag_id": "urn:tag:keyword:media:group_of_teenagers",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Interracial relationship",
+          "tag_id": "urn:tag:keyword:media:interracial_relationship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Psychotronic series",
+          "tag_id": "urn:tag:keyword:media:psychotronic_series",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Possession",
+          "tag_id": "urn:tag:keyword:media:possession",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Lovecraftian horror",
+          "tag_id": "urn:tag:keyword:media:lovecraftian_horror",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Thriller",
+          "tag_id": "urn:tag:genre:media:thriller",
+          "type": "urn:tag:genre:media"
+        },
+        {
+          "name": "The hero",
+          "tag_id": "urn:tag:archetype:qloo:the_hero",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Gay man straight man relationship",
+          "tag_id": "urn:tag:keyword:media:gay_man_straight_man_relationship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Coverup",
+          "tag_id": "urn:tag:keyword:media:coverup",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Unseen character",
+          "tag_id": "urn:tag:keyword:media:unseen_character",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Compassionate",
+          "tag_id": "urn:tag:character:qloo:compassionate",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Supernatural horror",
+          "tag_id": "urn:tag:keyword:media:supernatural_horror",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Russian",
+          "tag_id": "urn:tag:keyword:media:russian",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Psychokinesis",
+          "tag_id": "urn:tag:keyword:media:psychokinesis",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Small town",
+          "tag_id": "urn:tag:keyword:qloo:small_town",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Epic sci fi",
+          "tag_id": "urn:tag:keyword:media:epic_sci_fi",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Chosen one",
+          "tag_id": "urn:tag:keyword:media:chosen_one",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Synth saturated",
+          "tag_id": "urn:tag:style:qloo:synth_saturated",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Paranormal phenomenon",
+          "tag_id": "urn:tag:keyword:media:paranormal_phenomenon",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Cult tv",
+          "tag_id": "urn:tag:keyword:media:cult_tv",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Coming out",
+          "tag_id": "urn:tag:keyword:media:coming_out",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Suburban noir",
+          "tag_id": "urn:tag:style:qloo:suburban_noir",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Redhead girl",
+          "tag_id": "urn:tag:keyword:media:redhead_girl",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Teenage girl as protagonist",
+          "tag_id": "urn:tag:keyword:media:teenage_girl_as_protagonist",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Lesbian character",
+          "tag_id": "urn:tag:keyword:media:lesbian_character",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Police station",
+          "tag_id": "urn:tag:keyword:media:police_station",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Vulnerable",
+          "tag_id": "urn:tag:character:qloo:vulnerable",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Evilness",
+          "tag_id": "urn:tag:keyword:media:evilness",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Emotionally engaged",
+          "tag_id": "urn:tag:audience:qloo:emotionally_engaged",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Secret experiment",
+          "tag_id": "urn:tag:keyword:media:secret_experiment",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Government coverup",
+          "tag_id": "urn:tag:keyword:media:government_coverup",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Young girl",
+          "tag_id": "urn:tag:keyword:media:young_girl",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Superpower",
+          "tag_id": "urn:tag:keyword:media:superpower",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Tragic protagonist",
+          "tag_id": "urn:tag:keyword:media:tragic_protagonist",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Good versus evil",
+          "tag_id": "urn:tag:keyword:media:good_versus_evil",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Horror",
+          "tag_id": "urn:tag:genre:media:horror",
+          "type": "urn:tag:genre:media"
+        },
+        {
+          "name": "Supernatural drama",
+          "tag_id": "urn:tag:keyword:media:supernatural_drama",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Brother sister relationship",
+          "tag_id": "urn:tag:keyword:media:brother_sister_relationship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Neo 80s",
+          "tag_id": "urn:tag:keyword:media:neo_80s",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Traumatized",
+          "tag_id": "urn:tag:character:qloo:traumatized",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Atmospheric",
+          "tag_id": "urn:tag:style:qloo:atmospheric",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Missing son",
+          "tag_id": "urn:tag:keyword:media:missing_son",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Middle school",
+          "tag_id": "urn:tag:keyword:media:middle_school",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Mystery",
+          "tag_id": "urn:tag:genre:media:mystery",
+          "type": "urn:tag:genre:media"
+        },
+        {
+          "name": "Mkultra",
+          "tag_id": "urn:tag:keyword:media:mkultra",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Suspenseful",
+          "tag_id": "urn:tag:plot:qloo:suspenseful",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Human experiment",
+          "tag_id": "urn:tag:keyword:media:human_experiment",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Strong female lead",
+          "tag_id": "urn:tag:keyword:media:strong_female_lead",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Death",
+          "tag_id": "urn:tag:keyword:media:death",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Suburban life",
+          "tag_id": "urn:tag:keyword:media:suburban_life",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Practical effects",
+          "tag_id": "urn:tag:interests:qloo:practical_effects",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Supernatural",
+          "tag_id": "urn:tag:theme:qloo:supernatural",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Gay superhero",
+          "tag_id": "urn:tag:keyword:media:gay_superhero",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Drama",
+          "tag_id": "urn:tag:genre:qloo:drama",
+          "type": "urn:tag:genre:qloo"
+        },
+        {
+          "name": "Teen drama",
+          "tag_id": "urn:tag:subgenre:qloo:teen_drama",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Retro homage",
+          "tag_id": "urn:tag:subgenre:qloo:retro_homage",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Synth score",
+          "tag_id": "urn:tag:keyword:qloo:synth_score",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Lesbian heroine",
+          "tag_id": "urn:tag:keyword:media:lesbian_heroine",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Teenage girl",
+          "tag_id": "urn:tag:keyword:media:teenage_girl",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Coming of age",
+          "tag_id": "urn:tag:theme:qloo:coming_of_age",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Missing person",
+          "tag_id": "urn:tag:keyword:media:missing_person",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Rural police chief",
+          "tag_id": "urn:tag:keyword:media:rural_police_chief",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Lesbian female straight male friendship",
+          "tag_id": "urn:tag:keyword:media:lesbian_female_straight_male_friendship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Belonging",
+          "tag_id": "urn:tag:theme:qloo:belonging",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Fantasy",
+          "tag_id": "urn:tag:genre:qloo:fantasy",
+          "type": "urn:tag:genre:qloo"
+        },
+        {
+          "name": "Cruelty",
+          "tag_id": "urn:tag:keyword:media:cruelty",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Friendship between boys",
+          "tag_id": "urn:tag:keyword:media:friendship_between_boys",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Epic fantasy",
+          "tag_id": "urn:tag:keyword:media:epic_fantasy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "The quest",
+          "tag_id": "urn:tag:archetype:qloo:the_quest",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Investigative",
+          "tag_id": "urn:tag:plot:qloo:investigative",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Electronic music score",
+          "tag_id": "urn:tag:keyword:media:electronic_music_score",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Fat shaming",
+          "tag_id": "urn:tag:keyword:media:fat_shaming",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Best friend",
+          "tag_id": "urn:tag:keyword:media:best_friend",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Lgbt character",
+          "tag_id": "urn:tag:keyword:media:lgbt_character",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Gay hero",
+          "tag_id": "urn:tag:keyword:media:gay_hero",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Police chief",
+          "tag_id": "urn:tag:keyword:media:police_chief",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Retro horror",
+          "tag_id": "urn:tag:keyword:media:retro_horror",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Period accurate",
+          "tag_id": "urn:tag:style:qloo:period_accurate",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Chapters",
+          "tag_id": "urn:tag:keyword:media:chapters",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Cosmic horror",
+          "tag_id": "urn:tag:keyword:media:cosmic_horror",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "The mentor",
+          "tag_id": "urn:tag:archetype:qloo:the_mentor",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Coming of age",
+          "tag_id": "urn:tag:keyword:media:coming_of_age",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Nostalgic",
+          "tag_id": "urn:tag:plot:qloo:nostalgic",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Horror",
+          "tag_id": "urn:tag:genre:qloo:horror",
+          "type": "urn:tag:genre:qloo"
+        },
+        {
+          "name": "Genre savvy",
+          "tag_id": "urn:tag:audience:qloo:genre_savvy",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Role playing game",
+          "tag_id": "urn:tag:keyword:media:role_playing_game",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Mystery",
+          "tag_id": "urn:tag:genre:qloo:mystery",
+          "type": "urn:tag:genre:qloo"
+        },
+        {
+          "name": "Smoking",
+          "tag_id": "urn:tag:keyword:media:smoking",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "The monster",
+          "tag_id": "urn:tag:archetype:qloo:the_monster",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Teenage boy teenage girl romance",
+          "tag_id": "urn:tag:keyword:media:teenage_boy_teenage_girl_romance",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Parallel universe",
+          "tag_id": "urn:tag:keyword:media:parallel_universe",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Telephone",
+          "tag_id": "urn:tag:keyword:media:telephone",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Supernatural",
+          "tag_id": "urn:tag:plot:qloo:supernatural",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Alternate dimension",
+          "tag_id": "urn:tag:keyword:qloo:alternate_dimension",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Missing child",
+          "tag_id": "urn:tag:keyword:media:missing_child",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Sexism",
+          "tag_id": "urn:tag:keyword:media:sexism",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Missing girl",
+          "tag_id": "urn:tag:keyword:media:missing_girl",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Adrenochrome",
+          "tag_id": "urn:tag:keyword:media:adrenochrome",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Human turns into monster",
+          "tag_id": "urn:tag:keyword:media:human_turns_into_monster",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Danger",
+          "tag_id": "urn:tag:keyword:media:danger",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Fictional town",
+          "tag_id": "urn:tag:keyword:media:fictional_town",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Racism",
+          "tag_id": "urn:tag:keyword:media:racism",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Parallel dimension",
+          "tag_id": "urn:tag:keyword:media:parallel_dimension",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Dark fantasy",
+          "tag_id": "urn:tag:keyword:media:dark_fantasy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Monster movies",
+          "tag_id": "urn:tag:interests:qloo:monster_movies",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "80s pop culture",
+          "tag_id": "urn:tag:interests:qloo:80s_pop_culture",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Two word title",
+          "tag_id": "urn:tag:keyword:media:two_word_title",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Practical effects driven",
+          "tag_id": "urn:tag:style:qloo:practical_effects_driven",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Science fiction",
+          "tag_id": "urn:tag:genre:qloo:science_fiction",
+          "type": "urn:tag:genre:qloo"
+        },
+        {
+          "name": "Superheroine",
+          "tag_id": "urn:tag:keyword:media:superheroine",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Walkie talkie",
+          "tag_id": "urn:tag:keyword:media:walkie_talkie",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Working mother",
+          "tag_id": "urn:tag:keyword:media:working_mother",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Mother son relationship",
+          "tag_id": "urn:tag:keyword:media:mother_son_relationship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Missing boy",
+          "tag_id": "urn:tag:keyword:media:missing_boy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Lesbian",
+          "tag_id": "urn:tag:keyword:media:lesbian",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Male police officer",
+          "tag_id": "urn:tag:keyword:media:male_police_officer",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Missing child",
+          "tag_id": "urn:tag:keyword:qloo:missing_child",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Reference to kate bush",
+          "tag_id": "urn:tag:keyword:media:reference_to_kate_bush",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Love triangle",
+          "tag_id": "urn:tag:keyword:media:love_triangle",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Friendship",
+          "tag_id": "urn:tag:keyword:media:friendship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Gay straight relations",
+          "tag_id": "urn:tag:keyword:media:gay_straight_relations",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Curious",
+          "tag_id": "urn:tag:character:qloo:curious",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Epic drama",
+          "tag_id": "urn:tag:keyword:media:epic_drama",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Epic",
+          "tag_id": "urn:tag:keyword:media:epic",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "1980s",
+          "tag_id": "urn:tag:keyword:media:1980s",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Nostalgic",
+          "tag_id": "urn:tag:style:qloo:nostalgic",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Small town police chief",
+          "tag_id": "urn:tag:keyword:media:small_town_police_chief",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Reebok",
+          "tag_id": "urn:tag:keyword:media:reebok",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Young boy",
+          "tag_id": "urn:tag:keyword:media:young_boy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Lgbt horror",
+          "tag_id": "urn:tag:keyword:media:lgbt_horror",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Strong female",
+          "tag_id": "urn:tag:keyword:media:strong_female",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Teen fantasy",
+          "tag_id": "urn:tag:keyword:media:teen_fantasy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Supernatural thriller",
+          "tag_id": "urn:tag:subgenre:qloo:supernatural_thriller",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Determined",
+          "tag_id": "urn:tag:character:qloo:determined",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "2020s tv show",
+          "tag_id": "urn:tag:keyword:media:2020s_tv_show",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Fantasy",
+          "tag_id": "urn:tag:genre:media:fantasy",
+          "type": "urn:tag:genre:media"
+        },
+        {
+          "name": "Teenage protagonist",
+          "tag_id": "urn:tag:keyword:media:teenage_protagonist",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Synth music",
+          "tag_id": "urn:tag:interests:qloo:synth_music",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Lab experiments",
+          "tag_id": "urn:tag:keyword:qloo:lab_experiments",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Missing friend",
+          "tag_id": "urn:tag:keyword:media:missing_friend",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Unpredictable",
+          "tag_id": "urn:tag:plot:qloo:unpredictable",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Coming of age drama",
+          "tag_id": "urn:tag:keyword:media:coming_of_age_drama",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Friendship",
+          "tag_id": "urn:tag:theme:qloo:friendship",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Female protagonist",
+          "tag_id": "urn:tag:keyword:media:female_protagonist",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Retro focused",
+          "tag_id": "urn:tag:audience:qloo:retro_focused",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Monster attack",
+          "tag_id": "urn:tag:keyword:media:monster_attack",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Secret laboratory",
+          "tag_id": "urn:tag:keyword:media:secret_laboratory",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Childhood scale wonder",
+          "tag_id": "urn:tag:style:qloo:childhood_scale_wonder",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Trauma",
+          "tag_id": "urn:tag:theme:qloo:trauma",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Indiana",
+          "tag_id": "urn:tag:keyword:media:indiana",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Gay man straight man friendship",
+          "tag_id": "urn:tag:keyword:media:gay_man_straight_man_friendship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Government agents",
+          "tag_id": "urn:tag:keyword:qloo:government_agents",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Tense",
+          "tag_id": "urn:tag:plot:qloo:tense",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Gay teenager",
+          "tag_id": "urn:tag:keyword:media:gay_teenager",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Domestic violence",
+          "tag_id": "urn:tag:keyword:media:domestic_violence",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Telekinetic girl",
+          "tag_id": "urn:tag:keyword:media:telekinetic_girl",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "80s pop culture",
+          "tag_id": "urn:tag:keyword:qloo:80s_pop_culture",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Monster",
+          "tag_id": "urn:tag:keyword:media:monster",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Brother brother relationship",
+          "tag_id": "urn:tag:keyword:media:brother_brother_relationship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Interracial friendship",
+          "tag_id": "urn:tag:keyword:media:interracial_friendship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Cinematic",
+          "tag_id": "urn:tag:style:qloo:cinematic",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Monster horror",
+          "tag_id": "urn:tag:keyword:media:monster_horror",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Resourceful",
+          "tag_id": "urn:tag:character:qloo:resourceful",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Dark",
+          "tag_id": "urn:tag:plot:qloo:dark",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Cold war",
+          "tag_id": "urn:tag:keyword:media:cold_war",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Nerd",
+          "tag_id": "urn:tag:keyword:media:nerd",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Mother daughter relationship",
+          "tag_id": "urn:tag:keyword:media:mother_daughter_relationship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Heroine",
+          "tag_id": "urn:tag:keyword:media:heroine",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Nosebleed",
+          "tag_id": "urn:tag:keyword:media:nosebleed",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Government conspiracy",
+          "tag_id": "urn:tag:archetype:qloo:government_conspiracy",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Forest",
+          "tag_id": "urn:tag:keyword:media:forest",
+          "type": "urn:tag:keyword:media"
+        }
+      ]
+    },
+    {
+      "name": "Stranger Things",
+      "entity_id": "31A9FED3-893B-4A9F-B845-8614F2A20509",
+      "types": [
+        "urn:entity:place"
+      ],
+      "properties": {
+        "akas": [
+          {
+            "language": "",
+            "value": "Stranger Things, 525 Central Ave Great Falls, MT 59401"
+          }
+        ],
+        "address": "525 Central Ave Great Falls, MT 59401",
+        "business_rating": 4.5,
+        "description": "Independent metaphysical shop on Central Avenue offering crystals, herbs, tarot, and spiritual supplies in downtown Great Falls, Montana.",
+        "external": {
+          "google_place": {
+            "id": "2d0428ef71e299b8",
+            "place_id": "ChIJNaaXFu03QlMRuJnice8oBC0"
+          }
+        },
+        "geocode": {
+          "city": "Great Falls",
+          "admin1_region": "Montana",
+          "admin2_region": "Cascade County",
+          "country_code": "US",
+          "country": "United States"
+        },
+        "hours": {
+          "sunday": [
+            {
+              "closed": true
+            }
+          ],
+          "monday": [
+            {
+              "closed": false,
+              "opens": "T10:00:00",
+              "closes": "T18:00:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "closed": false,
+              "opens": "T10:00:00",
+              "closes": "T18:00:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "closed": false,
+              "opens": "T10:00:00",
+              "closes": "T18:00:00"
+            }
+          ],
+          "thursday": [
+            {
+              "closed": false,
+              "opens": "T10:00:00",
+              "closes": "T18:00:00"
+            }
+          ],
+          "friday": [
+            {
+              "closed": false,
+              "opens": "T10:00:00",
+              "closes": "T18:00:00"
+            }
+          ],
+          "saturday": [
+            {
+              "closed": false,
+              "opens": "T10:00:00",
+              "closes": "T18:00:00"
+            }
+          ]
+        },
+        "image": {
+          "url": "https://images.qloo.com/i/31A9FED3-893B-4A9F-B845-8614F2A20509-420x-auto.jpg"
+        },
+        "is_closed": false,
+        "phone": "+14063151599",
+        "price_range": {
+          "currency": "usd"
+        },
+        "website": "https://www.facebook.com/522centralave/",
+        "primary_genre": {
+          "id": "urn:tag:genre:place:metaphysical_supply_store",
+          "name": "Metaphysical supply store",
+          "type": "urn:tag:genre:place",
+          "akas": [
+            {
+              "language": "az",
+              "value": "\"Metafizika malları mağazası\""
+            },
+            {
+              "language": "sq",
+              "value": "\"Dyqan me artikuj metafizikë\""
+            },
+            {
+              "language": "km",
+              "value": "\"ហាងលក់សម្ភារៈមេតាភីហ្សិក\""
+            },
+            {
+              "language": "hu",
+              "value": "\"Metafizikai szaküzlet\""
+            },
+            {
+              "language": "et",
+              "value": "\"Metafüüsiliste kaupade pood\""
+            },
+            {
+              "language": "it",
+              "value": "\"Negozio di articoli esoterici\""
+            },
+            {
+              "language": "ja",
+              "value": "\"メタフィジカルショップ\""
+            },
+            {
+              "language": "es_ar",
+              "value": "\"Tienda de artículos esotéricos\""
+            },
+            {
+              "language": "es",
+              "value": "\"Tienda de artículos esotéricos\""
+            },
+            {
+              "language": "es_la",
+              "value": "\"Tienda de artículos esotéricos\""
+            },
+            {
+              "language": "lv",
+              "value": "\"Metafizikas preču veikals\""
+            },
+            {
+              "language": "zh_tw",
+              "value": "\"形上學用品店\""
+            },
+            {
+              "language": "sw",
+              "value": "\"Duka la vifaa vya metafizikia\""
+            },
+            {
+              "language": "fr",
+              "value": "\"Boutique ésotérique\""
+            },
+            {
+              "language": "fr_ca",
+              "value": "\"Boutique ésotérique\""
+            },
+            {
+              "language": "nb",
+              "value": "\"Butikk for metafysiske artikler\""
+            },
+            {
+              "language": "kk",
+              "value": "\"Метафизикалық тауарлар дүкені\""
+            },
+            {
+              "language": "bn",
+              "value": "\"মেটাফিজিক্যাল সাপ্লাই স্টোর\""
+            },
+            {
+              "language": "lo",
+              "value": "\"ຮ້ານຂາຍເຄື່ອງອຸປະກອນເມຕາຟີຊິກ\""
+            },
+            {
+              "language": "vi",
+              "value": "\"Cửa hàng vật phẩm siêu hình\""
+            },
+            {
+              "language": "az",
+              "value": "\"Metafizika mağazası\""
+            },
+            {
+              "language": "th",
+              "value": "\"ร้านขายอุปกรณ์ทางจิตวิญญาณ\""
+            },
+            {
+              "language": "bg",
+              "value": "\"Магазин за метафизични стоки\""
+            },
+            {
+              "language": "my",
+              "value": "\"မက်တာဖစ်ဇစ်ပစ္စည်းဆိုင်\""
+            },
+            {
+              "language": "sk",
+              "value": "\"Obchod s metafyzickými potrebami\""
+            },
+            {
+              "language": "ms",
+              "value": "\"Kedai bekalan metafizik\""
+            },
+            {
+              "language": "sr",
+              "value": "\"Продавница метафизичких потрепштина\""
+            },
+            {
+              "language": "ta",
+              "value": "\"மெட்டாபிசிகல் சப்ளை ஸ்டோர்\""
+            },
+            {
+              "language": "tl",
+              "value": "\"Tindahan ng mga gamit na metapisikal\""
+            },
+            {
+              "language": "te",
+              "value": "\"మెటాఫిజికల్ సప్లై స్టోర్\""
+            },
+            {
+              "language": "he",
+              "value": "\"חנות למוצרים מטאפיזיים\""
+            },
+            {
+              "language": "ja",
+              "value": "\"形而上学用品店\""
+            },
+            {
+              "language": "zh",
+              "value": "\"形而上学用品店\""
+            },
+            {
+              "language": "ko",
+              "value": "\"형이상학 용품점\""
+            },
+            {
+              "language": "de",
+              "value": "\"Esoterikladen\""
+            },
+            {
+              "language": "hr",
+              "value": "\"Trgovina metafizičkim potrepštinama\""
+            },
+            {
+              "language": "fi",
+              "value": "\"Metafyysinen kauppa\""
+            },
+            {
+              "language": "ca",
+              "value": "\"Botiga de subministraments metafísics\""
+            },
+            {
+              "language": "tr",
+              "value": "\"Metafizik malzemeleri mağazası\""
+            },
+            {
+              "language": "cs",
+              "value": "\"Obchod s metafyzickými potřebami\""
+            },
+            {
+              "language": "my",
+              "value": "\"မက်တာဖီဇစ်ပစ္စည်းဆိုင်\""
+            },
+            {
+              "language": "ka",
+              "value": "\"მეტაფიზიკური ნივთების მაღაზია\""
+            },
+            {
+              "language": "eu",
+              "value": "\"Metafisika-denda\""
+            },
+            {
+              "language": "el",
+              "value": "\"Κατάστημα μεταφυσικών ειδών\""
+            },
+            {
+              "language": "ro",
+              "value": "\"Magazin de produse metafizice\""
+            },
+            {
+              "language": "en_gb",
+              "value": "\"Metaphysical supply store\""
+            },
+            {
+              "language": "pt",
+              "value": "\"Loja de artigos esotéricos\""
+            },
+            {
+              "language": "ar",
+              "value": "\"متجر مستلزمات ميتافيزيقية\""
+            },
+            {
+              "language": "nl",
+              "value": "\"Esoterische winkel\""
+            },
+            {
+              "language": "ru",
+              "value": "\"Магазин метафизических товаров\""
+            },
+            {
+              "language": "mk",
+              "value": "\"Продавница за метафизички производи\""
+            },
+            {
+              "language": "id",
+              "value": "\"Toko perlengkapan metafisika\""
+            },
+            {
+              "language": "pl",
+              "value": "\"Sklep z artykułami metafizycznymi\""
+            },
+            {
+              "language": "hi",
+              "value": "\"मेटाफिजिकल सप्लाई स्टोर\""
+            },
+            {
+              "language": "lo",
+              "value": "\"ຮ້ານຂາຍອຸປະກອນເມຕາຟີຊິກ\""
+            },
+            {
+              "language": "tl",
+              "value": "\"Tindahan ng mga gamit na metafisikal\""
+            },
+            {
+              "language": "uk",
+              "value": "\"Магазин метафізичних товарів\""
+            },
+            {
+              "language": "sl",
+              "value": "\"Trgovina z metafizičnimi pripomočki\""
+            },
+            {
+              "language": "af",
+              "value": "\"Metafisiese voorraadwinkel\""
+            },
+            {
+              "language": "sv",
+              "value": "\"Butik för metafysiska artiklar\""
+            },
+            {
+              "language": "et",
+              "value": "\"Metafüüsikatarvete pood\""
+            },
+            {
+              "language": "da",
+              "value": "\"Butik med metafysiske artikler\""
+            },
+            {
+              "language": "lt",
+              "value": "\"Metafizikos prekių parduotuvė\""
+            },
+            {
+              "language": "ar",
+              "value": "\"متجر مستلزمات الميتافيزيقيا\""
+            },
+            {
+              "language": "nb",
+              "value": "\"Metafysisk butikk\""
+            },
+            {
+              "language": "bs",
+              "value": "\"Prodavnica metafizičkih potrepština\""
+            },
+            {
+              "language": "pt_pt",
+              "value": "\"Loja de artigos metafísicos\""
+            },
+            {
+              "language": "gl",
+              "value": "\"Tenda de artigos metafísicos\""
+            }
+          ]
+        }
+      },
+      "popularity": 0.9671093320792942,
+      "disambiguation": "525 Central Ave Great Falls, MT 59401",
+      "location": {
+        "lat": 47.505489499999996,
+        "lon": -111.297967
+      },
+      "tags": [
+        {
+          "name": "Walkable",
+          "tag_id": "urn:tag:neighborhood_characteristic:qloo:walkable",
+          "type": "urn:tag:neighborhood_characteristic:qloo",
+          "value": "urn:tag:neighborhood_characteristic:qloo:walkable"
+        },
+        {
+          "name": "Lively",
+          "tag_id": "urn:tag:ambience:qloo:lively",
+          "type": "urn:tag:ambience:qloo",
+          "value": "urn:tag:ambience:qloo:lively"
+        },
+        {
+          "name": "Bohemian",
+          "tag_id": "urn:tag:decor:qloo:bohemian",
+          "type": "urn:tag:decor:qloo",
+          "value": "urn:tag:decor:qloo:bohemian"
+        },
+        {
+          "name": "Welcoming",
+          "tag_id": "urn:tag:ambience:qloo:welcoming",
+          "type": "urn:tag:ambience:qloo",
+          "value": "urn:tag:ambience:qloo:welcoming"
+        },
+        {
+          "name": "Wheelchair accessible parking lot",
+          "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot",
+          "type": "urn:tag:accessibility:place",
+          "value": "urn:tag:accessibility:place:wheelchair_accessible_parking_lot"
+        },
+        {
+          "name": "Central avenue shops",
+          "tag_id": "urn:tag:nearby_attraction:qloo:central_avenue_shops",
+          "type": "urn:tag:nearby_attraction:qloo",
+          "value": "urn:tag:nearby_attraction:qloo:central_avenue_shops"
+        },
+        {
+          "name": "Tarot reading",
+          "tag_id": "urn:tag:activity_type:qloo:tarot_reading",
+          "type": "urn:tag:activity_type:qloo",
+          "value": "urn:tag:activity_type:qloo:tarot_reading"
+        },
+        {
+          "name": "Street view",
+          "tag_id": "urn:tag:view:qloo:street_view",
+          "type": "urn:tag:view:qloo",
+          "value": "urn:tag:view:qloo:street_view"
+        },
+        {
+          "name": "Downtown district",
+          "tag_id": "urn:tag:neighborhood_characteristic:qloo:downtown_district",
+          "type": "urn:tag:neighborhood_characteristic:qloo",
+          "value": "urn:tag:neighborhood_characteristic:qloo:downtown_district"
+        },
+        {
+          "name": "Unique",
+          "tag_id": "urn:tag:ambience:qloo:unique",
+          "type": "urn:tag:ambience:qloo",
+          "value": "urn:tag:ambience:qloo:unique"
+        },
+        {
+          "name": "Mineral collecting",
+          "tag_id": "urn:tag:interests:qloo:mineral_collecting",
+          "type": "urn:tag:interests:qloo",
+          "value": "urn:tag:interests:qloo:mineral_collecting"
+        },
+        {
+          "name": "Mystic",
+          "tag_id": "urn:tag:ambience:qloo:mystic",
+          "type": "urn:tag:ambience:qloo",
+          "value": "urn:tag:ambience:qloo:mystic"
+        },
+        {
+          "name": "Quirky",
+          "tag_id": "urn:tag:ambience:qloo:quirky",
+          "type": "urn:tag:ambience:qloo",
+          "value": "urn:tag:ambience:qloo:quirky"
+        },
+        {
+          "name": "Themed",
+          "tag_id": "urn:tag:decor:qloo:themed",
+          "type": "urn:tag:decor:qloo",
+          "value": "urn:tag:decor:qloo:themed"
+        },
+        {
+          "name": "Cash only",
+          "tag_id": "urn:tag:payments:place:cash_only",
+          "type": "urn:tag:payments:place",
+          "value": "urn:tag:payments:place:cash_only"
+        },
+        {
+          "name": "Delivery",
+          "tag_id": "urn:tag:service_options:place:delivery",
+          "type": "urn:tag:service_options:place",
+          "value": "urn:tag:service_options:place:delivery"
+        },
+        {
+          "name": "Zen",
+          "tag_id": "urn:tag:ambience:qloo:zen",
+          "type": "urn:tag:ambience:qloo",
+          "value": "urn:tag:ambience:qloo:zen"
+        },
+        {
+          "name": "Mystical",
+          "tag_id": "urn:tag:decor:qloo:mystical",
+          "type": "urn:tag:decor:qloo",
+          "value": "urn:tag:decor:qloo:mystical"
+        },
+        {
+          "name": "Wheelchair accessible entrance",
+          "tag_id": "urn:tag:accessibility:place:wheelchair_accessible_entrance",
+          "type": "urn:tag:accessibility:place",
+          "value": "urn:tag:accessibility:place:wheelchair_accessible_entrance"
+        },
+        {
+          "name": "Central",
+          "tag_id": "urn:tag:neighborhood_characteristic:qloo:central",
+          "type": "urn:tag:neighborhood_characteristic:qloo",
+          "value": "urn:tag:neighborhood_characteristic:qloo:central"
+        },
+        {
+          "name": "Historic",
+          "tag_id": "urn:tag:setting:qloo:historic",
+          "type": "urn:tag:setting:qloo",
+          "value": "urn:tag:setting:qloo:historic"
+        },
+        {
+          "name": "Vintage curio",
+          "tag_id": "urn:tag:decor:qloo:vintage_curio",
+          "type": "urn:tag:decor:qloo",
+          "value": "urn:tag:decor:qloo:vintage_curio"
+        },
+        {
+          "name": "Stylish",
+          "tag_id": "urn:tag:ambience:qloo:stylish",
+          "type": "urn:tag:ambience:qloo",
+          "value": "urn:tag:ambience:qloo:stylish"
+        },
+        {
+          "name": "Astrology",
+          "tag_id": "urn:tag:interests:qloo:astrology",
+          "type": "urn:tag:interests:qloo",
+          "value": "urn:tag:interests:qloo:astrology"
+        },
+        {
+          "name": "Charming",
+          "tag_id": "urn:tag:ambience:qloo:charming",
+          "type": "urn:tag:ambience:qloo",
+          "value": "urn:tag:ambience:qloo:charming"
+        },
+        {
+          "name": "Urban",
+          "tag_id": "urn:tag:setting:qloo:urban",
+          "type": "urn:tag:setting:qloo",
+          "value": "urn:tag:setting:qloo:urban"
+        },
+        {
+          "name": "Education learning",
+          "tag_id": "urn:tag:activity_type:qloo:education_learning",
+          "type": "urn:tag:activity_type:qloo",
+          "value": "urn:tag:activity_type:qloo:education_learning"
+        },
+        {
+          "name": "Gift items",
+          "tag_id": "urn:tag:amenity:qloo:gift_items",
+          "type": "urn:tag:amenity:qloo",
+          "value": "urn:tag:amenity:qloo:gift_items"
+        },
+        {
+          "name": "Historic",
+          "tag_id": "urn:tag:neighborhood_characteristic:qloo:historic",
+          "type": "urn:tag:neighborhood_characteristic:qloo",
+          "value": "urn:tag:neighborhood_characteristic:qloo:historic"
+        },
+        {
+          "name": "Alternative healing",
+          "tag_id": "urn:tag:interests:qloo:alternative_healing",
+          "type": "urn:tag:interests:qloo",
+          "value": "urn:tag:interests:qloo:alternative_healing"
+        },
+        {
+          "name": "Mask required",
+          "tag_id": "urn:tag:not_for_display:place:mask_required",
+          "type": "urn:tag:not_for_display:place",
+          "value": "urn:tag:not_for_display:place:mask_required"
+        },
+        {
+          "name": "Spirituality",
+          "tag_id": "urn:tag:interests:qloo:spirituality",
+          "type": "urn:tag:interests:qloo",
+          "value": "urn:tag:interests:qloo:spirituality"
+        },
+        {
+          "name": "Same day delivery",
+          "tag_id": "urn:tag:service_options:place:same_day_delivery",
+          "type": "urn:tag:service_options:place",
+          "value": "urn:tag:service_options:place:same_day_delivery"
+        },
+        {
+          "name": "Credit cards",
+          "tag_id": "urn:tag:payments:place:credit_cards",
+          "type": "urn:tag:payments:place",
+          "value": "urn:tag:payments:place:credit_cards"
+        },
+        {
+          "name": "Warm",
+          "tag_id": "urn:tag:ambience:qloo:warm",
+          "type": "urn:tag:ambience:qloo",
+          "value": "urn:tag:ambience:qloo:warm"
+        },
+        {
+          "name": "Relaxing",
+          "tag_id": "urn:tag:ambience:qloo:relaxing",
+          "type": "urn:tag:ambience:qloo",
+          "value": "urn:tag:ambience:qloo:relaxing"
+        },
+        {
+          "name": "Destination",
+          "tag_id": "urn:tag:visit_intent:qloo:destination",
+          "type": "urn:tag:visit_intent:qloo",
+          "value": "urn:tag:visit_intent:qloo:destination"
+        },
+        {
+          "name": "Eclectic",
+          "tag_id": "urn:tag:decor:qloo:eclectic",
+          "type": "urn:tag:decor:qloo",
+          "value": "urn:tag:decor:qloo:eclectic"
+        },
+        {
+          "name": "Afternoon",
+          "tag_id": "urn:tag:time_of_day_fit:qloo:afternoon",
+          "type": "urn:tag:time_of_day_fit:qloo",
+          "value": "urn:tag:time_of_day_fit:qloo:afternoon"
+        },
+        {
+          "name": "Routine visit",
+          "tag_id": "urn:tag:visit_intent:qloo:routine_visit",
+          "type": "urn:tag:visit_intent:qloo",
+          "value": "urn:tag:visit_intent:qloo:routine_visit"
+        },
+        {
+          "name": "Witchcraft supplies",
+          "tag_id": "urn:tag:activity_type:qloo:witchcraft_supplies",
+          "type": "urn:tag:activity_type:qloo",
+          "value": "urn:tag:activity_type:qloo:witchcraft_supplies"
+        },
+        {
+          "name": "Cultural",
+          "tag_id": "urn:tag:ambience:qloo:cultural",
+          "type": "urn:tag:ambience:qloo",
+          "value": "urn:tag:ambience:qloo:cultural"
+        },
+        {
+          "name": "Electronics",
+          "tag_id": "urn:tag:recycling:place:electronics",
+          "type": "urn:tag:recycling:place",
+          "value": "urn:tag:recycling:place:electronics"
+        },
+        {
+          "name": "Metaphysical supplies",
+          "tag_id": "urn:tag:amenity:qloo:metaphysical_supplies",
+          "type": "urn:tag:amenity:qloo",
+          "value": "urn:tag:amenity:qloo:metaphysical_supplies"
+        },
+        {
+          "name": "Quick visit",
+          "tag_id": "urn:tag:planning:place:quick_visit",
+          "type": "urn:tag:planning:place",
+          "value": "urn:tag:planning:place:quick_visit"
+        },
+        {
+          "name": "Onsite services",
+          "tag_id": "urn:tag:service_options:place:onsite_services",
+          "type": "urn:tag:service_options:place",
+          "value": "urn:tag:service_options:place:onsite_services"
+        },
+        {
+          "name": "Crystal collecting",
+          "tag_id": "urn:tag:activity_type:qloo:crystal_collecting",
+          "type": "urn:tag:activity_type:qloo",
+          "value": "urn:tag:activity_type:qloo:crystal_collecting"
+        },
+        {
+          "name": "Downtown",
+          "tag_id": "urn:tag:setting:qloo:downtown",
+          "type": "urn:tag:setting:qloo",
+          "value": "urn:tag:setting:qloo:downtown"
+        },
+        {
+          "name": "Eclectic",
+          "tag_id": "urn:tag:ambience:qloo:eclectic",
+          "type": "urn:tag:ambience:qloo",
+          "value": "urn:tag:ambience:qloo:eclectic"
+        },
+        {
+          "name": "City center",
+          "tag_id": "urn:tag:setting:qloo:city_center",
+          "type": "urn:tag:setting:qloo",
+          "value": "urn:tag:setting:qloo:city_center"
+        },
+        {
+          "name": "Shopping",
+          "tag_id": "urn:tag:activity_type:qloo:shopping",
+          "type": "urn:tag:activity_type:qloo",
+          "value": "urn:tag:activity_type:qloo:shopping"
+        },
+        {
+          "name": "Thrifting",
+          "tag_id": "urn:tag:interests:qloo:thrifting",
+          "type": "urn:tag:interests:qloo",
+          "value": "urn:tag:interests:qloo:thrifting"
+        },
+        {
+          "name": "Spiritual",
+          "tag_id": "urn:tag:ambience:qloo:spiritual",
+          "type": "urn:tag:ambience:qloo",
+          "value": "urn:tag:ambience:qloo:spiritual"
+        },
+        {
+          "name": "Spooky",
+          "tag_id": "urn:tag:ambience:qloo:spooky",
+          "type": "urn:tag:ambience:qloo",
+          "value": "urn:tag:ambience:qloo:spooky"
+        },
+        {
+          "name": "Metaphysical supply store",
+          "tag_id": "urn:tag:category:place:metaphysical_supply_store",
+          "type": "urn:tag:category:place",
+          "value": "urn:tag:category:place:metaphysical_supply_store"
+        },
+        {
+          "name": "Culture arts",
+          "tag_id": "urn:tag:activity_type:qloo:culture_arts",
+          "type": "urn:tag:activity_type:qloo",
+          "value": "urn:tag:activity_type:qloo:culture_arts"
+        },
+        {
+          "name": "Crystal inventory",
+          "tag_id": "urn:tag:amenity:qloo:crystal_inventory",
+          "type": "urn:tag:amenity:qloo",
+          "value": "urn:tag:amenity:qloo:crystal_inventory"
+        },
+        {
+          "name": "Commercial",
+          "tag_id": "urn:tag:neighborhood_characteristic:qloo:commercial",
+          "type": "urn:tag:neighborhood_characteristic:qloo",
+          "value": "urn:tag:neighborhood_characteristic:qloo:commercial"
+        },
+        {
+          "name": "Spooky",
+          "tag_id": "urn:tag:decor:qloo:spooky",
+          "type": "urn:tag:decor:qloo",
+          "value": "urn:tag:decor:qloo:spooky"
+        },
+        {
+          "name": "Vintage goods",
+          "tag_id": "urn:tag:amenity:qloo:vintage_goods",
+          "type": "urn:tag:amenity:qloo",
+          "value": "urn:tag:amenity:qloo:vintage_goods"
+        },
+        {
+          "name": "Tarot readings",
+          "tag_id": "urn:tag:amenity:qloo:tarot_readings",
+          "type": "urn:tag:amenity:qloo",
+          "value": "urn:tag:amenity:qloo:tarot_readings"
+        }
+      ]
+    },
+    {
+      "name": "Stranger Things",
+      "entity_id": "AD813BF7-6362-4EDD-B940-5C7A576D3A19",
+      "types": [
+        "urn:entity:album"
+      ],
+      "properties": {
+        "duration": {
+          "album": 3394
+        },
+        "external": {
+          "spotify": {}
+        },
+        "image": {
+          "url": "https://images.qloo.com/i/AD813BF7-6362-4EDD-B940-5C7A576D3A19-420x-auto.jpg"
+        },
+        "release_date": "2006-01-01",
+        "track_count": 13
+      },
+      "popularity": 0.7606067234369932,
+      "disambiguation": "Stranger Things"
+    },
+    {
+      "name": "Stranger Things",
+      "entity_id": "1860CC25-1D5B-4CEE-8E8A-7AA46DE16B1D",
+      "types": [
+        "urn:entity:album"
+      ],
+      "properties": {
+        "duration": {
+          "album": 2827
+        },
+        "external": {
+          "spotify": {}
+        },
+        "image": {
+          "url": "https://images.qloo.com/i/1860CC25-1D5B-4CEE-8E8A-7AA46DE16B1D-420x-auto.jpg"
+        },
+        "release_date": "2016-02-26",
+        "track_count": 11
+      },
+      "popularity": 0.6457599505208137,
+      "disambiguation": "Stranger Things",
+      "tags": [
+        {
+          "name": "indie",
+          "tag_id": "E9F4BA69-1E19-4F90-B2DE-40D4BEF94048",
+          "type": "urn:tag:genre",
+          "value": "urn:tag:genre:indie"
+        },
+        {
+          "name": "indie rock",
+          "tag_id": "68886DD1-CCD1-47DA-A7A7-3668A1B1BC19",
+          "type": "urn:tag:genre",
+          "value": "urn:tag:genre:indie_rock"
+        },
+        {
+          "name": "indie pop",
+          "tag_id": "3FDD5773-FFA6-4306-86C6-D33836DF3E9E",
+          "type": "urn:tag:genre",
+          "value": "urn:tag:genre:indie_pop"
+        },
+        {
+          "name": "alternative",
+          "tag_id": "0FDECC0B-CFC5-4131-9CA2-BB5DC914A88C",
+          "type": "urn:tag:genre",
+          "value": "urn:tag:genre:alternative"
+        }
+      ]
+    },
+    {
+      "name": "Stranger Things",
+      "entity_id": "F4A9AF83-65B1-4FBC-AF9F-F3AF0F59D0AD",
+      "types": [
+        "urn:entity:album"
+      ],
+      "properties": {
+        "duration": {
+          "album": 0
+        },
+        "external": {
+          "spotify": {}
+        },
+        "image": {
+          "url": "https://images.qloo.com/i/F4A9AF83-65B1-4FBC-AF9F-F3AF0F59D0AD-420x-auto.jpg"
+        },
+        "release_date": "2010-10-24",
+        "track_count": 13
+      },
+      "popularity": 0.5745896219418066,
+      "disambiguation": "Stranger Things"
+    }
+  ]
+}
