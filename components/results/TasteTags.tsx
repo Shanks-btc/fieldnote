@@ -24,7 +24,7 @@ export function TasteTags({ tags }: { tags: string[] }) {
           type="button"
           onClick={() => setAll(!all)}
           aria-expanded={all}
-          className="font-mono text-xs text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
+          className="-my-3 py-3 font-mono text-xs text-muted-foreground underline-offset-4 hover:text-foreground hover:underline"
         >
           {all ? "Show less" : `Show all (${tags.length})`}
         </button>

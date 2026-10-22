@@ -324,7 +324,7 @@
 }
 
 /* Phones: lines wrap instead of typing, and side slides become slide-ups. */
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
   .fn-type-line {
     white-space: normal;
     border-right: 0;
@@ -336,6 +336,9 @@
   .fn-type-line {
     transform: translateY(12px);
   }
+}
+
+@media (max-width: 767px) {
   .fn-slide-left,
   .fn-slide-right {
     transform: translateY(24px);

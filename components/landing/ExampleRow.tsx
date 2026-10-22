@@ -41,7 +41,7 @@ export function ExampleRow({ name, scores, rank }: { name: string; scores: Examp
       <AlbumArt url={a.imageUrl} name={a.name} className="size-11 rounded-full" eager />
       <div className="min-w-0 flex-1">
         <div className="flex items-center gap-2">
-          <p className="truncate text-[15px] font-medium text-black/85">{a.name}</p>
+          <p className="min-w-0 break-words text-[15px] font-medium leading-snug text-black/85 sm:truncate">{a.name}</p>
           <a
             href={`https://open.spotify.com/artist/${a.spotifyId}`}
             target="_blank"

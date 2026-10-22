@@ -123,7 +123,7 @@ export function ResultsView({ id }: { id: string }) {
         </div>
       )}
 
-      <div className="flex gap-3">
+      <div className="flex flex-wrap gap-3">
         <Button asChild variant="outline">
           <Link href={`/brief/${id}/research`}>View research steps</Link>
         </Button>
