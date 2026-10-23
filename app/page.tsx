@@ -9,6 +9,7 @@ import { PipelineArt } from "@/components/landing/PipelineArt";
 import Link from "next/link";
 import { EngineSection, EvidenceSection, EYEBROW, H2, LEAD, Split, VersusSection } from "@/components/landing/Sections";
 import { DualCTA } from "@/components/landing/DualCTA";
+import { AudienceSection } from "@/components/landing/AudienceSection";
 import { ProblemSection } from "@/components/landing/ProblemSection";
 import { UseCaseSection } from "@/components/landing/UseCaseSection";
 import { FeaturesSection } from "@/components/landing/FeaturesSection";
@@ -213,6 +214,8 @@ export default function LandingPage() {
       <VersusSection />
 
       <FAQ />
+
+      <AudienceSection />
 
       <DualCTA />
 

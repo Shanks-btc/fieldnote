@@ -367,3 +367,93 @@
     animation: none !important;
   }
 }
+
+/* ===== "Who it's for": card reveal wipe, icon draw, accent line ================ */
+
+/* The wipe ends with a negative inset so the card's hover shadow isn't clipped afterwards. */
+@keyframes fn-card-reveal {
+  0% {
+    clip-path: inset(0 100% 0 0);
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    clip-path: inset(-40px -40px -40px -40px);
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fn-icon-draw {
+  0% {
+    stroke-dashoffset: 60;
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+@keyframes fn-accent-line {
+  0% {
+    transform: scaleX(0);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+.fn-card-reveal {
+  opacity: 0;
+  transform: translateY(16px);
+}
+.fn-card-reveal.in {
+  animation: fn-card-reveal 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: var(--d, 0s);
+}
+
+/* stroke-dash properties are inherited, so setting them on the <svg> draws every child stroke */
+.fn-icon-draw {
+  stroke-dasharray: 60;
+  stroke-dashoffset: 60;
+  opacity: 0;
+}
+.fn-icon-draw.in {
+  animation: fn-icon-draw 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: var(--d, 0s);
+}
+
+.fn-accent-line {
+  transform: scaleX(0);
+  transform-origin: left;
+}
+.fn-accent-line.in {
+  animation: fn-accent-line 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation-delay: var(--d, 0s);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fn-card-reveal,
+  .fn-card-reveal.in {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+  .fn-icon-draw,
+  .fn-icon-draw.in {
+    stroke-dasharray: none;
+    stroke-dashoffset: 0;
+    opacity: 1;
+    animation: none;
+  }
+  .fn-accent-line,
+  .fn-accent-line.in {
+    transform: scaleX(1);
+    animation: none;
+  }
+}
