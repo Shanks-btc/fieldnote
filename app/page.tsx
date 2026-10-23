@@ -1,5 +1,4 @@
 import { PageSection } from "@/components/layout/PageSection";
-import { Eyebrow } from "@/components/shared/TextLink";
 import { ExampleRow, SCORE_COLS, type ExampleScores } from "@/components/landing/ExampleRow";
 import { ArtStrip } from "@/components/landing/ArtStrip";
 import { Marquee } from "@/components/landing/Marquee";
@@ -10,7 +9,6 @@ import Link from "next/link";
 import { EngineSection, EvidenceSection, EYEBROW, H2, LEAD, Split, VersusSection } from "@/components/landing/Sections";
 import { DualCTA } from "@/components/landing/DualCTA";
 import { AudienceSection } from "@/components/landing/AudienceSection";
-import { ProblemSection } from "@/components/landing/ProblemSection";
 import { UseCaseSection } from "@/components/landing/UseCaseSection";
 import { FeaturesSection } from "@/components/landing/FeaturesSection";
 import { FAQ } from "@/components/landing/FAQ";
@@ -106,8 +104,6 @@ export default function LandingPage() {
 
       <Marquee />
 
-      <ProblemSection />
-
       {/* 2. Product preview */}
       <PageSection className="pb-12 pt-8 sm:pb-16 sm:pt-12 md:pb-16 md:pt-12">
         <FadeIn>
@@ -150,8 +146,6 @@ export default function LandingPage() {
 
       <EvidenceSection />
 
-      <FeaturesSection />
-
       {/* 3. How it works */}
       <PageSection id="how-it-works" className="scroll-mt-20 border-t border-border py-12 sm:py-14 md:py-16">
         <Split
@@ -189,12 +183,16 @@ export default function LandingPage() {
         </div>
       </PageSection>
 
+      <FeaturesSection />
+
       <EngineSection />
 
       {/* 4. Stats */}
       <PageSection className="pb-12 pt-0 sm:pb-16 md:pb-16 md:pt-0">
         <StatsRow />
       </PageSection>
+
+      <VersusSection />
 
       {/* 5. Pillars */}
       <div className="border-t border-neutral-200 bg-white">
@@ -211,11 +209,9 @@ export default function LandingPage() {
         </PageSection>
       </div>
 
-      <VersusSection />
+      <AudienceSection />
 
       <FAQ />
-
-      <AudienceSection />
 
       <DualCTA />
 
