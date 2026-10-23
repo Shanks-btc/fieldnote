@@ -31,7 +31,7 @@ export const recommendationSchema = z.object({
   spotifyArtistId: z.string().nullable(),
   spotifyUrl: z.string().nullable(),
   scores: z.object({
-    /** LLM judgement; null until the LLM step exists. */
+    /** LLM judgement of fit to the brief; null when the LLM step was unavailable or failed for this artist. */
     creativeFit: score01.nullable(),
     /** Qloo affinity, min-max rescaled within the shortlist. */
     culturalFit: score01.nullable(),
@@ -42,6 +42,11 @@ export const recommendationSchema = z.object({
   }),
   evidence: evidenceSchema,
   explanation: z.string(),
+  /** The LLM's reasoning behind creativeFit. Absent when creative fit was not scored (and on older cached results). */
+  reasoning: z
+    .object({ toneMatch: z.string(), genreRelevance: z.string(), placementFit: z.string(), risks: z.string() })
+    .nullable()
+    .optional(),
 });
 
 export const recommendationListSchema = z.array(recommendationSchema);

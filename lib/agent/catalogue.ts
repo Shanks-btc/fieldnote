@@ -32,13 +32,13 @@ export const STEP_DEFINITIONS: StepDefinition[] = [
   {
     id: "scoreAndRank",
     label: "Score and rank",
-    description: "Rescale cultural fit, compare each artist's audience to the project's, and rank",
+    description: "Score creative fit against the brief, rescale cultural fit, compare each artist's audience to the project's, and rank",
     qlooEndpoint: "GET /v2/insights (urn:demographics)",
   },
   {
     id: "generateExplanations",
     label: "Write evidence summaries",
-    description: "Placeholder summaries built from the retrieved data (LLM step not enabled yet)",
+    description: "A specific explanation per artist, written from the brief and the retrieved data",
     qlooEndpoint: null,
   },
 ];

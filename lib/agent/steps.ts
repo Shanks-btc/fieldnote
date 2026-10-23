@@ -3,6 +3,7 @@ import { pickBestMatch } from "@/lib/qloo/normalize";
 import { isCultureTag } from "@/lib/qloo/tagFilter";
 import { getAudienceDemographics, getDemographicsBatch, getTasteTags, recommendEntities } from "@/lib/qloo/insights";
 import { ENTITY_TYPES, type Demographics, type Entity, type EntityTypeUrn, type QlooResult } from "@/lib/qloo/types";
+import { evaluateArtists, llmConfigured, type LlmEvaluation } from "@/lib/llm/evaluate";
 import { compositeScore } from "@/lib/scoring/engine";
 import { demographicSimilarity, minMaxRescale } from "@/lib/scoring/normalize";
 import type { Brief, ProjectType } from "@/lib/validation/brief";
@@ -17,6 +18,8 @@ export interface RunContext {
   demographics: Demographics | null;
   candidates: Entity[];
   recommendations: Recommendation[];
+  /** LLM creative-fit evaluations keyed by Qloo entity id (only artists whose call succeeded). */
+  evaluations: Map<string, LlmEvaluation>;
   warnings: string[];
 }
 
@@ -29,7 +32,7 @@ export interface StepOutcome {
 }
 
 export function newContext(brief: Brief): RunContext {
-  return { brief, project: null, tasteProfile: [], demographics: null, candidates: [], recommendations: [], warnings: [] };
+  return { brief, project: null, tasteProfile: [], demographics: null, candidates: [], recommendations: [], evaluations: new Map(), warnings: [] };
 }
 
 export function projectInfo(ctx: RunContext): ProjectInfo | null {
@@ -207,12 +210,49 @@ export async function recommendArtists(ctx: RunContext): Promise<StepOutcome> {
 
 const ARTIST_TAG_CATEGORY = /^urn:tag:(genre|subgenre|style|theme|music)\b/;
 
+const artistTagsOf = (e: Entity) =>
+  [...new Set(e.tags.filter((t) => ARTIST_TAG_CATEGORY.test(t.type)).map((t) => t.name))].slice(0, 8);
+
 export async function scoreAndRank(ctx: RunContext): Promise<StepOutcome> {
   const pool = ctx.candidates;
 
-  // Audience relevance: compare each artist's demographics with the project's (one batched call).
-  let artistDemos: QlooResult<Map<string, Demographics>> | null = null;
-  if (ctx.demographics) artistDemos = await getDemographicsBatch(pool.map((e) => e.id));
+  // Audience relevance (one batched Qloo call) and creative fit (one LLM call per artist) are
+  // independent, so they run together.
+  const demosPromise: Promise<QlooResult<Map<string, Demographics>> | null> = ctx.demographics
+    ? getDemographicsBatch(pool.map((e) => e.id))
+    : Promise.resolve(null);
+  const llmPromise = evaluateArtists(
+    ctx.brief,
+    pool.map((e) => ({ id: e.id, name: e.name, tags: artistTagsOf(e) })),
+    {
+      projectName: ctx.project!.name,
+      tasteTags: ctx.tasteProfile.map((t) => t.name),
+      qlooDomains: [ctx.project!.kind.replace(/^urn:entity:/, ""), "artist", "tags", "demographics"],
+    },
+  ).catch((e) => {
+    console.error("LLM evaluation step failed:", e instanceof Error ? e.message : e);
+    return null;
+  });
+  const [artistDemos, batch] = await Promise.all([demosPromise, llmPromise]);
+
+  let creativeNote = "";
+  if (batch) {
+    ctx.evaluations = batch.evaluations;
+    if (batch.evaluations.size) creativeNote = `; creative fit scored by ${batch.model}`;
+    if (batch.failed.length && batch.evaluations.size) {
+      ctx.warnings.push(
+        `Creative fit could not be scored for ${batch.failed.length} of ${pool.length} candidate artists; those are ranked on the remaining dimensions.`,
+      );
+    }
+  }
+  if (!ctx.evaluations.size) {
+    ctx.warnings.push(
+      llmConfigured()
+        ? "Creative fit could not be scored (the language-model calls failed), so the composite uses cultural fit and audience relevance only."
+        : "Creative fit was not scored because the language-model step is unavailable, so the composite uses cultural fit and audience relevance only.",
+    );
+  }
+
   const sims = pool.map((e) => demographicSimilarity(ctx.demographics, artistDemos?.data.get(e.id)));
 
   const cultural = minMaxRescale(pool.map((e) => e.affinity));
@@ -220,13 +260,14 @@ export async function scoreAndRank(ctx: RunContext): Promise<StepOutcome> {
   const projectTagIds = new Set(ctx.tasteProfile.map((t) => t.id));
 
   const scored = pool.map((e, i) => {
-    const composite = compositeScore({ creativeFit: null, culturalFit: cultural[i], audienceRelevance: audience[i] }) ?? 0;
-    return { e, i, composite };
+    const creativeFit = ctx.evaluations.get(e.id)?.creativeFitScore ?? null;
+    const composite = compositeScore({ creativeFit, culturalFit: cultural[i], audienceRelevance: audience[i] }) ?? 0;
+    return { e, i, composite, creativeFit };
   });
   scored.sort((a, b) => b.composite - a.composite || (b.e.popularity ?? 0) - (a.e.popularity ?? 0));
 
-  ctx.recommendations = scored.slice(0, SHORTLIST_SIZE).map(({ e, i, composite }, idx) => {
-    const artistTags = [...new Set(e.tags.filter((t) => ARTIST_TAG_CATEGORY.test(t.type)).map((t) => t.name))].slice(0, 8);
+  ctx.recommendations = scored.slice(0, SHORTLIST_SIZE).map(({ e, i, composite, creativeFit }, idx) => {
+    const artistTags = artistTagsOf(e);
     return {
       rank: idx + 1,
       qlooEntityId: e.id,
@@ -236,7 +277,7 @@ export async function scoreAndRank(ctx: RunContext): Promise<StepOutcome> {
       previewUrl: null,
       spotifyArtistId: e.spotifyId,
       spotifyUrl: e.spotifyId ? `https://open.spotify.com/artist/${e.spotifyId}` : null,
-      scores: { creativeFit: null, culturalFit: cultural[i], audienceRelevance: audience[i], composite },
+      scores: { creativeFit, culturalFit: cultural[i], audienceRelevance: audience[i], composite },
       evidence: {
         artistTags,
         sharedTags: e.tags.filter((t) => t.id && projectTagIds.has(t.id)).map((t) => t.name),
@@ -247,39 +288,56 @@ export async function scoreAndRank(ctx: RunContext): Promise<StepOutcome> {
         trendDirection: "unknown",
       },
       explanation: "",
+      reasoning: ctx.evaluations.get(e.id)?.reasoning ?? null,
     };
   });
 
   const n = ctx.recommendations.length;
   if (!n) return { status: "empty", summary: "Nothing to rank" };
+  const creativeMissing = ctx.evaluations.size < pool.length;
   if (!ctx.demographics) {
-    return { status: "partial", summary: `Ranked ${n} artists on cultural fit only (no project demographics)` };
+    return { status: "partial", summary: `Ranked ${n} artists without audience scoring (no project demographics)${creativeNote}` };
   }
   if (!artistDemos || artistDemos.status === "error") {
-    ctx.warnings.push("Artist demographics could not be retrieved, so ranking uses cultural fit only.");
-    return { status: "partial", summary: `Ranked ${n} artists on cultural fit only`, error: artistDemos?.error };
+    ctx.warnings.push("Artist demographics could not be retrieved, so audience relevance is not scored.");
+    return { status: "partial", summary: `Ranked ${n} artists without audience scoring${creativeNote}`, error: artistDemos?.error };
   }
-  const missing = pool.filter((e) => !artistDemos!.data.has(e.id)).length;
+  const missing = pool.filter((e) => !artistDemos.data.has(e.id)).length;
   return {
-    status: missing ? "partial" : "ok",
-    summary: `Ranked ${n} of ${pool.length} artists${missing ? `; ${missing} had no demographics` : ""}`,
+    status: missing || creativeMissing ? "partial" : "ok",
+    summary: `Ranked ${n} of ${pool.length} artists${missing ? `; ${missing} had no demographics` : ""}${creativeNote}`,
   };
 }
 
-// ---------- 6. generateExplanations (placeholder text; no LLM yet) ----------
+// ---------- 6. generateExplanations ----------
+
+/** Data-only sentence for artists the LLM did not cover, so a failed call never leaves a blank. */
+function dataSummary(r: Recommendation, project: string): string {
+  const parts = [
+    `Qloo links ${r.artistName} to ${project} with a raw affinity of ${r.evidence.rawAffinity?.toFixed(3) ?? "n/a"}, ranked #${r.rank} on the combined score.`,
+  ];
+  if (r.scores.audienceRelevance != null) {
+    parts.push(`Its audience's age and gender profile scores ${r.scores.audienceRelevance.toFixed(2)} against the project's within this shortlist.`);
+  }
+  if (r.evidence.artistTags.length) parts.push(`Qloo tags: ${r.evidence.artistTags.slice(0, 5).join(", ")}.`);
+  return parts.join(" ");
+}
 
 export async function generateExplanations(ctx: RunContext): Promise<StepOutcome> {
   const project = ctx.project!.name;
+  let written = 0;
   for (const r of ctx.recommendations) {
-    const parts = [
-      `Qloo links ${r.artistName} to ${project} with a raw affinity of ${r.evidence.rawAffinity?.toFixed(3) ?? "n/a"}, ranked #${r.rank} on the combined score.`,
-    ];
-    if (r.scores.audienceRelevance != null) {
-      parts.push(`Its audience's age and gender profile scores ${r.scores.audienceRelevance.toFixed(2)} against the project's within this shortlist.`);
+    const ev = ctx.evaluations.get(r.qlooEntityId);
+    if (ev) {
+      r.explanation = ev.explanation;
+      r.reasoning = ev.reasoning;
+      written++;
+    } else {
+      r.explanation = dataSummary(r, project);
     }
-    if (r.evidence.artistTags.length) parts.push(`Qloo tags: ${r.evidence.artistTags.slice(0, 5).join(", ")}.`);
-    parts.push("(Placeholder summary built from the data above; written explanations come with the LLM step.)");
-    r.explanation = parts.join(" ");
   }
-  return { status: "ok", summary: `Placeholder summaries for ${ctx.recommendations.length} artists` };
+  const total = ctx.recommendations.length;
+  if (written === total) return { status: "ok", summary: `Wrote ${written} explanations from the brief and Qloo's data` };
+  if (written === 0) return { status: "partial", summary: `Language model unavailable; showing data-only summaries for ${total} artists` };
+  return { status: "partial", summary: `Wrote ${written} of ${total} explanations; the rest show data-only summaries` };
 }

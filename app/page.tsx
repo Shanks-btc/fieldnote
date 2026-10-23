@@ -76,13 +76,14 @@ export default function LandingPage() {
         <PageSection className="py-14 text-center sm:py-16 md:py-20">
           <FadeIn>
             <h1 className="mx-auto max-w-[680px] text-[32px] font-medium leading-[0.98] tracking-[-0.04em] sm:text-[40px] md:text-[48px] lg:text-[56px]">
-              The right artist isn&apos;t a guess. It&apos;s a graph.
+              Find the artists your audience already loves.
             </h1>
           </FadeIn>
           <FadeIn delay={0.1}>
             <p className="mx-auto mt-5 max-w-[480px] text-pretty text-[14px] leading-relaxed text-black/[.56] sm:text-[15px]">
-            Fieldnote queries Qloo&apos;s cultural intelligence and returns a scored shortlist of artists whose audiences
-            already overlap with your project, in about 11 seconds.
+            Fieldnote matches artists to your project by mapping cultural affinities, audience overlap, and shared interests
+            across 8 domains with Qloo&apos;s cultural intelligence. Get a scored, ranked shortlist of artists worth booking,
+            partnering with, or building campaigns around in about 11 seconds.
             </p>
           </FadeIn>
           <FadeIn delay={0.2} className="mt-8 flex flex-wrap items-center justify-center gap-3">

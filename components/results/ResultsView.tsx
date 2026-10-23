@@ -110,7 +110,7 @@ export function ResultsView({ id }: { id: string }) {
       {recommendations.length > 0 ? (
         <section className="space-y-4">
           <p className="text-xs text-muted-foreground">
-            Scores are relative to this shortlist (100 = best of the set).
+            Cultural and audience scores are relative to this shortlist. Creative fit is scored independently against the brief.
           </p>
           <ResultsTable recommendations={recommendations} />
         </section>
