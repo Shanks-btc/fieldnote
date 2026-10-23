@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { PageSection } from "@/components/layout/PageSection";
 
-export const metadata = { title: "Compare — Fieldnote" };
+export const metadata = { title: "Compare, Fieldnote" };
 
 export default async function ComparePage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;

@@ -6,8 +6,8 @@ import { useCountUpText } from "@/hooks/useCountUp";
 // Every figure is something the app actually does: ~11s is the observed 10-11.4s run time,
 // 6 is the step count, and 5 is the number of Qloo calls a brief makes.
 const STATS = [
-  { end: 11, prefix: "~", suffix: "s", delay: 0, label: "Typical research time" },
-  { end: 6, prefix: "", suffix: "", delay: 200, label: "Agent pipeline steps" },
+  { end: 11, prefix: "~", suffix: "s", delay: 0, label: "Brief to shortlist" },
+  { end: 6, prefix: "", suffix: "", delay: 200, label: "Pipeline steps, fully automatic" },
   { end: 5, prefix: "", suffix: "", delay: 400, label: "Qloo API calls per brief" },
 ] as const;
 

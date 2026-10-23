@@ -38,9 +38,9 @@ export function EvidenceSection() {
     <PageSection className="py-12 sm:py-16 md:py-20">
       <FadeIn>
         <p className={EYEBROW}>The evidence</p>
-        <h2 className={`${H2} max-w-[560px]`}>Every pick comes with receipts.</h2>
+        <h2 className={`${H2} max-w-[560px]`}>Every pick earns its place.</h2>
         <p className={`${LEAD} max-w-[520px]`}>
-          Fieldnote doesn&apos;t just rank artists — it shows you why each one fits, backed by Qloo&apos;s taste data.
+          No vibes. No hunches. Every artist comes with a cultural fit score, audience overlap, demographic alignment, and the taste tags that connect them to your project.
         </p>
         <p className="mt-6 font-mono text-xs text-black/40">Shown for girl in red · Stranger Things S5 sample</p>
       </FadeIn>
@@ -94,9 +94,7 @@ export function EngineSection() {
             <p className={EYEBROW}>The engine</p>
             <h2 className={H2}>One taste graph across every domain.</h2>
             <p className={LEAD}>
-              Qloo maps cultural affinity across music, TV, film, podcasts, books, games, places and brands. Fieldnote taps into
-              this graph to find artists whose audiences genuinely overlap with your project&apos;s viewers — not just artists
-              in the same genre.
+              Qloo maps cultural affinity across music, TV, film, podcasts, books, games, places and brands. Fieldnote taps that graph to find artists whose audiences genuinely share your project&apos;s viewers.
             </p>
             <div className="mt-8 grid max-w-[440px] grid-cols-2 gap-3">
               {DOMAINS.map((d, i) => (
@@ -169,7 +167,7 @@ export function VersusSection() {
     <PageSection className="py-12 sm:py-16 md:py-20">
       <FadeIn>
         <p className={EYEBROW}>The difference</p>
-        <h2 className={`${H2} max-w-[560px]`}>Why not just search Spotify?</h2>
+        <h2 className={`${H2} max-w-[560px]`}>Spotify finds songs. Fieldnote finds fits.</h2>
       </FadeIn>
       <div className="mt-8 grid grid-cols-1 gap-4 sm:mt-12 sm:gap-6 md:grid-cols-2">
         <FadeIn delay={0.1}>

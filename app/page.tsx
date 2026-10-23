@@ -46,9 +46,9 @@ const STEPS = [
 ];
 
 const PILLARS = [
-  { title: "Cross-domain", body: "Film, TV, music, brands — one taste graph." },
-  { title: "Evidence-based", body: "Every pick backed by Qloo affinity scores." },
-  { title: "No black boxes", body: "See every API call, every score, every connection." },
+  { title: "Eight domains, one graph", body: "Film, TV, music, brands, podcasts, books, games, places, connected." },
+  { title: "Scores, not opinions", body: "Every pick backed by Qloo affinity data you can show your client." },
+  { title: "Glass-box pipeline", body: "See every API call, every score, every connection. Nothing hidden." },
 ];
 
 const HERO_STRIP = [
@@ -76,13 +76,13 @@ export default function LandingPage() {
         <PageSection className="py-14 text-center sm:py-16 md:py-20">
           <FadeIn>
             <h1 className="mx-auto max-w-[680px] text-[32px] font-medium leading-[0.98] tracking-[-0.04em] sm:text-[40px] md:text-[48px] lg:text-[56px]">
-              Place music where the audience already lives.
+              The right artist isn&apos;t a guess. It&apos;s a graph.
             </h1>
           </FadeIn>
           <FadeIn delay={0.1}>
             <p className="mx-auto mt-5 max-w-[480px] text-pretty text-[14px] leading-relaxed text-black/[.56] sm:text-[15px]">
-            Fieldnote uses Qloo&apos;s cultural intelligence to find artists whose audiences overlap with your show, film, or
-            campaign — then shows you the evidence.
+            Fieldnote queries Qloo&apos;s cultural intelligence and returns a scored shortlist of artists whose audiences
+            already overlap with your project, in about 11 seconds.
             </p>
           </FadeIn>
           <FadeIn delay={0.2} className="mt-8 flex flex-wrap items-center justify-center gap-3">
@@ -106,6 +106,7 @@ export default function LandingPage() {
 
       {/* 2. Product preview */}
       <PageSection className="pb-12 pt-8 sm:pb-16 sm:pt-12 md:pb-16 md:pt-12">
+        <p className="mb-4 text-[15px] font-medium text-black/70">See what comes back</p>
         <FadeIn>
         <div className="overflow-hidden rounded-[20px] bg-white shadow-[0_1px_3px_rgba(0,0,0,0.04)] sm:rounded-[28px]">
           {/* Dark header strip */}
@@ -153,13 +154,13 @@ export default function LandingPage() {
             <FadeIn>
               <p className={EYEBROW}>How it works</p>
               <h2 className={H2}>
-                From a brief to a
+                Six steps. One pipeline.
                 <br />
-                defensible shortlist.
+                Zero guesswork.
               </h2>
               <p className={LEAD}>
-                Describe the scene. Fieldnote resolves it in Qloo, reads the audience, finds the artists, scores every match and
-                shows the evidence, in about eleven seconds.
+                Describe the scene. Fieldnote resolves it in Qloo, reads the audience, finds the artists, scores every match, and
+                shows the evidence.
               </p>
             </FadeIn>
           }
@@ -223,11 +224,11 @@ export default function LandingPage() {
         />
         <FadeIn>
           <blockquote className="relative mx-auto max-w-[880px] font-serif text-[30px] font-normal leading-[1.05] tracking-[-0.01em] sm:text-[44px] md:text-[56px] lg:text-[64px]">
-          &ldquo;The best sync placements don&apos;t match a genre — they match an audience.&rdquo;
+          &ldquo;The best sync placements don&apos;t match a genre, they match an audience.&rdquo;
           </blockquote>
         </FadeIn>
         <FadeIn delay={0.2}>
-          <p className="relative mt-7 text-sm text-white/60">— The thesis behind Fieldnote</p>
+          <p className="relative mt-7 text-sm text-white/60">The thesis behind Fieldnote</p>
         </FadeIn>
       </section>
 

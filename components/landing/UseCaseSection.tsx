@@ -35,10 +35,11 @@ export function UseCaseSection() {
       <FadeIn>
         <p className="mb-3 text-[10px] uppercase tracking-[0.06em] text-black/40">In practice</p>
         <h2 className="max-w-[560px] text-[28px] sm:text-[32px] md:text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">
-          From brief to shortlist
-          <br />
-          in one prompt.
+          Describe the scene. Meet the artists.
         </h2>
+        <p className="mt-4 max-w-[520px] text-[15px] leading-relaxed text-black/55">
+          Write the brief the way you&apos;d tell a sync agent. Fieldnote does the rest.
+        </p>
       </FadeIn>
 
       <div

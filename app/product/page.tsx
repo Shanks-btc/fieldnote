@@ -4,7 +4,7 @@ import { FadeIn } from "@/components/landing/FadeIn";
 import { EYEBROW, Split } from "@/components/landing/Sections";
 
 export const metadata = {
-  title: "Product — Fieldnote",
+  title: "Product, Fieldnote",
   description:
     "How Fieldnote works: cultural affinity scoring, audience intelligence and composite ranking for music sync placements.",
 };
@@ -15,17 +15,17 @@ const LEAD = "mt-4 max-w-[420px] text-[15px] leading-relaxed text-black/50";
 const SIGNALS = [
   {
     color: "#8B5CF6",
-    title: "Cultural Fit — 50%",
+    title: "Cultural Fit, 50%",
     body: "Qloo's affinity score between the project and each artist, rescaled within the shortlist so small differences show. It measures how strongly an artist's audience overlaps with the project's viewers.",
   },
   {
     color: "#3B82F6",
-    title: "Creative Fit — 30%",
+    title: "Creative Fit, 30%",
     body: "A judgement of how well an artist matches the brief's tone, mood and genre. This needs the LLM step, which isn't switched on yet, so today's composite is built from the other two signals.",
   },
   {
     color: "#22C55E",
-    title: "Audience Relevance — 20%",
+    title: "Audience Relevance, 20%",
     body: "How closely an artist's age and gender profile matches the project's, using Qloo's demographic data. It checks that the fanbase fits the target audience, not just the sound.",
   },
 ];
@@ -65,7 +65,7 @@ export default function ProductPage() {
           </h1>
           <p className="mt-5 max-w-[560px] text-[15px] leading-relaxed sm:text-[17px] text-black/50">
             Fieldnote uses Qloo&apos;s cultural taste graph to find artists whose audiences genuinely overlap with your
-            project&apos;s viewers — not just artists who sound similar.
+            project&apos;s viewers, not just artists who sound similar.
           </p>
         </FadeIn>
       </PageSection>

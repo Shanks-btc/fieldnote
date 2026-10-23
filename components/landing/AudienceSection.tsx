@@ -114,11 +114,11 @@ export function AudienceSection() {
           <p className="text-center text-[10px] font-medium uppercase tracking-[0.15em] text-black/30">Built for</p>
         </div>
         <div className={cls("fn-fade")} style={{ "--d": "0.06s" } as CSSProperties}>
-          <h2 className="mt-3 text-center text-[28px] font-medium tracking-[-0.02em] text-black/85 sm:text-[32px] md:text-[36px]">
-            Who it&rsquo;s for
+          <h2 className="mx-auto mt-3 max-w-[720px] text-balance text-center text-[28px] font-medium tracking-[-0.02em] text-black/85 sm:text-[32px] md:text-[36px]">
+            If you&rsquo;ve ever had to defend a song choice, this is for you.
           </h2>
           <p className="mx-auto mt-3 max-w-[500px] text-center text-[14px] leading-relaxed text-black/45 sm:text-[15px]">
-            Anyone who matches music to a creative brief — and needs to defend that choice with evidence, not intuition.
+            Built for the people who pick the music.
           </p>
         </div>
 

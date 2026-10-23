@@ -42,7 +42,7 @@ export function FAQ() {
     <section className="mx-auto w-full max-w-[800px] px-5 py-12 sm:px-6 sm:py-16 md:py-20">
       <FadeIn>
         <p className="mb-3 text-center text-[10px] uppercase tracking-[0.06em] text-black/40">Common questions</p>
-        <h2 className="text-center text-[28px] sm:text-[32px] md:text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">You&apos;re probably wondering.</h2>
+        <h2 className="text-center text-[28px] sm:text-[32px] md:text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">Fair questions.</h2>
       </FadeIn>
 
       <div ref={ref} className="mt-12 divide-y divide-black/[0.06] overflow-hidden rounded-[28px] bg-white">

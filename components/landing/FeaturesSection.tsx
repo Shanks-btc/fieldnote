@@ -89,13 +89,12 @@ export function FeaturesSection() {
       <FadeIn>
         <p className="mb-3 text-[10px] uppercase tracking-[0.06em] text-black/40">The toolkit</p>
         <h2 className="max-w-[560px] text-[28px] sm:text-[32px] md:text-[36px] font-medium leading-[1.1] tracking-[-0.02em]">
-          Everything a sync brief needs,
+          Built for the brief,
           <br />
-          nothing it doesn&apos;t.
+          not the billboard.
         </h2>
         <p className="mt-4 max-w-[520px] text-[15px] leading-relaxed text-black/55">
-          Six capabilities working together in one pipeline, each backed by Qloo&apos;s cultural intelligence rather than
-          keyword matching.
+          Six capabilities working together in one pipeline, each backed by cultural intelligence, not keyword matching.
         </p>
       </FadeIn>
 

@@ -2,7 +2,7 @@ import { BriefForm } from "@/components/brief/BriefForm";
 import { PageSection } from "@/components/layout/PageSection";
 import { Eyebrow } from "@/components/shared/TextLink";
 
-export const metadata = { title: "Brief — Fieldnote" };
+export const metadata = { title: "Brief, Fieldnote" };
 
 export default function BriefPage() {
   return (
