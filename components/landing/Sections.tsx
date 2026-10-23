@@ -142,14 +142,15 @@ function Column({ label, items, good }: { label: string; items: typeof WITH; goo
         {items.map((it, i) => (
           <li key={it.title}>
             <FadeIn delay={0.3 + i * 0.1} className="flex items-start gap-3">
-            <span
-              className={`mt-1 flex size-5 shrink-0 items-center justify-center rounded-full text-[11px] ${
-                good ? "bg-black text-white" : "bg-neutral-100 text-black/30"
-              }`}
-              aria-hidden
-            >
-              {good ? "✓" : "✕"}
-            </span>
+            {good ? (
+              <svg width="18" height="18" viewBox="0 0 18 18" fill="none" className="mt-1 shrink-0" aria-hidden>
+                <path d="M4 9.5l3.5 3.5L14 5" stroke="#8B5CF6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
+            ) : (
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" className="mt-1 shrink-0" aria-hidden>
+                <path d="M4 4l8 8M12 4l-8 8" stroke="rgba(0,0,0,0.25)" strokeWidth="1.5" strokeLinecap="round" />
+              </svg>
+            )}
             <div>
               <p className="text-[15px] font-medium">{it.title}</p>
               <p className="mt-1 text-[13px] text-black/50">{it.body}</p>

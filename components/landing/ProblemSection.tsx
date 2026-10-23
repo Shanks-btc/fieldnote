@@ -53,13 +53,18 @@ export function ProblemSection() {
           <div className="space-y-4">
             {PAIN_POINTS.map((point, i) => (
               <div key={point} className="flex items-start gap-3">
-                <span
-                  className={`fn-check ${on ? "in" : ""} mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full bg-white/10 text-[12px] text-white/40`}
+                {/* x: thin stroke, faint on the dark card */}
+                <svg
+                  width="16"
+                  height="16"
+                  viewBox="0 0 16 16"
+                  fill="none"
+                  className={`fn-check ${on ? "in" : ""} mt-1 shrink-0`}
                   style={{ "--d": `${0.4 + i * 0.15}s` } as React.CSSProperties}
                   aria-hidden
                 >
-                  ✕
-                </span>
+                  <path d="M4 4l8 8M12 4l-8 8" stroke="rgba(255,255,255,0.22)" strokeWidth="1.5" strokeLinecap="round" />
+                </svg>
                 <p
                   className={`fn-type-line ${on ? "in" : ""} text-[14px] leading-relaxed text-white/60`}
                   style={{ "--d": `${0.3 + i * 0.18}s` } as React.CSSProperties}
@@ -100,13 +105,18 @@ export function ProblemSection() {
           <div className="space-y-4">
             {SOLUTIONS.map((sol, i) => (
               <div key={sol.text} className="flex items-start gap-3">
-                <span
-                  className={`fn-check ${on ? "in" : ""} mt-0.5 flex size-5 shrink-0 items-center justify-center rounded-full text-[12px] text-white`}
-                  style={{ "--d": `${0.6 + i * 0.15}s`, backgroundColor: sol.color } as React.CSSProperties}
+                {/* check: violet stroke, no circle */}
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 18 18"
+                  fill="none"
+                  className={`fn-check ${on ? "in" : ""} mt-1 shrink-0`}
+                  style={{ "--d": `${0.6 + i * 0.15}s` } as React.CSSProperties}
                   aria-hidden
                 >
-                  ✓
-                </span>
+                  <path d="M4 9.5l3.5 3.5L14 5" stroke="#8B5CF6" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                </svg>
                 <p
                   className={`fn-fade ${on ? "in" : ""} text-[14px] leading-relaxed text-black/70`}
                   style={{ "--d": `${0.5 + i * 0.15}s` } as React.CSSProperties}

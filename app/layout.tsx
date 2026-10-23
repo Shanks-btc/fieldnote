@@ -10,7 +10,7 @@ const serif = Instrument_Serif({ subsets: ["latin"], weight: "400", variable: "-
 const mono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains" });
 
 export const metadata: Metadata = {
-  title: "Fieldnote — music sync placement intelligence",
+  title: "Fieldnote · Sync Placement Intelligence",
   description:
     "Find artists whose audiences culturally overlap with your show or campaign. Powered by Qloo taste intelligence.",
 };
