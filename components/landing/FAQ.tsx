@@ -23,12 +23,12 @@ const QUESTIONS = [
   {
     q: "How should I read the scores?",
     color: "#F59E0B",
-    a: "Qloo's raw affinity values sit in a narrow band (for the Stranger Things example, 0.921 to 0.935), so Fieldnote rescales them within each shortlist. A cultural-fit score of 100 means the best match of that set, not a perfect match. The raw value is shown in each artist's evidence panel.",
+    a: "Qloo's raw affinity values sit in a narrow band (for the Stranger Things example, 0.921 to 0.935), so Fieldnote rescales them within each shortlist. A cultural-fit score of 100 means the best match of that set, not a perfect match. Creative fit is not rescaled: it is scored independently against the brief. The raw value is shown in each artist's evidence panel.",
   },
   {
     q: "What's in the composite score?",
     color: "#EC4899",
-    a: "It is designed as cultural fit (50%), creative fit (30%) and audience relevance (20%). Cultural fit is Qloo's affinity, and audience relevance compares each artist's age and gender profile with the project's. Creative fit needs the LLM step, which isn't switched on yet, so today's composite uses the other two. The breakdown is shown for every artist.",
+    a: "It is cultural fit (50%), creative fit (30%) and audience relevance (20%). Cultural fit is Qloo's affinity, and audience relevance compares each artist's age and gender profile with the project's. Creative fit comes from a language model that reads the brief and each artist's Qloo tags and judges tone, mood and genre alignment. The breakdown and the reasoning behind it are shown for every artist.",
   },
 ];
 

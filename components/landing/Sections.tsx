@@ -76,7 +76,7 @@ export function EvidenceSection() {
           value={91}
           color="#22C55E"
           delay={0.4}
-          description="Weighted score: cultural fit 50%, creative fit 30%, audience relevance 20%. Creative fit joins once the LLM step is on."
+          description="Weighted score: cultural fit 50%, creative fit 30%, audience relevance 20%. Creative fit is scored by evaluating tone, mood and genre alignment between the brief and each artist."
         />
       </div>
     </PageSection>

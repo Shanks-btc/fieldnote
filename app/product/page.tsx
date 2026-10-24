@@ -21,7 +21,7 @@ const SIGNALS = [
   {
     color: "#3B82F6",
     title: "Creative Fit, 30%",
-    body: "A judgement of how well an artist matches the brief's tone, mood and genre. This needs the LLM step, which isn't switched on yet, so today's composite is built from the other two signals.",
+    body: "A language model's judgement of how well an artist matches the brief's tone, mood and genre, scored independently of Qloo and shown with its reasoning for every artist.",
   },
   {
     color: "#22C55E",
@@ -36,8 +36,8 @@ const STEPS = [
   { step: "02", name: "Taste", desc: "Read the project's taste tags", time: "~0.8s", color: "#3B82F6" },
   { step: "03", name: "Audience", desc: "Fetch the project's age and gender profile", time: "~0.4s", color: "#22C55E" },
   { step: "04", name: "Artists", desc: "Find artists whose audiences overlap", time: "~5s", color: "#F59E0B" },
-  { step: "05", name: "Score", desc: "Compare audiences and rank every artist", time: "~1.7s", color: "#8B5CF6" },
-  { step: "06", name: "Explain", desc: "Write a summary per artist (placeholder text for now)", time: "<0.1s", color: "#EC4899" },
+  { step: "05", name: "Score", desc: "Score creative fit, compare audiences and rank every artist", time: "~6.5s", color: "#8B5CF6" },
+  { step: "06", name: "Explain", desc: "Write a specific explanation for every artist", time: "<0.1s", color: "#EC4899" },
 ];
 
 // What Fieldnote does with each domain Qloo covers.

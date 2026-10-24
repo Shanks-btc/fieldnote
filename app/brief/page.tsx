@@ -1,4 +1,4 @@
-import { BriefForm } from "@/components/brief/BriefForm";
+import { BriefWorkspace } from "@/components/brief/BriefWorkspace";
 import { PageSection } from "@/components/layout/PageSection";
 import { Eyebrow } from "@/components/shared/TextLink";
 
@@ -14,7 +14,7 @@ export default function BriefPage() {
       <p className="mb-20 mt-6 max-w-xl leading-relaxed text-[#555]">
         The more specific the scene, the sharper the match. We start you off with a real example you can edit.
       </p>
-      <BriefForm />
+      <BriefWorkspace />
     </PageSection>
   );
 }

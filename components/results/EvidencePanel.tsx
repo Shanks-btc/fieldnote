@@ -54,11 +54,14 @@ export function EvidencePanel({
   evidence,
   explanation,
   scores,
+  reasoning,
 }: {
   evidence: Evidence;
   explanation: string;
   /** When given, shows the score breakdown on small screens (where the row shows only the composite). */
   scores?: ScoreSet;
+  /** The expandable reasoning panel, shown under the explanation. */
+  reasoning?: React.ReactNode;
 }) {
   return (
     <div className="space-y-8 pb-8 pl-0 sm:pl-[calc(5.5rem+56px)]">
@@ -68,6 +71,7 @@ export function EvidencePanel({
         </Group>
       )}
       {explanation && <p className="max-w-[60ch] text-sm leading-relaxed">{explanation}</p>}
+      {reasoning}
       <div className="grid gap-8 sm:grid-cols-2">
         <Group title="Qloo tags for this artist">
           {evidence.artistTags.length ? <Tags tags={evidence.artistTags} /> : <None />}

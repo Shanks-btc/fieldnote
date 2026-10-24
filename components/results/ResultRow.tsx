@@ -1,17 +1,22 @@
 "use client";
 
 import { useState } from "react";
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Pause, Play } from "lucide-react";
 import type { Recommendation } from "@/lib/validation/results";
 import { MonoValue } from "@/components/shared/MonoValue";
 import { SpotifyIcon } from "@/components/shared/SpotifyIcon";
 import { AlbumArt } from "./AlbumArt";
 import { AudioPreview } from "./AudioPreview";
 import { EvidencePanel } from "./EvidencePanel";
+import { ReasoningPanel } from "./ReasoningPanel";
 import { ScoreStack } from "./ScoreBar";
+import { SpotifyEmbed, getSpotifyArtistId } from "./SpotifyEmbed";
 
-export function ResultRow({ rec }: { rec: Recommendation }) {
+export function ResultRow({ rec, tasteTags, qlooDomains }: { rec: Recommendation; tasteTags: string[]; qlooDomains: string[] }) {
   const [open, setOpen] = useState(false);
+  const [player, setPlayer] = useState(false);
+  const spotifyId = getSpotifyArtistId(rec.spotifyArtistId, rec.spotifyUrl);
+  const playerId = `player-${rec.qlooEntityId}`;
   const panelId = `evidence-${rec.qlooEntityId}`;
   const composite = Math.round(rec.scores.composite * 100);
 
@@ -39,6 +44,18 @@ export function ResultRow({ rec }: { rec: Recommendation }) {
           </div>
           {rec.trackName && <p className="truncate text-sm text-muted-foreground">{rec.artistName}</p>}
           <AudioPreview url={rec.previewUrl} label={rec.artistName} />
+          {spotifyId && (
+            <button
+              type="button"
+              onClick={() => setPlayer((p) => !p)}
+              aria-expanded={player}
+              aria-controls={playerId}
+              className="-mb-3 mt-0.5 flex items-center gap-1.5 py-2.5 text-sm text-muted-foreground transition-colors hover:text-foreground"
+            >
+              {player ? <Pause className="size-3.5" aria-hidden /> : <Play className="size-3.5" aria-hidden />}
+              {player ? "Hide preview" : "Preview on Spotify"}
+            </button>
+          )}
         </div>
 
         {/* Desktop: score breakdown. */}
@@ -61,9 +78,19 @@ export function ResultRow({ rec }: { rec: Recommendation }) {
           <ChevronDown className={`size-4 transition-transform ${open ? "rotate-180" : ""}`} />
         </button>
       </div>
+      {spotifyId && player && (
+        <div id={playerId} className="pb-6 sm:pl-[calc(5.5rem+56px)]">
+          <SpotifyEmbed artistId={spotifyId} artistName={rec.artistName} />
+        </div>
+      )}
       {open && (
         <div id={panelId}>
-          <EvidencePanel evidence={rec.evidence} explanation={rec.explanation} scores={rec.scores} />
+          <EvidencePanel
+            evidence={rec.evidence}
+            explanation={rec.explanation}
+            scores={rec.scores}
+            reasoning={<ReasoningPanel rec={rec} tasteTags={tasteTags} qlooDomains={qlooDomains} />}
+          />
         </div>
       )}
     </li>

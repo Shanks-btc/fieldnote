@@ -55,6 +55,10 @@ export interface ResearchResult {
   tasteProfile: TasteTagView[];
   demographics: Demographics | null;
   steps: ResearchStep[];
+  /** Qloo domains that actually returned data for this run (lowercase keys: tv, film, brands, games, music). Absent on older cached results. */
+  qlooDomains?: string[];
+  /** How creative fit was produced; null when it was not scored. Absent on older cached results. */
+  creative?: { model: string; evaluated: number; candidates: number } | null;
   recommendations: Recommendation[];
   /** Non-fatal problems (failed or empty steps) that the UI should surface. */
   warnings: string[];

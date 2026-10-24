@@ -20,6 +20,7 @@ export interface RunContext {
   recommendations: Recommendation[];
   /** LLM creative-fit evaluations keyed by Qloo entity id (only artists whose call succeeded). */
   evaluations: Map<string, LlmEvaluation>;
+  creative: { model: string; evaluated: number; candidates: number } | null;
   warnings: string[];
 }
 
@@ -32,7 +33,7 @@ export interface StepOutcome {
 }
 
 export function newContext(brief: Brief): RunContext {
-  return { brief, project: null, tasteProfile: [], demographics: null, candidates: [], recommendations: [], evaluations: new Map(), warnings: [] };
+  return { brief, project: null, tasteProfile: [], demographics: null, candidates: [], recommendations: [], evaluations: new Map(), creative: null, warnings: [] };
 }
 
 export function projectInfo(ctx: RunContext): ProjectInfo | null {
@@ -238,7 +239,10 @@ export async function scoreAndRank(ctx: RunContext): Promise<StepOutcome> {
   let creativeNote = "";
   if (batch) {
     ctx.evaluations = batch.evaluations;
-    if (batch.evaluations.size) creativeNote = `; creative fit scored by ${batch.model}`;
+    if (batch.evaluations.size) {
+      creativeNote = `; creative fit scored by ${batch.model}`;
+      ctx.creative = { model: batch.model, evaluated: batch.evaluations.size, candidates: pool.length };
+    }
     if (batch.failed.length && batch.evaluations.size) {
       ctx.warnings.push(
         `Creative fit could not be scored for ${batch.failed.length} of ${pool.length} candidate artists; those are ranked on the remaining dimensions.`,

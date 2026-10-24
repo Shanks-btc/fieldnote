@@ -16,6 +16,22 @@ import type { ResearchEvent, ResearchResult, ResearchStep, StepId } from "./type
 
 type StepFn = (ctx: RunContext) => Promise<StepOutcome>;
 
+const PROJECT_DOMAIN: Record<string, string> = {
+  "urn:entity:tv_show": "tv",
+  "urn:entity:movie": "film",
+  "urn:entity:brand": "brands",
+  "urn:entity:videogame": "games",
+};
+
+/** Domains that actually returned data: the project's own domain, plus music when artists came back. */
+function queriedDomains(ctx: RunContext, steps: Map<StepId, ResearchStep>): string[] {
+  const out: string[] = [];
+  const own = ctx.project ? PROJECT_DOMAIN[ctx.project.kind] : undefined;
+  if (own) out.push(own);
+  if (USABLE.has(steps.get("recommendArtists")?.status ?? "")) out.push("music");
+  return out;
+}
+
 const IMPLEMENTATIONS: Record<StepId, StepFn> = {
   resolveProject,
   getProjectTasteProfile,
@@ -100,6 +116,8 @@ export async function runResearch(
     tasteProfile: ctx.tasteProfile,
     demographics: ctx.demographics,
     steps: STEP_DEFINITIONS.map((d) => steps.get(d.id)!),
+    qlooDomains: queriedDomains(ctx, steps),
+    creative: ctx.creative,
     recommendations: ctx.recommendations,
     warnings: [...new Set(warnings)],
   };

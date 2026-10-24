@@ -47,7 +47,7 @@ const FEATURES = [
     title: "Composite Ranking",
     color: "#F59E0B",
     description:
-      "Cultural fit, creative fit and audience relevance combine into one score, weighted 50 / 30 / 20. Creative fit joins once the LLM step is on; until then the score uses the other two.",
+      "Cultural fit, creative fit and audience relevance combine into one score, weighted 50 / 30 / 20. Creative fit is scored by evaluating tone, mood and genre alignment between the brief and each artist.",
     icon: (
       <svg {...svg}>
         <path d="M10 2 L12.5 7.5 L18 8 L14 12 L15 18 L10 15 L5 18 L6 12 L2 8 L7.5 7.5Z" fill="currentColor" />
@@ -58,7 +58,7 @@ const FEATURES = [
     title: "Spotify Links",
     color: "#EC4899",
     description:
-      "Every result links straight to the artist's Spotify profile. Qloo returns the Spotify IDs, so there is no name matching and no extra lookup. In-page previews are next.",
+      "Every result links straight to the artist's Spotify profile. Qloo returns the Spotify IDs, so there is no name matching and no extra lookup. In-page Spotify previews for every artist.",
     icon: (
       <svg {...svg}>
         <circle cx="10" cy="10" r="8" stroke="currentColor" strokeWidth="1.5" />
