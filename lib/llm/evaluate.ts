@@ -1,4 +1,5 @@
 import "server-only";
+import { createHash } from "crypto";
 import { z } from "zod";
 import { PROJECT_TYPE_LABELS, PROJECT_TYPE_LENS, type Brief } from "@/lib/validation/brief";
 
@@ -165,7 +166,23 @@ function parseEvaluation(raw: string): LlmEvaluation {
   return { ...parsed, creativeFitScore: Math.min(1, Math.max(0, parsed.creativeFitScore)) };
 }
 
+/* -- LLM response cache -------------------------------------------------
+ * SHA-256 hash of (model + system + prompt) keyed to the raw LLM reply.
+ * Identical prompts within the same server process skip the network call.
+ * Map insertion order gives FIFO eviction at MAX_CACHE, keeping memory bounded.
+ */
+const MAX_CACHE = 500;
+const llmCache = new Map<string, string>();
+
+function cacheKey(model: string, system: string, prompt: string): string {
+  return createHash("sha256").update(`${model}\n${system}\n${prompt}`).digest("hex");
+}
+
 export async function callProvider(p: Provider, prompt: string, opts: { system?: string; maxTokens?: number } = {}): Promise<string> {
+  const key = cacheKey(p.model, opts.system ?? SYSTEM, prompt);
+  const cached = llmCache.get(key);
+  if (cached) return cached;
+
   const system = opts.system ?? SYSTEM;
   const maxTokens = opts.maxTokens ?? 1500;
   const ctrl = new AbortController();
@@ -210,6 +227,23 @@ export async function callProvider(p: Provider, prompt: string, opts: { system?:
         ? body.content?.find((c) => c.type === "text")?.text
         : body.choices?.[0]?.message?.content;
     if (!out) throw new Error("empty reply");
+    // Only cache replies containing a complete JSON object.
+    // Truncated or malformed responses must NOT be cached, otherwise
+    // retries hit the cache and get the same bad reply back forever.
+    const jsonStart = out.indexOf("{");
+    const jsonEnd = out.lastIndexOf("}");
+    if (jsonStart >= 0 && jsonEnd > jsonStart) {
+      try {
+        JSON.parse(out.slice(jsonStart, jsonEnd + 1));
+        if (llmCache.size >= MAX_CACHE) {
+          const oldest = llmCache.keys().next().value;
+          if (oldest !== undefined) llmCache.delete(oldest);
+        }
+        llmCache.set(key, out);
+      } catch {
+        // Malformed JSON: skip caching so the retry gets a fresh API call
+      }
+    }
     return out;
   } finally {
     clearTimeout(timer);
