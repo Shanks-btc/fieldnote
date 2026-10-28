@@ -1,0 +1,107 @@
+[
+  {
+    "file": "01-base-url-hackathon-artist.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/search?query=Billie+Eilish&types=urn%3Aentity%3Aartist&take=1"
+  },
+  {
+    "file": "01-base-url-staging-artist.json",
+    "status": 401,
+    "url": "https://staging.api.qloo.com/search?query=Billie+Eilish&types=urn%3Aentity%3Aartist&take=1"
+  },
+  {
+    "file": "02-search-artist-artist.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/search?query=Billie+Eilish&types=urn%3Aentity%3Aartist&take=5"
+  },
+  {
+    "file": "03-search-tv-show-tv_show.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/search?query=Stranger+Things&take=5&types=urn%3Aentity%3Atv_show"
+  },
+  {
+    "file": "03-search-tv-show-show.json",
+    "status": 400,
+    "url": "https://hackathon.api.qloo.com/search?query=Stranger+Things&take=5&types=urn%3Aentity%3Ashow"
+  },
+  {
+    "file": "03-search-tv-show-tv.json",
+    "status": 400,
+    "url": "https://hackathon.api.qloo.com/search?query=Stranger+Things&take=5&types=urn%3Aentity%3Atv"
+  },
+  {
+    "file": "03-search-tv-show-tv_series.json",
+    "status": 400,
+    "url": "https://hackathon.api.qloo.com/search?query=Stranger+Things&take=5&types=urn%3Aentity%3Atv_series"
+  },
+  {
+    "file": "03-search-tv-show-movie.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/search?query=Stranger+Things&take=5&types=urn%3Aentity%3Amovie"
+  },
+  {
+    "file": "03-search-tv-show.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/search?query=Stranger+Things&take=5"
+  },
+  {
+    "file": "04-search-brand-brand.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/search?query=Nike&types=urn%3Aentity%3Abrand&take=3"
+  },
+  {
+    "file": "05-tags-indie-rock.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/v2/tags?filter.query=indie+rock&take=5"
+  },
+  {
+    "file": "06-insights-recommend-artists.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/v2/insights?filter.type=urn%3Aentity%3Aartist&signal.interests.entities=07F1170E-BB69-4982-82C6-255F477EBBAD&take=10"
+  },
+  {
+    "file": "07-insights-demographics.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/v2/insights?filter.type=urn%3Ademographics&signal.interests.entities=07F1170E-BB69-4982-82C6-255F477EBBAD"
+  },
+  {
+    "file": "08-insights-taste-tags.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/v2/insights?filter.type=urn%3Atag&signal.interests.entities=07F1170E-BB69-4982-82C6-255F477EBBAD&take=10"
+  },
+  {
+    "file": "09-insights-rank-shortlist.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/v2/insights?filter.type=urn%3Aentity%3Aartist&signal.interests.entities=07F1170E-BB69-4982-82C6-255F477EBBAD&filter.results.entities=716A6B01-D1C4-4991-91A8-0204D65225EB%2C5D28EDAC-F84F-42EB-8DB3-28EC65330287%2CD7BCE4CD-5135-4608-8A7D-78E08FFD52F3%2C087EF30C-3367-49B8-AC58-8B8C01D69DB6"
+  },
+  {
+    "file": "10-insights-brands.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/v2/insights?filter.type=urn%3Aentity%3Abrand&signal.interests.entities=07F1170E-BB69-4982-82C6-255F477EBBAD&take=10"
+  },
+  {
+    "file": "11-insights-heatmap-1.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/v2/insights?filter.type=urn%3Aheatmap&filter.location=POLYGON%28%28-74.02+40.70%2C+-73.95+40.70%2C+-73.95+40.78%2C+-74.02+40.78%2C+-74.02+40.70%29%29&signal.interests.entities=07F1170E-BB69-4982-82C6-255F477EBBAD"
+  },
+  {
+    "file": "12-insights-location-artists.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/v2/insights?filter.type=urn%3Aentity%3Aartist&signal.location.query=Los+Angeles&take=10"
+  },
+  {
+    "file": "13-insights-trends-high.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/v2/insights?filter.type=urn%3Aentity%3Aartist&bias.trends=high&take=10&signal.interests.entities=07F1170E-BB69-4982-82C6-255F477EBBAD"
+  },
+  {
+    "file": "14-insights-explainability-default.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/v2/insights?filter.type=urn%3Aentity%3Aartist&signal.interests.entities=07F1170E-BB69-4982-82C6-255F477EBBAD&take=3"
+  },
+  {
+    "file": "14-insights-explainability-explainability-on.json",
+    "status": 200,
+    "url": "https://hackathon.api.qloo.com/v2/insights?filter.type=urn%3Aentity%3Aartist&signal.interests.entities=07F1170E-BB69-4982-82C6-255F477EBBAD&take=3&feature.explainability=true"
+  }
+]

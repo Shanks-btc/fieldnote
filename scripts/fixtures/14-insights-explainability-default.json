@@ -1,0 +1,1438 @@
+{
+  "success": true,
+  "results": {
+    "entities": [
+      {
+        "name": "girl in red",
+        "entity_id": "716A6B01-D1C4-4991-91A8-0204D65225EB",
+        "type": "urn:entity",
+        "subtype": "urn:entity:artist",
+        "properties": {
+          "image": {
+            "url": "https://images.qloo.com/i/716A6B01-D1C4-4991-91A8-0204D65225EB-420x-auto.jpg"
+          },
+          "vocals": "Girl In Red's vocals are characterized by a soft, intimate delivery with an emotive and candid tone. Her singing style complements her lo-fi and bedroom pop production, often conveying vulnerability and sincerity.",
+          "aliases": [
+            "Marie Ulven"
+          ],
+          "members": [],
+          "is_group": false,
+          "biography": "Marie Ulven, known professionally as Girl In Red, is a Norwegian artist who began making music in her bedroom, sharing her songs on platforms like SoundCloud and YouTube. She quickly gained a following for her honest and raw songwriting, which often touches on her experiences with mental health and her identity as a queer woman. Her breakout single \"I Wanna Be Your Girlfriend\" became an anthem for LGBTQ+ youth, and she has since released several EPs and albums that solidified her place in the indie pop scene. Her music blends indie rock and electropop elements with a bedroom pop sensibility, and she is known for her DIY approach to music production and her candid, relatable lyrics.",
+          "known_for": "Known for her candid, intimate songwriting and her role as a queer icon in indie pop music.",
+          "start_year": 2017,
+          "description": "Girl In Red is the stage name of Marie Ulven, a Norwegian singer-songwriter and record producer. She gained international recognition for her lo-fi, intimate indie pop and bedroom pop sound, often exploring themes of mental health, love, and queer identity. Her music is characterized by candid lyrics and a DIY aesthetic, which resonated strongly with young audiences worldwide.",
+          "instruments": [
+            "Vocals",
+            "Guitar",
+            "Synthesizer"
+          ],
+          "collaborators": [
+            "Bleachers",
+            "Clairo"
+          ],
+          "date_of_birth": "1999-02-16",
+          "influenced_by": [
+            "Taylor Swift",
+            "Lorde",
+            "The Beatles",
+            "Arctic Monkeys"
+          ],
+          "notable_songs": [
+            "I Wanna Be Your Girlfriend",
+            "We Fell In Love In October",
+            "Bad Idea!",
+            "Girls",
+            "Serotonin"
+          ],
+          "lyrical_themes": [
+            "Mental Health",
+            "Queer Identity",
+            "Love",
+            "Youth",
+            "Self-Discovery"
+          ],
+          "place_of_birth": "Horten, Vestfold, Norway",
+          "primary_genres": [
+            "Indie Pop",
+            "Bedroom Pop",
+            "Indie Rock"
+          ],
+          "characteristics": [
+            "Intimate",
+            "Candid",
+            "Lo-fi",
+            "Emotive",
+            "DIY"
+          ],
+          "cultural_impact": "Girl In Red has become an important figure in LGBTQ+ representation in music, inspiring a generation of young listeners with her candid exploration of queer themes and mental health. Her DIY approach and bedroom pop style have influenced the indie music scene and youth culture globally.",
+          "obscurity_scale": [
+            "3"
+          ],
+          "secondary_genres": [
+            "Alternative",
+            "Electropop"
+          ],
+          "associated_brands": [
+            "Spotify",
+            "Apple Music"
+          ],
+          "genres_influenced": [
+            "Bedroom Pop",
+            "Indie Pop",
+            "Queer Pop"
+          ],
+          "performance_style": "Girl In Red's performance style is intimate and engaging, often characterized by raw emotional delivery and a close connection with her audience, reflecting the personal nature of her music.",
+          "artists_influenced": [
+            "Olivia Rodrigo",
+            "Clairo",
+            "mxmtoon"
+          ],
+          "short_descriptions": [
+            {
+              "value": "Chanteuse-compositrice norvégienne célèbre pour sa musique indie pop et bedroom pop intime.",
+              "languages": [
+                "fr"
+              ]
+            },
+            {
+              "value": "Norwegische Singer-Songwriterin, bekannt für ihren intimen Indie Pop und Bedroom Pop.",
+              "languages": [
+                "de"
+              ]
+            },
+            {
+              "value": "Norwegian singer-songwriter known for her intimate indie pop and bedroom pop music.",
+              "languages": [
+                "en"
+              ]
+            },
+            {
+              "value": "Cantautora noruega reconocida por su música indie pop y bedroom pop íntima.",
+              "languages": [
+                "es"
+              ]
+            }
+          ],
+          "adjectives_for_fans": [
+            "Loyal",
+            "Youthful",
+            "Passionate",
+            "Supportive",
+            "Diverse"
+          ],
+          "adjectives_for_music": [
+            "Intimate",
+            "Lo-fi",
+            "Emotive",
+            "Candid",
+            "DIY"
+          ],
+          "lyrical_themes_description": "Girl In Red's lyrics often explore themes of mental health struggles, queer identity and relationships, youthful experiences, and self-discovery, delivered with raw honesty and emotional depth.",
+          "adjectives_for_performance_style": [
+            "Intimate",
+            "Engaging",
+            "Raw",
+            "Emotive"
+          ],
+          "creative_and_specific_adjectives_for_music": [
+            "Bedroom Pop",
+            "Lo-fi Indie",
+            "Queer Pop",
+            "Emotive Indie Rock",
+            "DIY Electropop"
+          ]
+        },
+        "popularity": 0.9912084095183794,
+        "tags": [
+          {
+            "id": "urn:tag:obscurity:qloo:3",
+            "name": "3",
+            "type": "urn:tag:obscurity:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:emotive",
+            "name": "Emotive",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:instrument:qloo:guitar",
+            "name": "Guitar",
+            "type": "urn:tag:instrument:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:love",
+            "name": "Love",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:influenced_by:qloo:lorde",
+            "name": "Lorde",
+            "type": "urn:tag:influenced_by:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:lo_fi",
+            "name": "Lo-Fi",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:emotive_indie_rock",
+            "name": "Emotive Indie Rock",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:genre:music:lo_fi",
+            "name": "Lo - Fi",
+            "type": "urn:tag:genre:music"
+          },
+          {
+            "id": "urn:tag:style:qloo:queer_pop",
+            "name": "Queer Pop",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:loyal",
+            "name": "Loyal",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:instrument:qloo:vocals",
+            "name": "Vocals",
+            "type": "urn:tag:instrument:qloo"
+          },
+          {
+            "id": "urn:tag:influence:qloo:queer_pop",
+            "name": "Queer Pop",
+            "type": "urn:tag:influence:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:youthful",
+            "name": "Youthful",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:instrument:qloo:synthesizer",
+            "name": "Synthesizer",
+            "type": "urn:tag:instrument:qloo"
+          },
+          {
+            "id": "urn:tag:genre:music:bedroom_pop",
+            "name": "Bedroom Pop",
+            "type": "urn:tag:genre:music"
+          },
+          {
+            "id": "urn:tag:audience:qloo:supportive",
+            "name": "Supportive",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:alternative",
+            "name": "Alternative",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:self_discovery",
+            "name": "Self Discovery",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:intimate",
+            "name": "Intimate",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:genre:qloo:bedroom_pop",
+            "name": "Bedroom Pop",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:lo_fi",
+            "name": "Lo-Fi",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:intimate",
+            "name": "Intimate",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:genre:qloo:indie_rock",
+            "name": "Indie Rock",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:genre:qloo:indie_pop",
+            "name": "Indie Pop",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:diy",
+            "name": "DIY",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:mental_health",
+            "name": "Mental Health",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:influence:qloo:bedroom_pop",
+            "name": "Bedroom Pop",
+            "type": "urn:tag:influence:qloo"
+          },
+          {
+            "id": "urn:tag:influenced_by:qloo:arctic_monkeys",
+            "name": "Arctic Monkeys",
+            "type": "urn:tag:influenced_by:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:raw",
+            "name": "Raw",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:diverse",
+            "name": "Diverse",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:influenced_by:qloo:the_beatles",
+            "name": "The Beatles",
+            "type": "urn:tag:influenced_by:qloo"
+          },
+          {
+            "id": "urn:tag:influenced_by:qloo:taylor_swift",
+            "name": "Taylor Swift",
+            "type": "urn:tag:influenced_by:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:diy_electropop",
+            "name": "DIY Electropop",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:engaging",
+            "name": "Engaging",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:youth",
+            "name": "Youth",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:candid",
+            "name": "Candid",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:influence:qloo:indie_pop",
+            "name": "Indie Pop",
+            "type": "urn:tag:influence:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:bedroom_pop",
+            "name": "Bedroom Pop",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:lo_fi_indie",
+            "name": "Lo-Fi Indie",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:genre:music:indie",
+            "name": "Indie",
+            "type": "urn:tag:genre:music"
+          },
+          {
+            "id": "urn:tag:theme:qloo:queer_identity",
+            "name": "Queer Identity",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:electropop",
+            "name": "Electropop",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:emotive",
+            "name": "Emotive",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:passionate",
+            "name": "Passionate",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:intimate",
+            "name": "Intimate",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:lo_fi",
+            "name": "Lo-fi",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:emotive",
+            "name": "Emotive",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:candid",
+            "name": "Candid",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:diy",
+            "name": "DIY",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:lo_fi",
+            "name": "Lo-fi",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:lo_fi_indie",
+            "name": "Lo-fi Indie",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:self_discovery",
+            "name": "Self-Discovery",
+            "type": "urn:tag:theme:qloo"
+          }
+        ],
+        "query": {
+          "affinity": 0.9353148925308239,
+          "measurements": {
+            "audience_growth": 0
+          }
+        },
+        "disambiguation": "girl in red",
+        "external": {
+          "imdb": [
+            {
+              "id": "nm12525120"
+            }
+          ],
+          "lastfm": [
+            {
+              "id": "girl%20in%20red",
+              "listeners": 2012527,
+              "scrobbles": 90399663
+            }
+          ],
+          "spotify": [
+            {
+              "id": "0eimViBlWl2DqivQVmG1uA",
+              "verified": true,
+              "followers": 2718,
+              "monthly_listeners": 1412
+            },
+            {
+              "id": "3uwAm6vQy7kWPS2bciKWx9",
+              "verified": true,
+              "followers": 2360307,
+              "last_release": 2020,
+              "first_release": 2018,
+              "monthly_listeners": 7635510
+            }
+          ],
+          "twitter": [
+            {
+              "id": "_girlinred_"
+            }
+          ],
+          "facebook": [
+            {
+              "id": "girlinred"
+            }
+          ],
+          "wikidata": [
+            {
+              "id": "q62140662"
+            }
+          ],
+          "instagram": [
+            {
+              "id": "girlin.red"
+            },
+            {
+              "id": "girlinred"
+            }
+          ],
+          "musicbrainz": [
+            {
+              "id": "4ae429fe-735c-4968-8253-a591421b1bd0",
+              "artist_type": "Person"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Harry Styles",
+        "entity_id": "5D28EDAC-F84F-42EB-8DB3-28EC65330287",
+        "type": "urn:entity",
+        "subtype": "urn:entity:artist",
+        "properties": {
+          "image": {
+            "url": "https://images.qloo.com/i/5D28EDAC-F84F-42EB-8DB3-28EC65330287-420x-auto.jpg"
+          },
+          "vocals": "Harry Styles possesses a warm baritone voice with a wide vocal range spanning from G2 to G5. His vocal style is expressive and versatile, capable of delivering soft ballads as well as energetic rock anthems. He often uses a smooth, emotive tone with occasional raspiness to add texture.",
+          "aliases": [
+            "Harry Edward Styles"
+          ],
+          "members": [],
+          "is_group": false,
+          "biography": "Born on February 1, 1994, in Redditch, Worcestershire, England, Harry Styles rose to fame in 2010 as a contestant on the British television music competition The X Factor. Although he was eliminated as a solo artist, he was brought back to form the boy band One Direction with four other contestants. The group achieved global success with multiple hit albums and tours. After the band went on hiatus in 2016, Styles pursued a solo career, releasing his debut album in 2017 which showcased a more rock and folk-inspired sound. He has since become a prominent figure in contemporary pop music and fashion.",
+          "known_for": "His distinctive voice, eclectic fashion sense, and blending of classic rock influences with contemporary pop music.",
+          "start_year": 2010,
+          "voice_type": [
+            "Baritone"
+          ],
+          "description": "Harry Styles is an English singer, songwriter, and actor who first gained fame as a member of the boy band One Direction. After the band's hiatus, he launched a successful solo career characterized by a blend of pop, rock, and folk influences. Styles is known for his distinctive voice, eclectic fashion sense, and charismatic stage presence. He has released multiple critically acclaimed albums and has also ventured into acting.",
+          "instruments": [
+            "Vocals",
+            "Guitar",
+            "Piano"
+          ],
+          "lowest_note": "G2",
+          "vocal_range": "Baritone, approximately G2 to G5",
+          "highest_note": "G5",
+          "collaborators": [
+            "Jeff Bhasker",
+            "Kid Harpoon",
+            "Tyler Johnson",
+            "Mitch Rowland"
+          ],
+          "date_of_birth": "1994-02-01",
+          "influenced_by": [
+            "The Beatles",
+            "David Bowie",
+            "Fleetwood Mac",
+            "Elton John",
+            "Prince"
+          ],
+          "notable_songs": [
+            "Sign of the Times",
+            "Watermelon Sugar",
+            "Adore You",
+            "Falling",
+            "Kiwi"
+          ],
+          "lyrical_themes": [
+            "Love",
+            "Self-discovery",
+            "Heartbreak",
+            "Freedom",
+            "Identity"
+          ],
+          "place_of_birth": "Redditch, Worcestershire, Englan",
+          "primary_genres": [
+            "Pop",
+            "Pop Rock",
+            "Soft Rock"
+          ],
+          "characteristics": [
+            "Charismatic",
+            "Versatile",
+            "Stylish",
+            "Expressive",
+            "Innovative"
+          ],
+          "cultural_impact": "Harry Styles has had a significant impact on popular culture, influencing fashion with his gender-fluid style and challenging traditional norms. He has become a symbol of modern masculinity and inclusivity, inspiring a broad and diverse fanbase worldwide.",
+          "obscurity_scale": [
+            "2"
+          ],
+          "secondary_genres": [
+            "Rock",
+            "Folk Rock",
+            "Synth-pop"
+          ],
+          "associated_brands": [
+            "Gucci",
+            "Calvin Klein"
+          ],
+          "genres_influenced": [
+            "Pop Rock",
+            "Indie Pop",
+            "Contemporary Pop"
+          ],
+          "performance_style": "Harry Styles' performance style is charismatic and engaging, combining dynamic stage presence with expressive vocals and a connection to the audience. He often incorporates theatrical elements and a relaxed, confident demeanor.",
+          "artists_influenced": [
+            "Olivia Rodrigo",
+            "Conan Gray",
+            "Lewis Capaldi"
+          ],
+          "short_descriptions": [
+            {
+              "value": "Cantante, compositor y actor inglés, famoso por su carrera en solitario y por ser miembro de One Direction.",
+              "languages": [
+                "es"
+              ]
+            },
+            {
+              "value": "Chanteur, auteur-compositeur et acteur anglais, connu pour sa carrière solo et comme membre de One Direction.",
+              "languages": [
+                "fr"
+              ]
+            },
+            {
+              "value": "English singer, songwriter, and actor, known for his solo career and as a member of One Direction.",
+              "languages": [
+                "en"
+              ]
+            },
+            {
+              "value": "Englischer Sänger, Songwriter und Schauspieler, bekannt als Solokünstler und Mitglied von One Direction.",
+              "languages": [
+                "de"
+              ]
+            }
+          ],
+          "adjectives_for_fans": [
+            "Loyal",
+            "Passionate",
+            "Diverse",
+            "Creative",
+            "Supportive"
+          ],
+          "adjectives_for_music": [
+            "Melodic",
+            "Emotive",
+            "Eclectic",
+            "Smooth",
+            "Energetic"
+          ],
+          "lyrical_themes_description": "Harry Styles' lyrics often explore themes of love and relationships, personal growth, self-discovery, and freedom. His songwriting is introspective and poetic, frequently addressing emotional vulnerability and the complexities of human connection.",
+          "adjectives_for_performance_style": [
+            "Charismatic",
+            "Engaging",
+            "Dynamic",
+            "Expressive",
+            "Energetic"
+          ],
+          "creative_and_specific_adjectives_for_music": [
+            "Baroque Pop",
+            "Soft Rock",
+            "Psychedelic Pop",
+            "Folk Rock",
+            "Glam Rock"
+          ]
+        },
+        "popularity": 0.9975620785246643,
+        "tags": [
+          {
+            "id": "urn:tag:subgenre:qloo:folk_rock",
+            "name": "Folk Rock",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:folk_rock",
+            "name": "Folk Rock",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:glam_rock",
+            "name": "Glam Rock",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:energetic",
+            "name": "Energetic",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:instrument:qloo:guitar",
+            "name": "Guitar",
+            "type": "urn:tag:instrument:qloo"
+          },
+          {
+            "id": "urn:tag:influence:qloo:indie_pop",
+            "name": "Indie Pop",
+            "type": "urn:tag:influence:qloo"
+          },
+          {
+            "id": "urn:tag:influenced_by:qloo:prince",
+            "name": "Prince",
+            "type": "urn:tag:influenced_by:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:identity",
+            "name": "Identity",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:eclectic",
+            "name": "Eclectic",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:genre:qloo:soft_rock",
+            "name": "Soft Rock",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:baroque_pop",
+            "name": "Baroque Pop",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:diverse",
+            "name": "Diverse",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:instrument:qloo:vocals",
+            "name": "Vocals",
+            "type": "urn:tag:instrument:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:passionate",
+            "name": "Passionate",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:voice_type:qloo:baritone",
+            "name": "Baritone",
+            "type": "urn:tag:voice_type:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:charismatic",
+            "name": "Charismatic",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:freedom",
+            "name": "Freedom",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:innovative",
+            "name": "Innovative",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:influence:qloo:contemporary_pop",
+            "name": "Contemporary Pop",
+            "type": "urn:tag:influence:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:stylish",
+            "name": "Stylish",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:rock",
+            "name": "Rock",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:instrument:qloo:piano",
+            "name": "Piano",
+            "type": "urn:tag:instrument:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:soft_rock",
+            "name": "Soft Rock",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:heartbreak",
+            "name": "Heartbreak",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:influenced_by:qloo:the_beatles",
+            "name": "The Beatles",
+            "type": "urn:tag:influenced_by:qloo"
+          },
+          {
+            "id": "urn:tag:genre:music:pop_rock",
+            "name": "Pop - Rock",
+            "type": "urn:tag:genre:music"
+          },
+          {
+            "id": "urn:tag:audience:qloo:supportive",
+            "name": "Supportive",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:creative",
+            "name": "Creative",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:genre:music:alternative_rock",
+            "name": "Alternative Rock",
+            "type": "urn:tag:genre:music"
+          },
+          {
+            "id": "urn:tag:genre:qloo:pop",
+            "name": "Pop",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:expressive",
+            "name": "Expressive",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:love",
+            "name": "Love",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:versatile",
+            "name": "Versatile",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:expressive",
+            "name": "Expressive",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:synthpop",
+            "name": "Synthpop",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:loyal",
+            "name": "Loyal",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:obscurity:qloo:2",
+            "name": "2",
+            "type": "urn:tag:obscurity:qloo"
+          },
+          {
+            "id": "urn:tag:influence:qloo:pop_rock",
+            "name": "Pop Rock",
+            "type": "urn:tag:influence:qloo"
+          },
+          {
+            "id": "urn:tag:influenced_by:qloo:david_bowie",
+            "name": "David Bowie",
+            "type": "urn:tag:influenced_by:qloo"
+          },
+          {
+            "id": "urn:tag:genre:music:pop",
+            "name": "Pop",
+            "type": "urn:tag:genre:music"
+          },
+          {
+            "id": "urn:tag:style:qloo:dynamic",
+            "name": "Dynamic",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:psychedelic_pop",
+            "name": "Psychedelic Pop",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:self_discovery",
+            "name": "Self Discovery",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:smooth",
+            "name": "Smooth",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:influenced_by:qloo:fleetwood_mac",
+            "name": "Fleetwood Mac",
+            "type": "urn:tag:influenced_by:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:charismatic",
+            "name": "Charismatic",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:melodic",
+            "name": "Melodic",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:genre:music:british",
+            "name": "British",
+            "type": "urn:tag:genre:music"
+          },
+          {
+            "id": "urn:tag:style:qloo:engaging",
+            "name": "Engaging",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:genre:qloo:pop_rock",
+            "name": "Pop Rock",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:influenced_by:qloo:elton_john",
+            "name": "Elton John",
+            "type": "urn:tag:influenced_by:qloo"
+          },
+          {
+            "id": "urn:tag:genre:music:rock",
+            "name": "Rock",
+            "type": "urn:tag:genre:music"
+          },
+          {
+            "id": "urn:tag:music:qloo:emotive",
+            "name": "Emotive",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:energetic",
+            "name": "Energetic",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:self_discovery",
+            "name": "Self-discovery",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:synth_pop",
+            "name": "Synth-pop",
+            "type": "urn:tag:subgenre:qloo"
+          }
+        ],
+        "query": {
+          "affinity": 0.9350034312819925,
+          "measurements": {
+            "audience_growth": 0
+          }
+        },
+        "disambiguation": "Harry Styles",
+        "external": {
+          "imdb": [
+            {
+              "id": "nm4089170"
+            }
+          ],
+          "lastfm": [
+            {
+              "id": "harry%20styles",
+              "listeners": 2697818,
+              "scrobbles": 333594572
+            }
+          ],
+          "spotify": [
+            {
+              "id": "6KImCVD70vtIoJWnq6nGn3",
+              "verified": true,
+              "followers": 11378097,
+              "monthly_listeners": 38554057
+            }
+          ],
+          "twitter": [
+            {
+              "id": "hshq"
+            },
+            {
+              "id": "harry_styles"
+            }
+          ],
+          "facebook": [
+            {
+              "id": "harrystyles"
+            }
+          ],
+          "wikidata": [
+            {
+              "id": "q3626966"
+            }
+          ],
+          "instagram": [
+            {
+              "id": "harrystyles"
+            }
+          ],
+          "musicbrainz": [
+            {
+              "id": "7eb1ce54-a355-41f9-8d68-e018b096d427",
+              "artist_type": "Person"
+            }
+          ]
+        }
+      },
+      {
+        "name": "Billie Eilish",
+        "entity_id": "D7BCE4CD-5135-4608-8A7D-78E08FFD52F3",
+        "type": "urn:entity",
+        "subtype": "urn:entity:artist",
+        "properties": {
+          "image": {
+            "url": "https://images.qloo.com/i/D7BCE4CD-5135-4608-8A7D-78E08FFD52F3-420x-auto.jpg"
+          },
+          "vocals": "Billie Eilish's vocals are characterized by a soft, breathy, and intimate delivery, often using whisper-like tones that create an ethereal and haunting atmosphere. Her vocal style is versatile, ranging from delicate and subdued to more powerful and emotive moments, with a mezzo-soprano range.",
+          "aliases": [
+            "Billie Eilish Pirate Baird O'Connell"
+          ],
+          "members": [],
+          "is_group": false,
+          "biography": "Billie Eilish was born in 2001 in Los Angeles, California. She began singing and writing songs at a young age, collaborating with her brother Finneas who produces much of her music. She first gained attention with the release of her debut single 'Ocean Eyes' in 2015, which went viral online. Her debut album 'When We All Fall Asleep, Where Do We Go?' released in 2019, was critically acclaimed and commercially successful, earning her multiple Grammy Awards. Billie is known for her distinctive fashion style and her candidness about mental health and personal struggles, which resonates with a large global audience.",
+          "known_for": "Billie Eilish is known for her distinctive whispery vocal style, dark and moody pop music, innovative production, and her candidness about personal and mental health issues.",
+          "start_year": 2015,
+          "voice_type": [
+            "Mezzo-Soprano"
+          ],
+          "description": "Billie Eilish Pirate Baird O'Connell is an American singer-songwriter who gained fame as a teenager with her distinctive style blending pop, electropop, and alternative sounds. She is known for her whispery vocals, introspective and often dark lyrical themes, and innovative production, often working closely with her brother Finneas O'Connell. Her music incorporates elements of indie pop, electropop, and dark pop, and she has become a defining figure in contemporary pop music with a strong visual and artistic identity.",
+          "instruments": [
+            "Vocals",
+            "Piano",
+            "Guitar"
+          ],
+          "lowest_note": "A3",
+          "vocal_range": "Mezzo-Soprano, approximately A3 to E6",
+          "highest_note": "E6",
+          "collaborators": [
+            "Finneas O'Connell",
+            "Khalid",
+            "Rosalía",
+            "Justin Bieber"
+          ],
+          "date_of_birth": "2001-12-18",
+          "influenced_by": [
+            "The Beatles",
+            "Justin Bieber",
+            "Amy Winehouse",
+            "Lana Del Rey"
+          ],
+          "notable_songs": [
+            "Ocean Eyes",
+            "Bad Guy",
+            "When The Party's Over",
+            "Bury A Friend",
+            "Everything I Wanted"
+          ],
+          "lyrical_themes": [
+            "Mental Health",
+            "Love",
+            "Death",
+            "Identity",
+            "Anxiety",
+            "Depression"
+          ],
+          "place_of_birth": "Los Angeles, Los Angeles County,",
+          "primary_genres": [
+            "Pop",
+            "Electropop",
+            "Indie Pop"
+          ],
+          "characteristics": [
+            "Unique",
+            "Moody",
+            "Innovative",
+            "Introspective",
+            "Youthful"
+          ],
+          "cultural_impact": "Billie Eilish has had a significant impact on popular culture, influencing fashion trends with her oversized clothing style, redefining pop music with her unique sound and production, and opening conversations about mental health and youth issues. She has become a voice for Generation Z and a symbol of authenticity and individuality in the music industry.",
+          "obscurity_scale": [
+            "2"
+          ],
+          "secondary_genres": [
+            "Alternative Pop",
+            "Electropop",
+            "Dark Pop"
+          ],
+          "associated_brands": [
+            "Apple Music",
+            "Calvin Klein",
+            "Adobe",
+            "YouTube Music"
+          ],
+          "genres_influenced": [
+            "Electropop",
+            "Alternative Pop",
+            "Indie Pop"
+          ],
+          "performance_style": "Billie Eilish's performance style is intimate and expressive, often featuring minimalist staging that focuses on emotional connection with the audience, using subtle movements and a strong visual aesthetic.",
+          "artists_influenced": [
+            "Olivia Rodrigo",
+            "Clairo",
+            "Girl in Red",
+            "Conan Gray"
+          ],
+          "short_descriptions": [
+            {
+              "value": "Billie Eilish ist eine US-Sängerin und Songwriterin, bekannt für ihre einzigartige Stimme und ihren düsteren, stimmungsvollen Pop.",
+              "languages": [
+                "de"
+              ]
+            },
+            {
+              "value": "Billie Eilish is an American singer-songwriter known for her unique voice and dark, moody pop music.",
+              "languages": [
+                "en"
+              ]
+            },
+            {
+              "value": "Billie Eilish es una cantante y compositora estadounidense reconocida por su voz única y su pop oscuro y melancólico.",
+              "languages": [
+                "es"
+              ]
+            },
+            {
+              "value": "Billie Eilish est une chanteuse et auteure-compositrice américaine célèbre pour sa voix singulière et sa pop sombre et envoûtante.",
+              "languages": [
+                "fr"
+              ]
+            }
+          ],
+          "adjectives_for_fans": [
+            "Loyal",
+            "Youthful",
+            "Passionate",
+            "Diverse"
+          ],
+          "adjectives_for_music": [
+            "Moody",
+            "Dark",
+            "Introspective",
+            "Innovative",
+            "Atmospheric"
+          ],
+          "lyrical_themes_description": "Billie Eilish's lyrics often explore themes of mental health struggles, emotional vulnerability, identity, love, and existential questions, frequently delivered with a dark and introspective tone that resonates with young audiences.",
+          "adjectives_for_performance_style": [
+            "Intimate",
+            "Expressive",
+            "Minimalist",
+            "Engaging"
+          ],
+          "creative_and_specific_adjectives_for_music": [
+            "Dark Electropop",
+            "Whisper Pop",
+            "Indie Electro Ballad",
+            "Moody Synthpop",
+            "Alternative Bedroom Pop"
+          ]
+        },
+        "popularity": 0.9985942630202701,
+        "tags": [
+          {
+            "id": "urn:tag:theme:qloo:death",
+            "name": "Death",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:mental_health",
+            "name": "Mental Health",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:expressive",
+            "name": "Expressive",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:influence:qloo:indie_pop",
+            "name": "Indie Pop",
+            "type": "urn:tag:influence:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:minimalist",
+            "name": "Minimalist",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:identity",
+            "name": "Identity",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:indie_electro_ballad",
+            "name": "Indie Electro Ballad",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:whisper_pop",
+            "name": "Whisper Pop",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:innovative",
+            "name": "Innovative",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:influence:qloo:electropop",
+            "name": "Electropop",
+            "type": "urn:tag:influence:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:loyal",
+            "name": "Loyal",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:moody",
+            "name": "Moody",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:genre:qloo:indie_pop",
+            "name": "Indie Pop",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:instrument:qloo:guitar",
+            "name": "Guitar",
+            "type": "urn:tag:instrument:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:dark_electropop",
+            "name": "Dark Electropop",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:genre:music:alternative_rock",
+            "name": "Alternative Rock",
+            "type": "urn:tag:genre:music"
+          },
+          {
+            "id": "urn:tag:genre:music:pop",
+            "name": "Pop",
+            "type": "urn:tag:genre:music"
+          },
+          {
+            "id": "urn:tag:genre:qloo:electropop",
+            "name": "Electropop",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:unique",
+            "name": "Unique",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:alternative_pop",
+            "name": "Alternative Pop",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:moody_synthpop",
+            "name": "Moody Synthpop",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:dark",
+            "name": "Dark",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:atmospheric",
+            "name": "Atmospheric",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:introspective",
+            "name": "Introspective",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:influenced_by:qloo:amy_winehouse",
+            "name": "Amy Winehouse",
+            "type": "urn:tag:influenced_by:qloo"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:dark_pop",
+            "name": "Dark Pop",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:subgenre:qloo:electropop",
+            "name": "Electropop",
+            "type": "urn:tag:subgenre:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:engaging",
+            "name": "Engaging",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:influenced_by:qloo:justin_bieber",
+            "name": "Justin Bieber",
+            "type": "urn:tag:influenced_by:qloo"
+          },
+          {
+            "id": "urn:tag:influence:qloo:alternative_pop",
+            "name": "Alternative Pop",
+            "type": "urn:tag:influence:qloo"
+          },
+          {
+            "id": "urn:tag:artist:qloo:youthful",
+            "name": "Youthful",
+            "type": "urn:tag:artist:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:alternative_bedroom_pop",
+            "name": "Alternative Bedroom Pop",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:diverse",
+            "name": "Diverse",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:passionate",
+            "name": "Passionate",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:depression",
+            "name": "Depression",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:voice_type:qloo:mezzo_soprano",
+            "name": "Mezzo-Soprano",
+            "type": "urn:tag:voice_type:qloo"
+          },
+          {
+            "id": "urn:tag:instrument:qloo:piano",
+            "name": "Piano",
+            "type": "urn:tag:instrument:qloo"
+          },
+          {
+            "id": "urn:tag:influenced_by:qloo:the_beatles",
+            "name": "The Beatles",
+            "type": "urn:tag:influenced_by:qloo"
+          },
+          {
+            "id": "urn:tag:genre:music:art_pop",
+            "name": "Art Pop",
+            "type": "urn:tag:genre:music"
+          },
+          {
+            "id": "urn:tag:obscurity:qloo:2",
+            "name": "2",
+            "type": "urn:tag:obscurity:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:anxiety",
+            "name": "Anxiety",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:audience:qloo:youthful",
+            "name": "Youthful",
+            "type": "urn:tag:audience:qloo"
+          },
+          {
+            "id": "urn:tag:theme:qloo:love",
+            "name": "Love",
+            "type": "urn:tag:theme:qloo"
+          },
+          {
+            "id": "urn:tag:influenced_by:qloo:lana_del_rey",
+            "name": "Lana Del Rey",
+            "type": "urn:tag:influenced_by:qloo"
+          },
+          {
+            "id": "urn:tag:genre:qloo:pop",
+            "name": "Pop",
+            "type": "urn:tag:genre:qloo"
+          },
+          {
+            "id": "urn:tag:style:qloo:intimate",
+            "name": "Intimate",
+            "type": "urn:tag:style:qloo"
+          },
+          {
+            "id": "urn:tag:instrument:qloo:vocals",
+            "name": "Vocals",
+            "type": "urn:tag:instrument:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:moody",
+            "name": "Moody",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:introspective",
+            "name": "Introspective",
+            "type": "urn:tag:music:qloo"
+          },
+          {
+            "id": "urn:tag:music:qloo:innovative",
+            "name": "Innovative",
+            "type": "urn:tag:music:qloo"
+          }
+        ],
+        "query": {
+          "affinity": 0.9335631276443108,
+          "measurements": {
+            "audience_growth": 0
+          }
+        },
+        "disambiguation": "Billie Eilish",
+        "external": {
+          "imdb": [
+            {
+              "id": "nm8483808"
+            }
+          ],
+          "lastfm": [
+            {
+              "id": "billie%20eilish",
+              "listeners": 3505126,
+              "scrobbles": 617539361
+            }
+          ],
+          "spotify": [
+            {
+              "id": "6qqNVTkY8uBg9cP3Jd7DAH",
+              "verified": true,
+              "followers": 36769665,
+              "last_release": 2020,
+              "first_release": 2016,
+              "monthly_listeners": 51827373
+            }
+          ],
+          "twitter": [
+            {
+              "id": "billieeilish"
+            }
+          ],
+          "facebook": [
+            {
+              "id": "billieeilish"
+            }
+          ],
+          "wikidata": [
+            {
+              "id": "q29564107"
+            }
+          ],
+          "goodreads": [
+            {
+              "id": "17813412"
+            }
+          ],
+          "instagram": [
+            {
+              "id": "billieeilish"
+            }
+          ],
+          "musicbrainz": [
+            {
+              "id": "f4abc0b5-3f7a-4eff-8f78-ac078dbce533",
+              "artist_type": "Person"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

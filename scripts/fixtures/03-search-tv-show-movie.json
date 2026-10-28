@@ -1,0 +1,2634 @@
+{
+  "results": [
+    {
+      "name": "Stranger Things",
+      "entity_id": "5C741521-447A-4E9D-A499-F6ECDFFB9116",
+      "types": [
+        "urn:entity:movie"
+      ],
+      "properties": {
+        "akas": [
+          {
+            "language": "sv",
+            "value": "Stranger Things"
+          },
+          {
+            "language": "fi",
+            "value": "Stranger Things"
+          },
+          {
+            "language": "fr",
+            "value": "Stranger Things"
+          },
+          {
+            "language": "de",
+            "value": "Stranger Things"
+          },
+          {
+            "language": "ru",
+            "value": "Странные вещи"
+          }
+        ],
+        "content_rating": "Not Rated",
+        "description": "Stranger Things (credited as a 2010 production and released June 11, 2013) is a drama directed by Eleanor Burke and Ron Eyal and starring Adeel Akhtar, Vivienne Burke, and Bridget Collins. The film follows a grieving woman who offers shelter in her garden shed to a mysterious homeless man, and through their tentative coexistence an unlikely, touching bond develops. Small, intimate scenes explore themes of grief, loneliness, and the healing power of human connection, rendered in a tender, melancholic tone.",
+        "external": {
+          "imdb": {
+            "id": "tt1468737",
+            "user_rating": 7,
+            "user_rating_count": 166
+          },
+          "metacritic": {
+            "critic_rating": 85,
+            "id": "stranger-things",
+            "user_rating": 7.8
+          },
+          "wikidata": {
+            "id": "q17022129"
+          }
+        },
+        "filming_location": "England, UK",
+        "image": {
+          "url": "https://images.qloo.com/i/5C741521-447A-4E9D-A499-F6ECDFFB9116-420x-auto.jpg"
+        },
+        "is_special": false,
+        "production_company": "Faces Films",
+        "release_country": "United States",
+        "release_date": "2013-06-11",
+        "release_year": 2010,
+        "short_descriptions": [
+          {
+            "language": "en",
+            "value": "A grieving woman befriends a mysterious homeless man and offers him shelter in her garden shed, forging an unlikely bond that sparks healing."
+          },
+          {
+            "language": "de",
+            "value": "Eine trauernde Frau freundet sich mit einem geheimnisvollen Obdachlosen an und bietet ihm im Gartenhaus Unterschlupf, wodurch eine heilende Bindung entsteht."
+          },
+          {
+            "language": "es",
+            "value": "Una mujer en duelo entabla amistad con un vagabundo misterioso y le ofrece cobijo en el cobertizo del jardín, creando un vínculo que impulsa la sanación."
+          },
+          {
+            "language": "fr",
+            "value": "Une femme en deuil se lie d’amitié avec un SDF mystérieux et lui offre un abri dans le cabanon du jardin, créant un lien qui amorce la guérison."
+          }
+        ],
+        "website": "http://blogs.artinfo.com/cuttingroom/2011/06/15/british-intruders-bring-miracles-to-bamcinemafest/"
+      },
+      "popularity": 0.5730694907752264,
+      "disambiguation": "2010",
+      "tags": [
+        {
+          "name": "Realistic",
+          "tag_id": "urn:tag:style:qloo:realistic",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Poignant",
+          "tag_id": "urn:tag:plot:qloo:poignant",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Title co directed by female",
+          "tag_id": "urn:tag:keyword:media:title_co_directed_by_female",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Heartfelt",
+          "tag_id": "urn:tag:plot:qloo:heartfelt",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Social realism",
+          "tag_id": "urn:tag:interests:qloo:social_realism",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Drama",
+          "tag_id": "urn:tag:genre:qloo:drama",
+          "type": "urn:tag:genre:qloo"
+        },
+        {
+          "name": "Title co written by female",
+          "tag_id": "urn:tag:keyword:media:title_co_written_by_female",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Community care",
+          "tag_id": "urn:tag:interests:qloo:community_care",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Vulnerable",
+          "tag_id": "urn:tag:character:qloo:vulnerable",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Emotional",
+          "tag_id": "urn:tag:plot:qloo:emotional",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Grief",
+          "tag_id": "urn:tag:keyword:qloo:grief",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "The wounded healer",
+          "tag_id": "urn:tag:archetype:qloo:the_wounded_healer",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Character driven",
+          "tag_id": "urn:tag:plot:qloo:character_driven",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Domestic minimalism",
+          "tag_id": "urn:tag:style:qloo:domestic_minimalism",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Isolation",
+          "tag_id": "urn:tag:keyword:qloo:isolation",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Intimate",
+          "tag_id": "urn:tag:plot:qloo:intimate",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Quiet realism",
+          "tag_id": "urn:tag:style:qloo:quiet_realism",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Intimate",
+          "tag_id": "urn:tag:style:qloo:intimate",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Low key",
+          "tag_id": "urn:tag:plot:qloo:low_key",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Companionship",
+          "tag_id": "urn:tag:keyword:qloo:companionship",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Emotionally engaged",
+          "tag_id": "urn:tag:audience:qloo:emotionally_engaged",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Mature",
+          "tag_id": "urn:tag:audience:qloo:mature",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Compassionate",
+          "tag_id": "urn:tag:character:qloo:compassionate",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Atmospheric",
+          "tag_id": "urn:tag:style:qloo:atmospheric",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Quiet",
+          "tag_id": "urn:tag:character:qloo:quiet",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Homelessness",
+          "tag_id": "urn:tag:keyword:qloo:homelessness",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Homelessness",
+          "tag_id": "urn:tag:theme:qloo:homelessness",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Reflective",
+          "tag_id": "urn:tag:audience:qloo:reflective",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "The stranger",
+          "tag_id": "urn:tag:archetype:qloo:the_stranger",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Mental health",
+          "tag_id": "urn:tag:interests:qloo:mental_health",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Empathetic",
+          "tag_id": "urn:tag:audience:qloo:empathetic",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Naturalistic",
+          "tag_id": "urn:tag:style:qloo:naturalistic",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Grief",
+          "tag_id": "urn:tag:theme:qloo:grief",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Mysterious",
+          "tag_id": "urn:tag:character:qloo:mysterious",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Loneliness",
+          "tag_id": "urn:tag:theme:qloo:loneliness",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Resilient",
+          "tag_id": "urn:tag:character:qloo:resilient",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Healing",
+          "tag_id": "urn:tag:theme:qloo:healing",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Redemption",
+          "tag_id": "urn:tag:archetype:qloo:redemption",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Warm melancholy",
+          "tag_id": "urn:tag:style:qloo:warm_melancholy",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Connection",
+          "tag_id": "urn:tag:keyword:qloo:connection",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Character studies",
+          "tag_id": "urn:tag:interests:qloo:character_studies",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Empathy",
+          "tag_id": "urn:tag:theme:qloo:empathy",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Haunted",
+          "tag_id": "urn:tag:character:qloo:haunted",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Drama",
+          "tag_id": "urn:tag:genre:media:drama",
+          "type": "urn:tag:genre:media"
+        },
+        {
+          "name": "Moody",
+          "tag_id": "urn:tag:style:qloo:moody",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "The caregiver",
+          "tag_id": "urn:tag:archetype:qloo:the_caregiver",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Garden scale intimacy",
+          "tag_id": "urn:tag:style:qloo:garden_scale_intimacy",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Drama loving",
+          "tag_id": "urn:tag:audience:qloo:drama_loving",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Subtle intimacy",
+          "tag_id": "urn:tag:style:qloo:subtle_intimacy",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "F rated",
+          "tag_id": "urn:tag:keyword:media:f_rated",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Indie cinema",
+          "tag_id": "urn:tag:interests:qloo:indie_cinema",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Introspective",
+          "tag_id": "urn:tag:audience:qloo:introspective",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Companionship",
+          "tag_id": "urn:tag:theme:qloo:companionship",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Garden shed",
+          "tag_id": "urn:tag:keyword:qloo:garden_shed",
+          "type": "urn:tag:keyword:qloo"
+        }
+      ]
+    },
+    {
+      "name": "Stranger Things Have Happened to Me",
+      "entity_id": "3B42C9A4-42BD-4C26-A640-8C888CC82568",
+      "types": [
+        "urn:entity:movie"
+      ],
+      "properties": {
+        "akas": [],
+        "external": {
+          "imdb": {
+            "id": "tt38821948",
+            "user_rating_count": 0
+          }
+        },
+        "filming_location": "",
+        "image": {
+          "url": "https://images.qloo.com/i/3B42C9A4-42BD-4C26-A640-8C888CC82568-420x-auto.jpg"
+        },
+        "is_special": false,
+        "production_company": "Grand Canions Productions",
+        "release_country": "United States",
+        "release_date": "2026-09-18",
+        "release_year": 2026,
+        "short_descriptions": [],
+        "website": "https://www.britflicks.com/blog/post/27144/stranger-things-have-happened-to-me-trailer/"
+      },
+      "disambiguation": "2026",
+      "tags": []
+    },
+    {
+      "name": "Behind the Curtain: Stranger Things - The First Shadow",
+      "entity_id": "8FA33266-7BE1-438F-B6AC-9C6FD0B5C4F7",
+      "types": [
+        "urn:entity:movie"
+      ],
+      "properties": {
+        "akas": [
+          {
+            "language": "pt",
+            "value": "Nos Bastidores de Stranger Things: The First Shadow"
+          },
+          {
+            "language": "fr",
+            "value": "Stranger Things: The First Shadow - Les coulisses de la pièce"
+          },
+          {
+            "language": "de",
+            "value": "Hinter den Kulissen von Stranger Things: The First Shadow"
+          },
+          {
+            "language": "zh",
+            "value": "走进幕后：怪奇物语：第一道暗影"
+          },
+          {
+            "language": "es",
+            "value": "Detrás del telón de Stranger Things: The First Shadow"
+          }
+        ],
+        "content_rating": "TV-14",
+        "description": "Behind the Curtain: Stranger Things - The First Shadow (2025), directed by Jonathan Halperin, is a documentary centered on the making of the stage production Stranger Things: The First Shadow. Featuring Sonia Friedman, Stephen Daldry, and Matt Duffer, it follows the cast and crew as they prepare for a major West End premiere. The film captures the collaboration, pressure, and anticipation surrounding the production while highlighting the creative process behind the scenes.",
+        "external": {
+          "imdb": {
+            "id": "tt36548443",
+            "user_rating": 6.7,
+            "user_rating_count": 563
+          }
+        },
+        "filming_location": "",
+        "image": {
+          "url": "https://images.qloo.com/i/8FA33266-7BE1-438F-B6AC-9C6FD0B5C4F7-420x-auto.jpg"
+        },
+        "is_special": false,
+        "production_company": "Makemake",
+        "release_country": "United States",
+        "release_date": "2025-04-15",
+        "release_year": 2025,
+        "short_descriptions": [
+          {
+            "language": "en",
+            "value": "Backstage access follows the hectic preparation for a major West End theater premiere."
+          },
+          {
+            "language": "de",
+            "value": "Mit exklusivem Blick hinter die Kulissen begleiten wir die hektischen Vorbereitungen für eine große West-End-Premiere."
+          },
+          {
+            "language": "es",
+            "value": "Con acceso entre bambalinas, sigue los frenéticos preparativos de un gran estreno teatral en el West End."
+          },
+          {
+            "language": "fr",
+            "value": "Avec un accès exclusif aux coulisses, on suit les préparatifs frénétiques d’une grande première au West End."
+          }
+        ],
+        "website": "https://www.backtothemovies.com/behind-the-curtain-stranger-things-review/"
+      },
+      "popularity": 0.7931685936673468,
+      "disambiguation": "2025",
+      "tags": [
+        {
+          "name": "Intellectually curious",
+          "tag_id": "urn:tag:audience:qloo:intellectually_curious",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "The ensemble",
+          "tag_id": "urn:tag:archetype:qloo:the_ensemble",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Public expectation",
+          "tag_id": "urn:tag:theme:qloo:public_expectation",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Thoughtful",
+          "tag_id": "urn:tag:audience:qloo:thoughtful",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Access driven",
+          "tag_id": "urn:tag:style:qloo:access_driven",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Collaborative",
+          "tag_id": "urn:tag:character:qloo:collaborative",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Behind the scenes",
+          "tag_id": "urn:tag:theme:qloo:behind_the_scenes",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Charismatic",
+          "tag_id": "urn:tag:character:qloo:charismatic",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Expectations",
+          "tag_id": "urn:tag:keyword:qloo:expectations",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Creative collaboration",
+          "tag_id": "urn:tag:interests:qloo:creative_collaboration",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Realistic",
+          "tag_id": "urn:tag:style:qloo:realistic",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Drama loving",
+          "tag_id": "urn:tag:audience:qloo:drama_loving",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Documentary",
+          "tag_id": "urn:tag:genre:media:documentary",
+          "type": "urn:tag:genre:media"
+        },
+        {
+          "name": "Performance art",
+          "tag_id": "urn:tag:interests:qloo:performance_art",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Theater documentary",
+          "tag_id": "urn:tag:subgenre:qloo:theater_documentary",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Creative pressure",
+          "tag_id": "urn:tag:theme:qloo:creative_pressure",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Collaboration",
+          "tag_id": "urn:tag:theme:qloo:collaboration",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Theater",
+          "tag_id": "urn:tag:interests:qloo:theater",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Ambitious",
+          "tag_id": "urn:tag:character:qloo:ambitious",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "West end",
+          "tag_id": "urn:tag:keyword:qloo:west_end",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Behind the scenes",
+          "tag_id": "urn:tag:subgenre:qloo:behind_the_scenes",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Fly on the wall",
+          "tag_id": "urn:tag:style:qloo:fly_on_the_wall",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Documentary",
+          "tag_id": "urn:tag:genre:qloo:documentary",
+          "type": "urn:tag:genre:qloo"
+        },
+        {
+          "name": "Investigative",
+          "tag_id": "urn:tag:plot:qloo:investigative",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Crew",
+          "tag_id": "urn:tag:keyword:qloo:crew",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Theater production",
+          "tag_id": "urn:tag:theme:qloo:theater_production",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Backstage",
+          "tag_id": "urn:tag:keyword:qloo:backstage",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Cast",
+          "tag_id": "urn:tag:keyword:qloo:cast",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Premiere",
+          "tag_id": "urn:tag:keyword:qloo:premiere",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Intimate",
+          "tag_id": "urn:tag:style:qloo:intimate",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Backstage",
+          "tag_id": "urn:tag:plot:qloo:backstage",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Stage design",
+          "tag_id": "urn:tag:interests:qloo:stage_design",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Documentary like",
+          "tag_id": "urn:tag:style:qloo:documentary_like",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Rehearsal",
+          "tag_id": "urn:tag:keyword:qloo:rehearsal",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Curious",
+          "tag_id": "urn:tag:audience:qloo:curious",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Reflective",
+          "tag_id": "urn:tag:plot:qloo:reflective",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Resourceful",
+          "tag_id": "urn:tag:character:qloo:resourceful",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Rehearsals",
+          "tag_id": "urn:tag:interests:qloo:rehearsals",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Time sensitive",
+          "tag_id": "urn:tag:plot:qloo:time_sensitive",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Production",
+          "tag_id": "urn:tag:keyword:qloo:production",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "The race against time",
+          "tag_id": "urn:tag:archetype:qloo:the_race_against_time",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Theater interested",
+          "tag_id": "urn:tag:audience:qloo:theater_interested",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Observational",
+          "tag_id": "urn:tag:style:qloo:observational",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Determined",
+          "tag_id": "urn:tag:character:qloo:determined",
+          "type": "urn:tag:character:qloo"
+        }
+      ]
+    },
+    {
+      "name": "One Last Adventure: The Making of Stranger Things 5",
+      "entity_id": "6BB3E4BD-6342-4919-95E8-5DC3490D84DD",
+      "types": [
+        "urn:entity:movie"
+      ],
+      "properties": {
+        "akas": [],
+        "content_rating": "TV-14",
+        "description": "One Last Adventure: The Making of Stranger Things 5 (2026) is a feature documentary directed by Martina Radwan that chronicles a year on set during the creation of a prominent show's final season. Combining candid interviews, archival clips, and observational set footage, the film reveals the collaborative, technical, and emotional work involved in finishing a long-running narrative. Themes of creative process, teamwork, legacy, and closure run throughout, and the tone balances heartfelt admiration with bittersweet reflection.",
+        "external": {
+          "imdb": {
+            "id": "tt39307872",
+            "user_rating": 7.1,
+            "user_rating_count": 3635
+          }
+        },
+        "filming_location": "",
+        "image": {
+          "url": "https://images.qloo.com/i/6BB3E4BD-6342-4919-95E8-5DC3490D84DD-420x-auto.jpg"
+        },
+        "is_special": false,
+        "production_company": "Makemake",
+        "release_country": "United States",
+        "release_date": "2026-01-12",
+        "release_year": 2026,
+        "short_descriptions": [
+          {
+            "language": "en",
+            "value": "A yearlong, behind-the-scenes look at the production of Stranger Things' final season, documenting rehearsals, on-set challenges, and the creative process."
+          },
+          {
+            "language": "de",
+            "value": "Ein einjähriger Blick hinter die Kulissen der Produktion der finalen Staffel von Stranger Things, mit Proben, Problemen am Set und dem kreativen Prozess."
+          },
+          {
+            "language": "es",
+            "value": "Una mirada de un año detrás de cámaras al rodaje de la última temporada de Stranger Things, documentando ensayos, retos en el set y el proceso creativo."
+          },
+          {
+            "language": "fr",
+            "value": "Un regard d'un an, en coulisses, sur la production de la dernière saison de Stranger Things, montrant répétitions, aléas de tournage et processus créatif."
+          }
+        ],
+        "website": "https://joshatthemovies.com/2026/01/12/film-review-one-last-adventure-the-making-of-stranger-things-5/"
+      },
+      "disambiguation": "2026",
+      "tags": [
+        {
+          "name": "Staged reality blend",
+          "tag_id": "urn:tag:style:qloo:staged_reality_blend",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Behind the scenes",
+          "tag_id": "urn:tag:subgenre:qloo:behind_the_scenes",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Nostalgic",
+          "tag_id": "urn:tag:plot:qloo:nostalgic",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Realistic",
+          "tag_id": "urn:tag:style:qloo:realistic",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Collaborative",
+          "tag_id": "urn:tag:character:qloo:collaborative",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Crew",
+          "tag_id": "urn:tag:keyword:qloo:crew",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Realistic",
+          "tag_id": "urn:tag:plot:qloo:realistic",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Fandom culture",
+          "tag_id": "urn:tag:interests:qloo:fandom_culture",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "The collective",
+          "tag_id": "urn:tag:archetype:qloo:the_collective",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Vulnerable",
+          "tag_id": "urn:tag:character:qloo:vulnerable",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Analytical",
+          "tag_id": "urn:tag:audience:qloo:analytical",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Documentary",
+          "tag_id": "urn:tag:genre:media:documentary",
+          "type": "urn:tag:genre:media"
+        },
+        {
+          "name": "Emotionally engaged",
+          "tag_id": "urn:tag:audience:qloo:emotionally_engaged",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Footage",
+          "tag_id": "urn:tag:keyword:qloo:footage",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Cast",
+          "tag_id": "urn:tag:keyword:qloo:cast",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Film production",
+          "tag_id": "urn:tag:interests:qloo:film_production",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Television documentary",
+          "tag_id": "urn:tag:subgenre:qloo:television_documentary",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Intimate",
+          "tag_id": "urn:tag:style:qloo:intimate",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Handheld intimacy",
+          "tag_id": "urn:tag:style:qloo:handheld_intimacy",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Naturalistic",
+          "tag_id": "urn:tag:style:qloo:naturalistic",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Supportive",
+          "tag_id": "urn:tag:character:qloo:supportive",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Cinematography",
+          "tag_id": "urn:tag:keyword:qloo:cinematography",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Character driven",
+          "tag_id": "urn:tag:plot:qloo:character_driven",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Determined",
+          "tag_id": "urn:tag:character:qloo:determined",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Collaboration",
+          "tag_id": "urn:tag:theme:qloo:collaboration",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Scriptwriting",
+          "tag_id": "urn:tag:interests:qloo:scriptwriting",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Thought provoking",
+          "tag_id": "urn:tag:plot:qloo:thought_provoking",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Screenwriting",
+          "tag_id": "urn:tag:keyword:qloo:screenwriting",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "The creator",
+          "tag_id": "urn:tag:archetype:qloo:the_creator",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Industry minded",
+          "tag_id": "urn:tag:audience:qloo:industry_minded",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Reflective",
+          "tag_id": "urn:tag:plot:qloo:reflective",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Observational",
+          "tag_id": "urn:tag:style:qloo:observational",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Filmmaking",
+          "tag_id": "urn:tag:theme:qloo:filmmaking",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Interviews",
+          "tag_id": "urn:tag:keyword:qloo:interviews",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Post production",
+          "tag_id": "urn:tag:keyword:qloo:post_production",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Polished",
+          "tag_id": "urn:tag:style:qloo:polished",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Resilient",
+          "tag_id": "urn:tag:character:qloo:resilient",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Creative",
+          "tag_id": "urn:tag:character:qloo:creative",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Set",
+          "tag_id": "urn:tag:keyword:qloo:set",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Reflective",
+          "tag_id": "urn:tag:character:qloo:reflective",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Quiet observational",
+          "tag_id": "urn:tag:style:qloo:quiet_observational",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Rehearsals",
+          "tag_id": "urn:tag:keyword:qloo:rehearsals",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Cinematic",
+          "tag_id": "urn:tag:style:qloo:cinematic",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Nostalgic",
+          "tag_id": "urn:tag:audience:qloo:nostalgic",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Reflective",
+          "tag_id": "urn:tag:audience:qloo:reflective",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Making of",
+          "tag_id": "urn:tag:subgenre:qloo:making_of",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Closure",
+          "tag_id": "urn:tag:theme:qloo:closure",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Intimate",
+          "tag_id": "urn:tag:plot:qloo:intimate",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Emotional",
+          "tag_id": "urn:tag:plot:qloo:emotional",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Memory",
+          "tag_id": "urn:tag:theme:qloo:memory",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Curious",
+          "tag_id": "urn:tag:audience:qloo:curious",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Passionate",
+          "tag_id": "urn:tag:character:qloo:passionate",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Television history",
+          "tag_id": "urn:tag:interests:qloo:television_history",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Documentary like",
+          "tag_id": "urn:tag:style:qloo:documentary_like",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Archival forward",
+          "tag_id": "urn:tag:style:qloo:archival_forward",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "The mentor",
+          "tag_id": "urn:tag:archetype:qloo:the_mentor",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Documentary",
+          "tag_id": "urn:tag:genre:qloo:documentary",
+          "type": "urn:tag:genre:qloo"
+        },
+        {
+          "name": "Production",
+          "tag_id": "urn:tag:keyword:qloo:production",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Creative process",
+          "tag_id": "urn:tag:theme:qloo:creative_process",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Fan oriented",
+          "tag_id": "urn:tag:audience:qloo:fan_oriented",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Cinematography",
+          "tag_id": "urn:tag:interests:qloo:cinematography",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "The hero",
+          "tag_id": "urn:tag:archetype:qloo:the_hero",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Cinematic interstitials",
+          "tag_id": "urn:tag:style:qloo:cinematic_interstitials",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Investigative",
+          "tag_id": "urn:tag:plot:qloo:investigative",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Legacy",
+          "tag_id": "urn:tag:theme:qloo:legacy",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Rite of passage",
+          "tag_id": "urn:tag:archetype:qloo:rite_of_passage",
+          "type": "urn:tag:archetype:qloo"
+        }
+      ]
+    },
+    {
+      "name": "Poor Things",
+      "entity_id": "1D6CA600-11FC-4C9B-BBEB-376E4F3641E6",
+      "types": [
+        "urn:entity:movie"
+      ],
+      "properties": {
+        "akas": [
+          {
+            "language": "tr",
+            "value": "Zavallılar (film, 2023)"
+          },
+          {
+            "language": "he",
+            "value": "מסכנים שכאלה"
+          },
+          {
+            "language": "th",
+            "value": "พัวร์ ธิงส์"
+          },
+          {
+            "language": "es_ar",
+            "value": "Pobres criaturas"
+          },
+          {
+            "language": "es",
+            "value": "Pobres criaturas"
+          },
+          {
+            "language": "cs",
+            "value": "Chudáčci"
+          },
+          {
+            "language": "ar",
+            "value": "كائنات مسكينة"
+          },
+          {
+            "language": "bn",
+            "value": "পুওর থিংস"
+          },
+          {
+            "language": "ru",
+            "value": "Бедные-несчастные"
+          },
+          {
+            "language": "zh",
+            "value": "可憐的東西"
+          },
+          {
+            "language": "fr",
+            "value": "Pauvres Créatures"
+          },
+          {
+            "language": "it",
+            "value": "Povere creature!"
+          },
+          {
+            "language": "nl",
+            "value": "Poor Things"
+          },
+          {
+            "language": "en_au",
+            "value": "Poor Things"
+          },
+          {
+            "language": "fi",
+            "value": "Poor Things"
+          },
+          {
+            "language": "sv",
+            "value": "Poor Things"
+          },
+          {
+            "language": "de",
+            "value": "Poor Things"
+          },
+          {
+            "language": "gl",
+            "value": "Poor Things"
+          },
+          {
+            "language": "eu",
+            "value": "Poor Things"
+          },
+          {
+            "language": "ko",
+            "value": "가여운 것들"
+          },
+          {
+            "language": "ro",
+            "value": "Sărmane creaturi"
+          },
+          {
+            "language": "ja",
+            "value": "哀れなるものたち"
+          },
+          {
+            "language": "pl",
+            "value": "Biedne istoty"
+          },
+          {
+            "language": "pt_pt",
+            "value": "Pobres Criaturas"
+          },
+          {
+            "language": "pt",
+            "value": "Pobres Criaturas"
+          }
+        ],
+        "content_rating": "R",
+        "description": "Poor Things (2023), directed by Yorgos Lanthimos and starring Emma Stone, Mark Ruffalo and Willem Dafoe, is a darkly comic, visually opulent adaptation blending science fiction and period drama. The story follows a woman resurrected by an eccentric scientist who awakens with a childlike intelligence and embarks on a sensual, transgressive journey that exposes questions of personhood, emancipation, and the ethics of creation. The film is notable for extravagant costume and production design, a whimsical yet unsettling aesthetic, and a tone that alternates between wonder and moral provocation.",
+        "external": {
+          "facebook": {
+            "id": "poorthingsfilm"
+          },
+          "imdb": {
+            "id": "tt14230458",
+            "user_rating": 7.7,
+            "user_rating_count": 424322
+          },
+          "instagram": {
+            "id": "poorthingsfilm"
+          },
+          "metacritic": {
+            "critic_rating": -1,
+            "id": "poor-things",
+            "user_rating": -1
+          },
+          "twitter": {
+            "id": "poorthingsfilm"
+          },
+          "wikidata": {
+            "id": "q108760382"
+          }
+        },
+        "filming_location": "Origo Film Studio, Budapest, Hungary, Hungary, Lisbon, Portugal",
+        "image": {
+          "url": "https://images.qloo.com/i/1D6CA600-11FC-4C9B-BBEB-376E4F3641E6-420x-auto.jpg"
+        },
+        "is_special": false,
+        "production_company": "Element Pictures",
+        "release_country": "Ireland",
+        "release_date": "2023-12-22",
+        "release_year": 2023,
+        "short_descriptions": [
+          {
+            "language": "en",
+            "value": "A woman resurrected by an eccentric scientist awakens with a childlike mind and sets off on a surreal, sensual journey of self-discovery in a stylized Victorian world."
+          },
+          {
+            "language": "de",
+            "value": "Eine von einem exzentrischen Wissenschaftler wiederbelebte Frau erwacht mit kindlichem Bewusstsein und begibt sich auf eine sinnliche, surrealistische Reise der Selbstfindung in einer stilisierten viktorianischen Welt."
+          },
+          {
+            "language": "es",
+            "value": "Una mujer resucitada por un científico excéntrico despierta con mente infantil y emprende un viaje sensorial y surrealista de autodescubrimiento en un mundo victoriano estilizado."
+          },
+          {
+            "language": "fr",
+            "value": "Une femme ressuscitée par un scientifique excentrique s'éveille avec l'esprit d'un enfant et part en voyage sensuel et surréaliste à la découverte d'elle‑même dans un univers victorien stylisé."
+          }
+        ],
+        "website": "https://www.rogerebert.com/reviews/poor-things-movie-review-2023"
+      },
+      "popularity": 0.9996005656853537,
+      "disambiguation": "2023",
+      "tags": [
+        {
+          "name": "Reference to ralph waldo emerson",
+          "tag_id": "urn:tag:keyword:media:reference_to_ralph_waldo_emerson",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Man carries an unconscious woman",
+          "tag_id": "urn:tag:keyword:media:man_carries_an_unconscious_woman",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Facial scar",
+          "tag_id": "urn:tag:keyword:media:facial_scar",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Black and white sequence",
+          "tag_id": "urn:tag:keyword:media:black_and_white_sequence",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Mature content",
+          "tag_id": "urn:tag:keyword:media:mature_content",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Suicide by jumping off a bridge",
+          "tag_id": "urn:tag:keyword:media:suicide_by_jumping_off_a_bridge",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Sexuality",
+          "tag_id": "urn:tag:keyword:qloo:sexuality",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Free spirited",
+          "tag_id": "urn:tag:character:qloo:free_spirited",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Surgical amphitheatre",
+          "tag_id": "urn:tag:keyword:media:surgical_amphitheatre",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Brain transplant",
+          "tag_id": "urn:tag:keyword:media:brain_transplant",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Love",
+          "tag_id": "urn:tag:keyword:media:love",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Disfigured face",
+          "tag_id": "urn:tag:keyword:media:disfigured_face",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Science experiment",
+          "tag_id": "urn:tag:keyword:media:science_experiment",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Speaking bluntly",
+          "tag_id": "urn:tag:keyword:media:speaking_bluntly",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Imaginative",
+          "tag_id": "urn:tag:audience:qloo:imaginative",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Knock knock joke",
+          "tag_id": "urn:tag:keyword:media:knock_knock_joke",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Sea voyage",
+          "tag_id": "urn:tag:keyword:media:sea_voyage",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Reading a bedtime story",
+          "tag_id": "urn:tag:keyword:media:reading_a_bedtime_story",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Childlike",
+          "tag_id": "urn:tag:character:qloo:childlike",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Relational dependence",
+          "tag_id": "urn:tag:keyword:media:relational_dependence",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Steampunk sci fi",
+          "tag_id": "urn:tag:keyword:media:steampunk_sci_fi",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Blowing a bubble",
+          "tag_id": "urn:tag:keyword:media:blowing_a_bubble",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Rebellious",
+          "tag_id": "urn:tag:character:qloo:rebellious",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Adult fairy tale",
+          "tag_id": "urn:tag:subgenre:qloo:adult_fairy_tale",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Sexually curious",
+          "tag_id": "urn:tag:character:qloo:sexually_curious",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Flashback",
+          "tag_id": "urn:tag:keyword:media:flashback",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Terminally ill man",
+          "tag_id": "urn:tag:keyword:media:terminally_ill_man",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Tattooed woman",
+          "tag_id": "urn:tag:keyword:media:tattooed_woman",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Period setting",
+          "tag_id": "urn:tag:plot:qloo:period_setting",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Intoxication",
+          "tag_id": "urn:tag:keyword:media:intoxication",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Free will",
+          "tag_id": "urn:tag:theme:qloo:free_will",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Gothic",
+          "tag_id": "urn:tag:keyword:media:gothic",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Female vomiting",
+          "tag_id": "urn:tag:keyword:media:female_vomiting",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Vulnerable",
+          "tag_id": "urn:tag:character:qloo:vulnerable",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Wounded",
+          "tag_id": "urn:tag:keyword:media:wounded",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Naive",
+          "tag_id": "urn:tag:character:qloo:naive",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "1800s",
+          "tag_id": "urn:tag:keyword:media:1800s",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Womanhood",
+          "tag_id": "urn:tag:theme:qloo:womanhood",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Gothic",
+          "tag_id": "urn:tag:subgenre:qloo:gothic",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Chimera",
+          "tag_id": "urn:tag:keyword:media:chimera",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Male sexual predation",
+          "tag_id": "urn:tag:keyword:media:male_sexual_predation",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Steampunk",
+          "tag_id": "urn:tag:subgenre:qloo:steampunk",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Resourceful",
+          "tag_id": "urn:tag:character:qloo:resourceful",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Independent film",
+          "tag_id": "urn:tag:keyword:media:independent_film",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Fiance fiancee relationship",
+          "tag_id": "urn:tag:keyword:media:fiance_fiancee_relationship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Mad scientist",
+          "tag_id": "urn:tag:keyword:media:mad_scientist",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Speculative fiction",
+          "tag_id": "urn:tag:interests:qloo:speculative_fiction",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Jumping off a bridge",
+          "tag_id": "urn:tag:keyword:media:jumping_off_a_bridge",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Scalpel",
+          "tag_id": "urn:tag:keyword:media:scalpel",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Close up of open mouth",
+          "tag_id": "urn:tag:keyword:media:close_up_of_open_mouth",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Chloroformed",
+          "tag_id": "urn:tag:keyword:media:chloroformed",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Surgeon",
+          "tag_id": "urn:tag:keyword:media:surgeon",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Male fantasy",
+          "tag_id": "urn:tag:keyword:media:male_fantasy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Surreal",
+          "tag_id": "urn:tag:style:qloo:surreal",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Sitting on a roof",
+          "tag_id": "urn:tag:keyword:media:sitting_on_a_roof",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Theatrical",
+          "tag_id": "urn:tag:style:qloo:theatrical",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Playful macabre",
+          "tag_id": "urn:tag:style:qloo:playful_macabre",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Serialized story",
+          "tag_id": "urn:tag:keyword:media:serialized_story",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Lanthimos and dafoe",
+          "tag_id": "urn:tag:keyword:media:lanthimos_and_dafoe",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Curiosity",
+          "tag_id": "urn:tag:keyword:qloo:curiosity",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Pinhole effect",
+          "tag_id": "urn:tag:keyword:media:pinhole_effect",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Anatomical theatre",
+          "tag_id": "urn:tag:keyword:media:anatomical_theatre",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Street life",
+          "tag_id": "urn:tag:keyword:media:street_life",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Uninhibited",
+          "tag_id": "urn:tag:keyword:media:uninhibited",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Morality",
+          "tag_id": "urn:tag:theme:qloo:morality",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Innocent",
+          "tag_id": "urn:tag:character:qloo:innocent",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Dragged along the floor",
+          "tag_id": "urn:tag:keyword:media:dragged_along_the_floor",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Experimentation",
+          "tag_id": "urn:tag:keyword:qloo:experimentation",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Long feminine hair",
+          "tag_id": "urn:tag:keyword:media:long_feminine_hair",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Romance",
+          "tag_id": "urn:tag:genre:media:romance",
+          "type": "urn:tag:genre:media"
+        },
+        {
+          "name": "2020s movie",
+          "tag_id": "urn:tag:keyword:media:2020s_movie",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Killing an animal",
+          "tag_id": "urn:tag:keyword:media:killing_an_animal",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Taking notes",
+          "tag_id": "urn:tag:keyword:media:taking_notes",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Dark comedy",
+          "tag_id": "urn:tag:keyword:media:dark_comedy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Public argument",
+          "tag_id": "urn:tag:keyword:media:public_argument",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Male power imbalance",
+          "tag_id": "urn:tag:keyword:media:male_power_imbalance",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Woman singing",
+          "tag_id": "urn:tag:keyword:media:woman_singing",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Identity",
+          "tag_id": "urn:tag:keyword:qloo:identity",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Flawed",
+          "tag_id": "urn:tag:character:qloo:flawed",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Hotel room",
+          "tag_id": "urn:tag:keyword:media:hotel_room",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Mid budget",
+          "tag_id": "urn:tag:keyword:media:mid_budget",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Man crying",
+          "tag_id": "urn:tag:keyword:media:man_crying",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Ocean cruise",
+          "tag_id": "urn:tag:keyword:media:ocean_cruise",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Production design",
+          "tag_id": "urn:tag:interests:qloo:production_design",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "The monster",
+          "tag_id": "urn:tag:archetype:qloo:the_monster",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Drama",
+          "tag_id": "urn:tag:genre:media:drama",
+          "type": "urn:tag:genre:media"
+        },
+        {
+          "name": "Close up of mouth",
+          "tag_id": "urn:tag:keyword:media:close_up_of_mouth",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Drunken man",
+          "tag_id": "urn:tag:keyword:media:drunken_man",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Ornate grotesque",
+          "tag_id": "urn:tag:style:qloo:ornate_grotesque",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Identity",
+          "tag_id": "urn:tag:theme:qloo:identity",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Esperimento chirurgico",
+          "tag_id": "urn:tag:keyword:media:esperimento_chirurgico",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Cruise ship",
+          "tag_id": "urn:tag:keyword:media:cruise_ship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Historical fiction",
+          "tag_id": "urn:tag:keyword:media:historical_fiction",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Drugged drink",
+          "tag_id": "urn:tag:keyword:media:drugged_drink",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Victorian england",
+          "tag_id": "urn:tag:keyword:media:victorian_england",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Surrealism",
+          "tag_id": "urn:tag:keyword:media:surrealism",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "The creator",
+          "tag_id": "urn:tag:archetype:qloo:the_creator",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Singing and playing portuguese guitar",
+          "tag_id": "urn:tag:keyword:media:singing_and_playing_portuguese_guitar",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Indiewood",
+          "tag_id": "urn:tag:keyword:media:indiewood",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Child in adult body",
+          "tag_id": "urn:tag:keyword:media:child_in_adult_body",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Comedy",
+          "tag_id": "urn:tag:genre:media:comedy",
+          "type": "urn:tag:genre:media"
+        },
+        {
+          "name": "Magical realism",
+          "tag_id": "urn:tag:keyword:media:magical_realism",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Human dissection",
+          "tag_id": "urn:tag:keyword:media:human_dissection",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Sexual pleasure",
+          "tag_id": "urn:tag:keyword:media:sexual_pleasure",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "London england",
+          "tag_id": "urn:tag:keyword:media:london_england",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Woman child",
+          "tag_id": "urn:tag:keyword:media:woman_child",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Mature woman younger man relationship",
+          "tag_id": "urn:tag:keyword:media:mature_woman_younger_man_relationship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Female prostitute",
+          "tag_id": "urn:tag:keyword:media:female_prostitute",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Curious",
+          "tag_id": "urn:tag:character:qloo:curious",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Suicide of pregnant woman",
+          "tag_id": "urn:tag:keyword:media:suicide_of_pregnant_woman",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Lush",
+          "tag_id": "urn:tag:style:qloo:lush",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Art film",
+          "tag_id": "urn:tag:keyword:media:art_film",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Death of guardian",
+          "tag_id": "urn:tag:keyword:media:death_of_guardian",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Journal",
+          "tag_id": "urn:tag:keyword:media:journal",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Victorian london",
+          "tag_id": "urn:tag:keyword:qloo:victorian_london",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Old woman",
+          "tag_id": "urn:tag:keyword:media:old_woman",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Pulling a gun",
+          "tag_id": "urn:tag:keyword:media:pulling_a_gun",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Brothel madam",
+          "tag_id": "urn:tag:keyword:media:brothel_madam",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "The journey",
+          "tag_id": "urn:tag:archetype:qloo:the_journey",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Steam driven brougham carriage",
+          "tag_id": "urn:tag:keyword:media:steam_driven_brougham_carriage",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Film theory",
+          "tag_id": "urn:tag:interests:qloo:film_theory",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Local anesthetic",
+          "tag_id": "urn:tag:keyword:media:local_anesthetic",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Non linear timeline",
+          "tag_id": "urn:tag:keyword:media:non_linear_timeline",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Empathy",
+          "tag_id": "urn:tag:keyword:media:empathy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Alexandria egypt",
+          "tag_id": "urn:tag:keyword:media:alexandria_egypt",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Sexuality",
+          "tag_id": "urn:tag:theme:qloo:sexuality",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Emancipation",
+          "tag_id": "urn:tag:keyword:qloo:emancipation",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Prosthetic arm",
+          "tag_id": "urn:tag:keyword:media:prosthetic_arm",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "The innocent",
+          "tag_id": "urn:tag:archetype:qloo:the_innocent",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Cancer",
+          "tag_id": "urn:tag:keyword:media:cancer",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Feminism",
+          "tag_id": "urn:tag:keyword:media:feminism",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Character driven",
+          "tag_id": "urn:tag:plot:qloo:character_driven",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Cruelty",
+          "tag_id": "urn:tag:keyword:media:cruelty",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Female body brutality",
+          "tag_id": "urn:tag:keyword:media:female_body_brutality",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Legame relazionale",
+          "tag_id": "urn:tag:keyword:media:legame_relazionale",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Lisbon portugal",
+          "tag_id": "urn:tag:keyword:media:lisbon_portugal",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Bitten in the ear",
+          "tag_id": "urn:tag:keyword:media:bitten_in_the_ear",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Determined",
+          "tag_id": "urn:tag:character:qloo:determined",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Surreal",
+          "tag_id": "urn:tag:keyword:media:surreal",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Scientist",
+          "tag_id": "urn:tag:keyword:qloo:scientist",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Riding a tricycle",
+          "tag_id": "urn:tag:keyword:media:riding_a_tricycle",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Physical awkwardness",
+          "tag_id": "urn:tag:keyword:media:physical_awkwardness",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Walking on a roof",
+          "tag_id": "urn:tag:keyword:media:walking_on_a_roof",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Dark",
+          "tag_id": "urn:tag:plot:qloo:dark",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Angelfish",
+          "tag_id": "urn:tag:keyword:media:angelfish",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Trip and fall",
+          "tag_id": "urn:tag:keyword:media:trip_and_fall",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Science fiction",
+          "tag_id": "urn:tag:genre:qloo:science_fiction",
+          "type": "urn:tag:genre:qloo"
+        },
+        {
+          "name": "Open minded",
+          "tag_id": "urn:tag:audience:qloo:open_minded",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Removing a bullet",
+          "tag_id": "urn:tag:keyword:media:removing_a_bullet",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Dying of cancer",
+          "tag_id": "urn:tag:keyword:media:dying_of_cancer",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Lanthimos and stone",
+          "tag_id": "urn:tag:keyword:media:lanthimos_and_stone",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Prostitution",
+          "tag_id": "urn:tag:keyword:media:prostitution",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Self discovery",
+          "tag_id": "urn:tag:keyword:media:self_discovery",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Fairy tale",
+          "tag_id": "urn:tag:plot:qloo:fairy_tale",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Male female relationship",
+          "tag_id": "urn:tag:keyword:media:male_female_relationship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Sci fi",
+          "tag_id": "urn:tag:genre:media:sci_fi",
+          "type": "urn:tag:genre:media"
+        },
+        {
+          "name": "Science and ethics",
+          "tag_id": "urn:tag:theme:qloo:science_and_ethics",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Dipendenza relazionale",
+          "tag_id": "urn:tag:keyword:media:dipendenza_relazionale",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Whimsical",
+          "tag_id": "urn:tag:plot:qloo:whimsical",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Brothel",
+          "tag_id": "urn:tag:keyword:media:brothel",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Hanging cable car",
+          "tag_id": "urn:tag:keyword:media:hanging_cable_car",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Stylized",
+          "tag_id": "urn:tag:style:qloo:stylized",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Older man younger woman relationship",
+          "tag_id": "urn:tag:keyword:media:older_man_younger_woman_relationship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Class",
+          "tag_id": "urn:tag:theme:qloo:class",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Pasteis de nata",
+          "tag_id": "urn:tag:keyword:media:pasteis_de_nata",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Romance",
+          "tag_id": "urn:tag:genre:qloo:romance",
+          "type": "urn:tag:genre:qloo"
+        },
+        {
+          "name": "Man faints",
+          "tag_id": "urn:tag:keyword:media:man_faints",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Costume design",
+          "tag_id": "urn:tag:interests:qloo:costume_design",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Reanimated child like woman",
+          "tag_id": "urn:tag:keyword:media:reanimated_child_like_woman",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Playing roulette",
+          "tag_id": "urn:tag:keyword:media:playing_roulette",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Drama",
+          "tag_id": "urn:tag:genre:qloo:drama",
+          "type": "urn:tag:genre:qloo"
+        },
+        {
+          "name": "Rapid hair growth",
+          "tag_id": "urn:tag:keyword:media:rapid_hair_growth",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Human experimentation",
+          "tag_id": "urn:tag:keyword:media:human_experimentation",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Synthetic gastric juice",
+          "tag_id": "urn:tag:keyword:media:synthetic_gastric_juice",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Dark comedy",
+          "tag_id": "urn:tag:subgenre:qloo:dark_comedy",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Animal cruelty",
+          "tag_id": "urn:tag:keyword:media:animal_cruelty",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Gambling winner",
+          "tag_id": "urn:tag:keyword:media:gambling_winner",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Atmospheric",
+          "tag_id": "urn:tag:style:qloo:atmospheric",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Chromatic fantastical",
+          "tag_id": "urn:tag:style:qloo:chromatic_fantastical",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Period accurate",
+          "tag_id": "urn:tag:style:qloo:period_accurate",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Emancipation",
+          "tag_id": "urn:tag:theme:qloo:emancipation",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Cinematic",
+          "tag_id": "urn:tag:style:qloo:cinematic",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Partially completed eiffel tower",
+          "tag_id": "urn:tag:keyword:media:partially_completed_eiffel_tower",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Psychological drama",
+          "tag_id": "urn:tag:keyword:media:psychological_drama",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Wetting oneself",
+          "tag_id": "urn:tag:keyword:media:wetting_oneself",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Charismatic",
+          "tag_id": "urn:tag:character:qloo:charismatic",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Slapped in the face",
+          "tag_id": "urn:tag:keyword:media:slapped_in_the_face",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Some scenes in black and white",
+          "tag_id": "urn:tag:keyword:media:some_scenes_in_black_and_white",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Goat",
+          "tag_id": "urn:tag:keyword:media:goat",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Title directed by male",
+          "tag_id": "urn:tag:keyword:media:title_directed_by_male",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Barking chicken",
+          "tag_id": "urn:tag:keyword:media:barking_chicken",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Self pleasure",
+          "tag_id": "urn:tag:keyword:media:self_pleasure",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Fiction",
+          "tag_id": "urn:tag:keyword:media:fiction",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Clockwork surrealism",
+          "tag_id": "urn:tag:style:qloo:clockwork_surrealism",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Burping a bubble",
+          "tag_id": "urn:tag:keyword:media:burping_a_bubble",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Poverty",
+          "tag_id": "urn:tag:keyword:media:poverty",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Scientist",
+          "tag_id": "urn:tag:keyword:media:scientist",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Extracting a bullet",
+          "tag_id": "urn:tag:keyword:media:extracting_a_bullet",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Chapters",
+          "tag_id": "urn:tag:keyword:media:chapters",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Production design",
+          "tag_id": "urn:tag:keyword:qloo:production_design",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Female protagonist",
+          "tag_id": "urn:tag:keyword:media:female_protagonist",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "19th century",
+          "tag_id": "urn:tag:keyword:media:19th_century",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Brain implant",
+          "tag_id": "urn:tag:keyword:qloo:brain_implant",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Vibrant",
+          "tag_id": "urn:tag:style:qloo:vibrant",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Art film enthusiasts",
+          "tag_id": "urn:tag:audience:qloo:art_film_enthusiasts",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Steampunk",
+          "tag_id": "urn:tag:keyword:media:steampunk",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Return home",
+          "tag_id": "urn:tag:keyword:media:return_home",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Frog",
+          "tag_id": "urn:tag:keyword:media:frog",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Surgical scar",
+          "tag_id": "urn:tag:keyword:media:surgical_scar",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Woman vomits in pulic",
+          "tag_id": "urn:tag:keyword:media:woman_vomits_in_pulic",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Pubic hair",
+          "tag_id": "urn:tag:keyword:media:pubic_hair",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Surgery",
+          "tag_id": "urn:tag:keyword:media:surgery",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Brain surgery",
+          "tag_id": "urn:tag:keyword:media:brain_surgery",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Whimsical",
+          "tag_id": "urn:tag:style:qloo:whimsical",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Woman smoking",
+          "tag_id": "urn:tag:keyword:media:woman_smoking",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Prostitute",
+          "tag_id": "urn:tag:keyword:media:prostitute",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Ocean liner",
+          "tag_id": "urn:tag:keyword:media:ocean_liner",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Female pubic hair",
+          "tag_id": "urn:tag:keyword:media:female_pubic_hair",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Tumor",
+          "tag_id": "urn:tag:keyword:media:tumor",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Dinner table",
+          "tag_id": "urn:tag:keyword:media:dinner_table",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Vomiting",
+          "tag_id": "urn:tag:keyword:media:vomiting",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Rebirth",
+          "tag_id": "urn:tag:archetype:qloo:rebirth",
+          "type": "urn:tag:archetype:qloo"
+        },
+        {
+          "name": "Surgical experiment",
+          "tag_id": "urn:tag:keyword:media:surgical_experiment",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Relational independence",
+          "tag_id": "urn:tag:keyword:media:relational_independence",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Personhood",
+          "tag_id": "urn:tag:theme:qloo:personhood",
+          "type": "urn:tag:theme:qloo"
+        },
+        {
+          "name": "Eclair",
+          "tag_id": "urn:tag:keyword:media:eclair",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Period piece",
+          "tag_id": "urn:tag:subgenre:qloo:period_piece",
+          "type": "urn:tag:subgenre:qloo"
+        },
+        {
+          "name": "Art history",
+          "tag_id": "urn:tag:interests:qloo:art_history",
+          "type": "urn:tag:interests:qloo"
+        },
+        {
+          "name": "Location in text on screen",
+          "tag_id": "urn:tag:keyword:media:location_in_text_on_screen",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Woman hits man in the nose",
+          "tag_id": "urn:tag:keyword:media:woman_hits_man_in_the_nose",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Drunken woman",
+          "tag_id": "urn:tag:keyword:media:drunken_woman",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Out of money",
+          "tag_id": "urn:tag:keyword:media:out_of_money",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Banging ones head against a counter",
+          "tag_id": "urn:tag:keyword:media:banging_ones_head_against_a_counter",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Character says formidable",
+          "tag_id": "urn:tag:keyword:media:character_says_formidable",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Mature",
+          "tag_id": "urn:tag:audience:qloo:mature",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Licking someones ear",
+          "tag_id": "urn:tag:keyword:media:licking_someones_ear",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Two word title",
+          "tag_id": "urn:tag:keyword:media:two_word_title",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Paris in winter",
+          "tag_id": "urn:tag:keyword:media:paris_in_winter",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Infatuation",
+          "tag_id": "urn:tag:keyword:media:infatuation",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Psychological",
+          "tag_id": "urn:tag:plot:qloo:psychological",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Genre savvy",
+          "tag_id": "urn:tag:audience:qloo:genre_savvy",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "1880s",
+          "tag_id": "urn:tag:keyword:media:1880s",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Eccentric",
+          "tag_id": "urn:tag:character:qloo:eccentric",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Relational bond",
+          "tag_id": "urn:tag:keyword:media:relational_bond",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Manipulative",
+          "tag_id": "urn:tag:character:qloo:manipulative",
+          "type": "urn:tag:character:qloo"
+        },
+        {
+          "name": "Barefoot woman",
+          "tag_id": "urn:tag:keyword:media:barefoot_woman",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Death of a pregnant woman",
+          "tag_id": "urn:tag:keyword:media:death_of_a_pregnant_woman",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Airship",
+          "tag_id": "urn:tag:keyword:media:airship",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Female sexual awakening",
+          "tag_id": "urn:tag:keyword:media:female_sexual_awakening",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Baroque steampunk",
+          "tag_id": "urn:tag:style:qloo:baroque_steampunk",
+          "type": "urn:tag:style:qloo"
+        },
+        {
+          "name": "Gunshot wound",
+          "tag_id": "urn:tag:keyword:media:gunshot_wound",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Paris france",
+          "tag_id": "urn:tag:keyword:media:paris_france",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Brougham cab",
+          "tag_id": "urn:tag:keyword:media:brougham_cab",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Retrofuturism",
+          "tag_id": "urn:tag:keyword:media:retrofuturism",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Surreal",
+          "tag_id": "urn:tag:plot:qloo:surreal",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Body horror",
+          "tag_id": "urn:tag:keyword:media:body_horror",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Spitting out food",
+          "tag_id": "urn:tag:keyword:media:spitting_out_food",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Steampunk",
+          "tag_id": "urn:tag:plot:qloo:steampunk",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Surgically altered animal",
+          "tag_id": "urn:tag:keyword:media:surgically_altered_animal",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Biting someone",
+          "tag_id": "urn:tag:keyword:media:biting_someone",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Biting ear",
+          "tag_id": "urn:tag:keyword:media:biting_ear",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Resurrection",
+          "tag_id": "urn:tag:keyword:qloo:resurrection",
+          "type": "urn:tag:keyword:qloo"
+        },
+        {
+          "name": "Gothic",
+          "tag_id": "urn:tag:plot:qloo:gothic",
+          "type": "urn:tag:plot:qloo"
+        },
+        {
+          "name": "Victorian era",
+          "tag_id": "urn:tag:keyword:media:victorian_era",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Marriage proposal",
+          "tag_id": "urn:tag:keyword:media:marriage_proposal",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Lust",
+          "tag_id": "urn:tag:keyword:media:lust",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Comedy",
+          "tag_id": "urn:tag:genre:qloo:comedy",
+          "type": "urn:tag:genre:qloo"
+        },
+        {
+          "name": "Jealousy",
+          "tag_id": "urn:tag:keyword:media:jealousy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Objectification of female sexuality",
+          "tag_id": "urn:tag:keyword:media:objectification_of_female_sexuality",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Punched in the face",
+          "tag_id": "urn:tag:keyword:media:punched_in_the_face",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Intellectually curious",
+          "tag_id": "urn:tag:audience:qloo:intellectually_curious",
+          "type": "urn:tag:audience:qloo"
+        },
+        {
+          "name": "Based on novel",
+          "tag_id": "urn:tag:keyword:media:based_on_novel",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Strong sexual content",
+          "tag_id": "urn:tag:keyword:media:strong_sexual_content",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Surgery on human",
+          "tag_id": "urn:tag:keyword:media:surgery_on_human",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Trimmed bush",
+          "tag_id": "urn:tag:keyword:media:trimmed_bush",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Black woman",
+          "tag_id": "urn:tag:keyword:media:black_woman",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Indipendenza relazionale",
+          "tag_id": "urn:tag:keyword:media:indipendenza_relazionale",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Cadaver",
+          "tag_id": "urn:tag:keyword:media:cadaver",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Mental patient",
+          "tag_id": "urn:tag:keyword:media:mental_patient",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Philosophy",
+          "tag_id": "urn:tag:keyword:media:philosophy",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Dying man",
+          "tag_id": "urn:tag:keyword:media:dying_man",
+          "type": "urn:tag:keyword:media"
+        },
+        {
+          "name": "Medical lecture",
+          "tag_id": "urn:tag:keyword:media:medical_lecture",
+          "type": "urn:tag:keyword:media"
+        }
+      ]
+    }
+  ]
+}
