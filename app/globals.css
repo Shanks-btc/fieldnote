@@ -1,0 +1,98 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --background: #f5f5f5;
+  --foreground: #0a0a0a;
+  --muted: #f5f5f4;
+  --muted-foreground: #555555;
+  --border: rgba(0, 0, 0, 0.09);
+  --input: rgba(0, 0, 0, 0.12);
+  --ring: #0a0a0a;
+  --primary: #0a0a0a;
+  --primary-foreground: #ffffff;
+  --accent: #f5f5f4;
+  --accent-foreground: #0a0a0a;
+  --destructive: #b91c1c;
+  --radius: 0.5rem;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 2px);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-instrument), Georgia, serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Landing marquee: fade at both ends, slide the doubled list by half its width. */
+.marquee {
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent);
+}
+.marquee-track {
+  animation: marquee 40s linear infinite;
+}
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}
+
+/* Brief page: five neutral equalizer bars above the heading. Static under prefers-reduced-motion. */
+.fn-eq span {
+  display: block;
+  width: 3px;
+  border-radius: 1.5px;
+  background: #71717a;
+  opacity: 0.55;
+  box-shadow: 0 0 6px rgba(113, 113, 122, 0.25);
+  transform-origin: bottom;
+  animation: fn-eq 1.5s ease-in-out infinite;
+}
+.fn-eq span:nth-child(1) { height: 8px; animation-delay: 0s; }
+.fn-eq span:nth-child(2) { height: 14px; animation-delay: 0.15s; }
+.fn-eq span:nth-child(3) { height: 20px; animation-delay: 0.3s; }
+.fn-eq span:nth-child(4) { height: 12px; animation-delay: 0.45s; }
+.fn-eq span:nth-child(5) { height: 16px; animation-delay: 0.6s; }
+@keyframes fn-eq {
+  0%, 100% { transform: scaleY(1); }
+  50% { transform: scaleY(0.6); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .fn-eq span {
+    animation: none;
+  }
+}
