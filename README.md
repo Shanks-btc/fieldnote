@@ -1,12 +1,11 @@
 # Fieldnote
 
+![Fieldnote Landing Page](docs/fieldnote-landing.png)
+
 Fieldnote is a music sync placement intelligence agent. It finds artists whose audiences genuinely overlap with a project's viewers, not just artists who sound similar. Describe a scene for a TV show, film, ad campaign or video game, and Fieldnote returns a ranked shortlist of artists, each scored and explained, with Spotify links, in about fifteen seconds.
 
 **Live app:** [fieldnote-dusky.vercel.app](https://fieldnote-dusky.vercel.app)
 **Repository:** [github.com/Shanks-btc/fieldnote](https://github.com/Shanks-btc/fieldnote)
-**License:** MIT (see [LICENSE](./LICENSE))
-
-![Fieldnote Landing Page](docs/fieldnote-landing.png)
 
 ## Contents
 
@@ -22,7 +21,7 @@ Fieldnote is a music sync placement intelligence agent. It finds artists whose a
 - [Quick start](#quick-start)
 - [Environment variables](#environment-variables)
 - [Repository layout](#repository-layout)
-- [Known limitations](#known-limitations)
+- [License](#license)
 
 ## The problem
 
@@ -409,15 +408,11 @@ fieldnote/
 └── tsconfig.json
 ```
 
-## Known limitations
-
-- **Creative fit scores may vary slightly between runs.** The Anthropic API for claude-haiku-5-5 does not accept a temperature parameter, so outputs are not fully deterministic. Scores for the same artist on the same brief may shift by up to ~0.1 between runs. The ranking order is stable for top results.
-- **Brief history is browser-local.** History is stored in localStorage for fast access without a database. It does not sync across devices or browsers.
-- **Sharing uses URL compression.** Results are compressed with lz-string into the URL for zero-backend sharing. Very long result sets may approach browser URL length limits on some platforms.
-- **No authentication.** The app is open to anyone with the URL. There is no user account system or usage tracking.
-
 ---
 
 **Tech stack:** Next.js 16 (App Router) · TypeScript · Tailwind CSS v4 · shadcn/ui · Qloo API · Anthropic API
 
-Built for the [Qloo Agentic Hackathon](https://qloo-agentic-hackathon.devpost.com/) (October 2026).
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
